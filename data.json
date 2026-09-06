@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 18,
-        "total_ac": 814,
-        "total_subs": 2323,
+        "week_ac": 22,
+        "total_ac": 818,
+        "total_subs": 2331,
         "ac_rate": 39.8,
         "topic_count": 18
       },
       "streak": {
-        "current": 4,
+        "current": 5,
         "longest": 13,
-        "last_active": "2026-09-05",
-        "days_since_last": 1,
+        "last_active": "2026-09-06",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 12,
-          "subs": 23
+          "ac": 16,
+          "subs": 31
         },
         "last_week": {
           "ac": 19,
           "subs": 50
         },
-        "ac_delta": -37,
-        "subs_delta": -54
+        "ac_delta": -16,
+        "subs_delta": -38
       },
       "achievements": {
         "achievements": [
@@ -151,8 +151,8 @@
             "target": 1000,
             "color": "orange",
             "earned": false,
-            "progress": 81,
-            "current": 814,
+            "progress": 82,
+            "current": 818,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -242,8 +242,8 @@
             "target": 500,
             "color": "red",
             "earned": false,
-            "progress": 69,
-            "current": 347,
+            "progress": 70,
+            "current": 351,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -320,8 +320,8 @@
             "target": 1500,
             "color": "orange",
             "earned": false,
-            "progress": 54,
-            "current": 814,
+            "progress": 55,
+            "current": 818,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -333,8 +333,8 @@
             "target": 5000,
             "color": "red",
             "earned": false,
-            "progress": 46,
-            "current": 2323,
+            "progress": 47,
+            "current": 2331,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -373,7 +373,7 @@
             "color": "red",
             "earned": false,
             "progress": 41,
-            "current": 814,
+            "current": 818,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -412,7 +412,7 @@
             "color": "red",
             "earned": false,
             "progress": 27,
-            "current": 814,
+            "current": 818,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -438,7 +438,7 @@
             "color": "red",
             "earned": false,
             "progress": 16,
-            "current": 814,
+            "current": 818,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1853,11 +1853,6 @@
       "coachTips": {
         "collapsed": [
           {
-            "icon": "⚠️",
-            "accent": "amber",
-            "text": "本周日均 1.7 题，上周日均 2.7 题——先把热度捡回来"
-          },
-          {
             "icon": "🚀",
             "accent": "green",
             "text": "距「紫名在望」只差 2% 进度——集中火力冲一下"
@@ -1959,8 +1954,64 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-09-05",
+      "lastSubmitDate": "2026-09-06",
       "recentSubmissions": [
+        {
+          "time": "11:06",
+          "date": "2026-09-06",
+          "platform": "codeforces",
+          "problem": "1013B",
+          "verdict": "AC"
+        },
+        {
+          "time": "11:05",
+          "date": "2026-09-06",
+          "platform": "codeforces",
+          "problem": "1013B",
+          "verdict": "WA"
+        },
+        {
+          "time": "10:57",
+          "date": "2026-09-06",
+          "platform": "codeforces",
+          "problem": "1013B",
+          "verdict": "WA"
+        },
+        {
+          "time": "10:52",
+          "date": "2026-09-06",
+          "platform": "codeforces",
+          "problem": "1013B",
+          "verdict": "WA"
+        },
+        {
+          "time": "10:40",
+          "date": "2026-09-06",
+          "platform": "codeforces",
+          "problem": "1051A",
+          "verdict": "AC"
+        },
+        {
+          "time": "10:24",
+          "date": "2026-09-06",
+          "platform": "codeforces",
+          "problem": "1029B",
+          "verdict": "AC"
+        },
+        {
+          "time": "10:18",
+          "date": "2026-09-06",
+          "platform": "codeforces",
+          "problem": "1029B",
+          "verdict": "WA"
+        },
+        {
+          "time": "10:13",
+          "date": "2026-09-06",
+          "platform": "codeforces",
+          "problem": "1149A",
+          "verdict": "AC"
+        },
         {
           "time": "16:32",
           "date": "2026-09-05",
@@ -2113,62 +2164,6 @@
           "date": "2026-08-31",
           "platform": "codeforces",
           "problem": "547B",
-          "verdict": "WA"
-        },
-        {
-          "time": "16:28",
-          "date": "2026-08-31",
-          "platform": "codeforces",
-          "problem": "2146D1",
-          "verdict": "AC"
-        },
-        {
-          "time": "16:58",
-          "date": "2026-08-30",
-          "platform": "codeforces",
-          "problem": "106565I",
-          "verdict": "AC"
-        },
-        {
-          "time": "15:19",
-          "date": "2026-08-30",
-          "platform": "codeforces",
-          "problem": "106565G",
-          "verdict": "AC"
-        },
-        {
-          "time": "13:47",
-          "date": "2026-08-30",
-          "platform": "codeforces",
-          "problem": "106565D",
-          "verdict": "AC"
-        },
-        {
-          "time": "13:17",
-          "date": "2026-08-30",
-          "platform": "codeforces",
-          "problem": "106565H",
-          "verdict": "AC"
-        },
-        {
-          "time": "13:17",
-          "date": "2026-08-30",
-          "platform": "codeforces",
-          "problem": "106565H",
-          "verdict": "AC"
-        },
-        {
-          "time": "12:57",
-          "date": "2026-08-30",
-          "platform": "codeforces",
-          "problem": "106565B",
-          "verdict": "AC"
-        },
-        {
-          "time": "12:55",
-          "date": "2026-08-30",
-          "platform": "codeforces",
-          "problem": "106565B",
           "verdict": "WA"
         }
       ],
@@ -2384,6 +2379,10 @@
                 [
                   "2026-09-05",
                   3
+                ],
+                [
+                  "2026-09-06",
+                  4
                 ]
               ]
             }
@@ -2464,7 +2463,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 924,
+                  "value": 928,
                   "itemStyle": {
                     "color": "#10B981",
                     "borderRadius": [
@@ -2476,7 +2475,7 @@
                   }
                 },
                 {
-                  "value": 806,
+                  "value": 810,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -6343,6 +6342,22 @@
                 [
                   "2026-09-05",
                   800
+                ],
+                [
+                  "2026-09-06",
+                  1200.0
+                ],
+                [
+                  "2026-09-06",
+                  1200.0
+                ],
+                [
+                  "2026-09-06",
+                  1200.0
+                ],
+                [
+                  "2026-09-06",
+                  1200.0
                 ]
               ],
               "symbolSize": 7,
@@ -11950,6 +11965,22 @@
                 [
                   "2026-09-05",
                   800
+                ],
+                [
+                  "2026-09-06",
+                  1200.0
+                ],
+                [
+                  "2026-09-06",
+                  1200.0
+                ],
+                [
+                  "2026-09-06",
+                  1200.0
+                ],
+                [
+                  "2026-09-06",
+                  1200.0
                 ]
               ],
               "symbolSize": 5,
@@ -12001,14 +12032,14 @@
               "fontSize": 11
             },
             "data": [
-              "08/26",
               "08/27",
               "08/30",
               "08/31",
               "09/02",
               "09/03",
               "09/04",
-              "09/05"
+              "09/05",
+              "09/06"
             ]
           },
           "yAxis": {
@@ -12040,14 +12071,14 @@
             {
               "type": "bar",
               "data": [
-                5,
                 2,
                 6,
                 5,
                 1,
                 1,
                 2,
-                3
+                3,
+                4
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -12200,16 +12231,16 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                19,
-                135,
-                120,
+                20,
+                139,
+                122,
                 44,
                 53,
                 36,
                 21,
-                57,
-                42,
-                131,
+                58,
+                43,
+                132,
                 70,
                 10,
                 11,
@@ -12890,8 +12921,8 @@
                     "solved": 4
                   },
                   {
-                    "value": 1666.7,
-                    "solved": 3
+                    "value": 1400.0,
+                    "solved": 7
                   }
                 ],
                 "lineStyle": {
@@ -31878,5 +31909,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-06 09:07"
+  "exportedAt": "2026-09-06 12:07"
 }

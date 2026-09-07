@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 16,
+        "week_ac": 17,
         "total_ac": 818,
-        "total_subs": 2331,
+        "total_subs": 2334,
         "ac_rate": 39.8,
         "topic_count": 18
       },
       "streak": {
-        "current": 5,
+        "current": 6,
         "longest": 13,
-        "last_active": "2026-09-06",
-        "days_since_last": 1,
+        "last_active": "2026-09-07",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 0,
-          "subs": 0
+          "ac": 1,
+          "subs": 3
         },
         "last_week": {
           "ac": 16,
           "subs": 31
         },
-        "ac_delta": -100,
-        "subs_delta": -100
+        "ac_delta": -94,
+        "subs_delta": -90
       },
       "achievements": {
         "achievements": [
@@ -334,7 +334,7 @@
             "color": "red",
             "earned": false,
             "progress": 47,
-            "current": 2331,
+            "current": 2334,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -1855,7 +1855,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 0.0 题，上周日均 2.3 题——先把热度捡回来"
+            "text": "本周日均 1.0 题，上周日均 2.3 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -1959,8 +1959,29 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-09-06",
+      "lastSubmitDate": "2026-09-07",
       "recentSubmissions": [
+        {
+          "time": "13:27",
+          "date": "2026-09-07",
+          "platform": "codeforces",
+          "problem": "2256C",
+          "verdict": "AC"
+        },
+        {
+          "time": "13:26",
+          "date": "2026-09-07",
+          "platform": "codeforces",
+          "problem": "2256C",
+          "verdict": "WA"
+        },
+        {
+          "time": "13:22",
+          "date": "2026-09-07",
+          "platform": "codeforces",
+          "problem": "2256C",
+          "verdict": "WA"
+        },
         {
           "time": "11:06",
           "date": "2026-09-06",
@@ -2149,27 +2170,6 @@
           "platform": "codeforces",
           "problem": "1041C",
           "verdict": "AC"
-        },
-        {
-          "time": "16:56",
-          "date": "2026-08-31",
-          "platform": "codeforces",
-          "problem": "547B",
-          "verdict": "AC"
-        },
-        {
-          "time": "16:55",
-          "date": "2026-08-31",
-          "platform": "codeforces",
-          "problem": "547B",
-          "verdict": "WA"
-        },
-        {
-          "time": "16:48",
-          "date": "2026-08-31",
-          "platform": "codeforces",
-          "problem": "547B",
-          "verdict": "WA"
         }
       ],
       "charts": {
@@ -2388,6 +2388,10 @@
                 [
                   "2026-09-06",
                   4
+                ],
+                [
+                  "2026-09-07",
+                  1
                 ]
               ]
             }
@@ -2468,7 +2472,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 928,
+                  "value": 929,
                   "itemStyle": {
                     "color": "#10B981",
                     "borderRadius": [
@@ -2480,7 +2484,7 @@
                   }
                 },
                 {
-                  "value": 810,
+                  "value": 812,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -6363,6 +6367,10 @@
                 [
                   "2026-09-06",
                   1200.0
+                ],
+                [
+                  "2026-09-07",
+                  800
                 ]
               ],
               "symbolSize": 7,
@@ -11986,6 +11994,14 @@
                 [
                   "2026-09-06",
                   1200.0
+                ],
+                [
+                  "2026-09-07",
+                  800
+                ],
+                [
+                  "2026-09-07",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -12037,14 +12053,14 @@
               "fontSize": 11
             },
             "data": [
-              "08/27",
               "08/30",
               "08/31",
               "09/02",
               "09/03",
               "09/04",
               "09/05",
-              "09/06"
+              "09/06",
+              "09/07"
             ]
           },
           "yAxis": {
@@ -12076,14 +12092,14 @@
             {
               "type": "bar",
               "data": [
-                2,
                 6,
                 5,
                 1,
                 1,
                 2,
                 3,
-                4
+                4,
+                1
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -30912,7 +30928,7 @@
         "label": "Mianiii",
         "rating": 1765,
         "rank": "expert",
-        "last_submit_days": 1,
+        "last_submit_days": 0,
         "nc_rating": 1229
       },
       {
@@ -31925,5 +31941,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-07 12:07"
+  "exportedAt": "2026-09-07 15:07"
 }

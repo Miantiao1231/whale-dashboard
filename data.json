@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 21,
-        "total_ac": 827,
-        "total_subs": 2355,
+        "week_ac": 22,
+        "total_ac": 828,
+        "total_subs": 2356,
         "ac_rate": 39.9,
         "topic_count": 18
       },
       "streak": {
-        "current": 7,
+        "current": 8,
         "longest": 13,
-        "last_active": "2026-09-08",
-        "days_since_last": 1,
+        "last_active": "2026-09-09",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 11,
-          "subs": 24
+          "ac": 12,
+          "subs": 25
         },
         "last_week": {
           "ac": 16,
           "subs": 31
         },
-        "ac_delta": -31,
-        "subs_delta": -23
+        "ac_delta": -25,
+        "subs_delta": -19
       },
       "achievements": {
         "achievements": [
@@ -152,7 +152,7 @@
             "color": "orange",
             "earned": false,
             "progress": 83,
-            "current": 827,
+            "current": 828,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -243,7 +243,7 @@
             "color": "red",
             "earned": false,
             "progress": 72,
-            "current": 360,
+            "current": 361,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -321,7 +321,7 @@
             "color": "orange",
             "earned": false,
             "progress": 55,
-            "current": 827,
+            "current": 828,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -334,7 +334,7 @@
             "color": "red",
             "earned": false,
             "progress": 47,
-            "current": 2355,
+            "current": 2356,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -373,7 +373,7 @@
             "color": "red",
             "earned": false,
             "progress": 41,
-            "current": 827,
+            "current": 828,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -412,7 +412,7 @@
             "color": "red",
             "earned": false,
             "progress": 28,
-            "current": 827,
+            "current": 828,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -438,7 +438,7 @@
             "color": "red",
             "earned": false,
             "progress": 17,
-            "current": 827,
+            "current": 828,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1954,8 +1954,15 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-09-08",
+      "lastSubmitDate": "2026-09-09",
       "recentSubmissions": [
+        {
+          "time": "00:07",
+          "date": "2026-09-09",
+          "platform": "codeforces",
+          "problem": "2260D",
+          "verdict": "AC"
+        },
         {
           "time": "23:57",
           "date": "2026-09-08",
@@ -2157,13 +2164,6 @@
           "date": "2026-09-06",
           "platform": "codeforces",
           "problem": "1051A",
-          "verdict": "AC"
-        },
-        {
-          "time": "10:24",
-          "date": "2026-09-06",
-          "platform": "codeforces",
-          "problem": "1029B",
           "verdict": "AC"
         }
       ],
@@ -2391,6 +2391,10 @@
                 [
                   "2026-09-08",
                   7
+                ],
+                [
+                  "2026-09-09",
+                  1
                 ]
               ]
             }
@@ -2471,7 +2475,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 939,
+                  "value": 940,
                   "itemStyle": {
                     "color": "#10B981",
                     "borderRadius": [
@@ -6409,6 +6413,10 @@
                 ],
                 [
                   "2026-09-08",
+                  800
+                ],
+                [
+                  "2026-09-09",
                   800
                 ]
               ],
@@ -12336,17 +12344,17 @@
               "stack": "total",
               "data": [
                 20,
-                139,
-                122,
-                44,
+                140,
+                123,
+                45,
                 53,
                 36,
                 21,
                 58,
                 43,
-                132,
-                70,
-                10,
+                133,
+                71,
+                11,
                 11,
                 3,
                 0
@@ -13825,8 +13833,8 @@
       "stats": {
         "week_ac": 13,
         "total_ac": 329,
-        "total_subs": 1139,
-        "ac_rate": 35.5,
+        "total_subs": 1141,
+        "ac_rate": 35.4,
         "topic_count": 17
       },
       "streak": {
@@ -13839,14 +13847,14 @@
       "weekly": {
         "this_week": {
           "ac": 2,
-          "subs": 5
+          "subs": 7
         },
         "last_week": {
           "ac": 13,
           "subs": 31
         },
         "ac_delta": -85,
-        "subs_delta": -84
+        "subs_delta": -77
       },
       "achievements": {
         "achievements": [
@@ -14262,7 +14270,7 @@
             "color": "orange",
             "earned": false,
             "progress": 57,
-            "current": 1139,
+            "current": 1141,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -14457,7 +14465,7 @@
             "color": "red",
             "earned": false,
             "progress": 23,
-            "current": 1139,
+            "current": 1141,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -15748,7 +15756,7 @@
               {
                 "icon": "📖",
                 "accent": "blue",
-                "text": "错误里 WA 占 83%——提交前先跑一遍样例边界值"
+                "text": "错误里 WA 占 84%——提交前先跑一遍样例边界值"
               }
             ]
           }
@@ -15756,6 +15764,20 @@
       },
       "lastSubmitDate": "2026-09-09",
       "recentSubmissions": [
+        {
+          "time": "00:21",
+          "date": "2026-09-09",
+          "platform": "codeforces",
+          "problem": "2260C",
+          "verdict": "WA"
+        },
+        {
+          "time": "00:17",
+          "date": "2026-09-09",
+          "platform": "codeforces",
+          "problem": "2260C",
+          "verdict": "WA"
+        },
         {
           "time": "00:05",
           "date": "2026-09-09",
@@ -15950,20 +15972,6 @@
           "date": "2026-09-02",
           "platform": "codeforces",
           "problem": "105385K",
-          "verdict": "WA"
-        },
-        {
-          "time": "19:43",
-          "date": "2026-09-02",
-          "platform": "codeforces",
-          "problem": "105385C",
-          "verdict": "WA"
-        },
-        {
-          "time": "19:39",
-          "date": "2026-09-02",
-          "platform": "codeforces",
-          "problem": "105385C",
           "verdict": "WA"
         }
       ],
@@ -16223,7 +16231,7 @@
                   }
                 },
                 {
-                  "value": 530,
+                  "value": 532,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -20961,6 +20969,14 @@
                 [
                   "2026-09-09",
                   800
+                ],
+                [
+                  "2026-09-09",
+                  800
+                ],
+                [
+                  "2026-09-09",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -21220,7 +21236,7 @@
                 8,
                 14,
                 19,
-                55,
+                56,
                 29,
                 1,
                 8,
@@ -22595,28 +22611,28 @@
       "stats": {
         "week_ac": 25,
         "total_ac": 362,
-        "total_subs": 1076,
-        "ac_rate": 38.5,
+        "total_subs": 1078,
+        "ac_rate": 38.4,
         "topic_count": 16
       },
       "streak": {
-        "current": 4,
+        "current": 5,
         "longest": 14,
-        "last_active": "2026-09-08",
-        "days_since_last": 1,
+        "last_active": "2026-09-09",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
           "ac": 10,
-          "subs": 16
+          "subs": 18
         },
         "last_week": {
           "ac": 19,
           "subs": 32
         },
         "ac_delta": -47,
-        "subs_delta": -50
+        "subs_delta": -44
       },
       "achievements": {
         "achievements": [
@@ -23045,7 +23061,7 @@
             "color": "orange",
             "earned": false,
             "progress": 54,
-            "current": 1076,
+            "current": 1078,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -23214,7 +23230,7 @@
             "color": "red",
             "earned": false,
             "progress": 22,
-            "current": 1076,
+            "current": 1078,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -24481,7 +24497,7 @@
               {
                 "icon": "📉",
                 "accent": "amber",
-                "text": "「位运算」只 AC 过 3 题，是当前最弱专题——从 easy 档补 5 道"
+                "text": "「位运算」只 AC 过 4 题，是当前最弱专题——从 easy 档补 5 道"
               },
               {
                 "icon": "⛰️",
@@ -24526,8 +24542,22 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-09-08",
+      "lastSubmitDate": "2026-09-09",
       "recentSubmissions": [
+        {
+          "time": "00:43",
+          "date": "2026-09-09",
+          "platform": "codeforces",
+          "problem": "2260C",
+          "verdict": "WA"
+        },
+        {
+          "time": "00:41",
+          "date": "2026-09-09",
+          "platform": "codeforces",
+          "problem": "2260C",
+          "verdict": "WA"
+        },
         {
           "time": "23:56",
           "date": "2026-09-08",
@@ -24719,20 +24749,6 @@
         },
         {
           "time": "18:18",
-          "date": "2026-09-03",
-          "platform": "luogu",
-          "problem": "P1714",
-          "verdict": "Othe"
-        },
-        {
-          "time": "18:18",
-          "date": "2026-09-03",
-          "platform": "luogu",
-          "problem": "P1714",
-          "verdict": "Othe"
-        },
-        {
-          "time": "17:57",
           "date": "2026-09-03",
           "platform": "luogu",
           "problem": "P1714",
@@ -25027,7 +25043,7 @@
                   }
                 },
                 {
-                  "value": 289,
+                  "value": 291,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -29513,6 +29529,14 @@
                 [
                   "2026-09-08",
                   800
+                ],
+                [
+                  "2026-09-09",
+                  800
+                ],
+                [
+                  "2026-09-09",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -29763,17 +29787,17 @@
               "stack": "total",
               "data": [
                 6,
-                57,
-                77,
+                58,
+                78,
                 8,
                 20,
                 21,
                 16,
                 23,
                 12,
-                75,
+                76,
                 37,
-                3,
+                4,
                 11,
                 1
               ],
@@ -32130,5 +32154,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-09 00:07"
+  "exportedAt": "2026-09-09 03:07"
 }

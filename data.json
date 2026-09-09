@@ -2171,11 +2171,12 @@
         "calendarHeatmap": {
           "tooltip": {
             "formatter": "{b}: <b>{c} 题 AC</b>",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -2228,10 +2229,10 @@
             "inRange": {
               "color": [
                 "#1A1A2E",
-                "#0E4429",
-                "#006D32",
-                "#26A641",
-                "#39D353"
+                "#173B29",
+                "#135A34",
+                "#3C904E",
+                "#54B865"
               ]
             }
           },
@@ -2405,11 +2406,12 @@
           "tooltip": {
             "trigger": "axis",
             "formatter": "{b}: {c} 次",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -2477,7 +2479,7 @@
                 {
                   "value": 942,
                   "itemStyle": {
-                    "color": "#10B981",
+                    "color": "#2E9B77",
                     "borderRadius": [
                       0,
                       6,
@@ -2489,7 +2491,7 @@
                 {
                   "value": 823,
                   "itemStyle": {
-                    "color": "#EF4444",
+                    "color": "#D16262",
                     "borderRadius": [
                       0,
                       6,
@@ -2513,7 +2515,7 @@
                 {
                   "value": 115,
                   "itemStyle": {
-                    "color": "#F97316",
+                    "color": "#D17A3E",
                     "borderRadius": [
                       0,
                       6,
@@ -2537,7 +2539,7 @@
                 {
                   "value": 21,
                   "itemStyle": {
-                    "color": "#F59E0B",
+                    "color": "#CC9334",
                     "borderRadius": [
                       0,
                       6,
@@ -2549,7 +2551,7 @@
                 {
                   "value": 12,
                   "itemStyle": {
-                    "color": "#8B5CF6",
+                    "color": "#9677DB",
                     "borderRadius": [
                       0,
                       6,
@@ -2576,11 +2578,12 @@
           "tooltip": {
             "trigger": "item",
             "formatter": "{b}<br/>难度: {c}",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -2615,9 +2618,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -6430,7 +6431,7 @@
               ],
               "symbolSize": 7,
               "itemStyle": {
-                "color": "#10B981",
+                "color": "#2E9B77",
                 "opacity": 0.75
               }
             },
@@ -12125,7 +12126,7 @@
               ],
               "symbolSize": 5,
               "itemStyle": {
-                "color": "#EF4444",
+                "color": "#D16262",
                 "opacity": 0.35
               }
             }
@@ -12136,11 +12137,12 @@
           "tooltip": {
             "trigger": "axis",
             "formatter": "{b}: <b>{c} 题 AC</b>",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -12163,9 +12165,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -12237,7 +12237,7 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#60A5FA"
+                      "color": "#7BA8DF"
                     },
                     {
                       "offset": 1,
@@ -12254,7 +12254,7 @@
                     "yAxis": 15,
                     "name": "目标",
                     "lineStyle": {
-                      "color": "#10B981",
+                      "color": "#2E9B77",
                       "type": "dashed",
                       "width": 1.5
                     }
@@ -12277,11 +12277,12 @@
               "type": "shadow"
             },
             "formatter": "{b}<br/>Easy: {c0} 题<br/>Medium: {c1} 题<br/>Hard: {c2} 题",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -12356,9 +12357,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -12388,7 +12387,7 @@
                 0
               ],
               "itemStyle": {
-                "color": "#10B981",
+                "color": "#2E9B77",
                 "borderRadius": [
                   0,
                   0,
@@ -12419,7 +12418,7 @@
                 1
               ],
               "itemStyle": {
-                "color": "#F97316"
+                "color": "#D17A3E"
               }
             },
             {
@@ -12444,7 +12443,7 @@
                 0
               ],
               "itemStyle": {
-                "color": "#EF4444",
+                "color": "#D16262",
                 "borderRadius": [
                   4,
                   4,
@@ -12460,11 +12459,12 @@
           "tooltip": {
             "trigger": "item",
             "formatter": "{b}<br/>{a}: {c}{@tip}",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -12487,9 +12487,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -12538,78 +12536,78 @@
                     "yAxis": 1200,
                     "name": "Pupil 1200",
                     "lineStyle": {
-                      "color": "#10B981",
+                      "color": "#2E9B77",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#10B981"
+                      "color": "#2E9B77"
                     }
                   },
                   {
                     "yAxis": 1400,
                     "name": "Specialist 1400",
                     "lineStyle": {
-                      "color": "#06B6D4",
+                      "color": "#2A9CB0",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#06B6D4"
+                      "color": "#2A9CB0"
                     }
                   },
                   {
                     "yAxis": 1600,
                     "name": "Expert 1600",
                     "lineStyle": {
-                      "color": "#3B82F6",
+                      "color": "#5C8AD5",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#3B82F6"
+                      "color": "#5C8AD5"
                     }
                   },
                   {
                     "yAxis": 1900,
                     "name": "Candidate Master 1900",
                     "lineStyle": {
-                      "color": "#8B5CF6",
+                      "color": "#9677DB",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#8B5CF6"
+                      "color": "#9677DB"
                     }
                   },
                   {
                     "yAxis": 2100,
                     "name": "Master 2100",
                     "lineStyle": {
-                      "color": "#F97316",
+                      "color": "#D17A3E",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#F97316"
+                      "color": "#D17A3E"
                     }
                   },
                   {
                     "yAxis": 2400,
                     "name": "Grandmaster 2400",
                     "lineStyle": {
-                      "color": "#EF4444",
+                      "color": "#D16262",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#EF4444"
+                      "color": "#D16262"
                     }
                   }
                 ]
@@ -12857,7 +12855,7 @@
                   ],
                   "tip": " (+16)",
                   "itemStyle": {
-                    "color": "#EF4444",
+                    "color": "#D16262",
                     "borderColor": "#fff",
                     "borderWidth": 1
                   }
@@ -12865,11 +12863,11 @@
               ],
               "smooth": false,
               "lineStyle": {
-                "color": "#3B82F6",
+                "color": "#5C8AD5",
                 "width": 2
               },
               "itemStyle": {
-                "color": "#3B82F6",
+                "color": "#5C8AD5",
                 "borderColor": "#fff",
                 "borderWidth": 1
               },
@@ -12883,11 +12881,11 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#3B82F620"
+                      "color": "#5C8AD520"
                     },
                     {
                       "offset": 1,
-                      "color": "#3B82F602"
+                      "color": "#5C8AD502"
                     }
                   ]
                 }
@@ -12904,11 +12902,12 @@
                 "type": "line"
               },
               "formatter": "{b}<br/>{a}: {c}",
-              "backgroundColor": "rgba(17,24,39,0.96)",
+              "backgroundColor": "rgba(22,22,24,0.94)",
               "borderColor": "rgba(255,255,255,0.10)",
               "borderWidth": 1,
+              "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
               "textStyle": {
-                "color": "#E0E0E0",
+                "color": "#F5F5F7",
                 "fontSize": 13,
                 "fontFamily": "Inter, sans-serif"
               }
@@ -12931,9 +12930,7 @@
                 "show": false
               },
               "splitLine": {
-                "lineStyle": {
-                  "color": "rgba(255,255,255,0.03)"
-                }
+                "show": false
               },
               "axisLabel": {
                 "color": "#9CA3AF",
@@ -13073,15 +13070,15 @@
                   }
                 ],
                 "lineStyle": {
-                  "color": "#3B82F6",
+                  "color": "#5C8AD5",
                   "width": 2.5
                 },
                 "itemStyle": {
-                  "color": "#3B82F6"
+                  "color": "#5C8AD5"
                 },
                 "areaStyle": {
                   "opacity": 0.12,
-                  "color": "#3B82F6"
+                  "color": "#5C8AD5"
                 },
                 "markLine": {
                   "silent": true,
@@ -13098,78 +13095,78 @@
                       "yAxis": 1200,
                       "name": "Pupil 1200",
                       "lineStyle": {
-                        "color": "#10B981",
+                        "color": "#2E9B77",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#10B981"
+                        "color": "#2E9B77"
                       }
                     },
                     {
                       "yAxis": 1400,
                       "name": "Specialist 1400",
                       "lineStyle": {
-                        "color": "#06B6D4",
+                        "color": "#2A9CB0",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#06B6D4"
+                        "color": "#2A9CB0"
                       }
                     },
                     {
                       "yAxis": 1600,
                       "name": "Expert 1600",
                       "lineStyle": {
-                        "color": "#3B82F6",
+                        "color": "#5C8AD5",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#3B82F6"
+                        "color": "#5C8AD5"
                       }
                     },
                     {
                       "yAxis": 1900,
                       "name": "Candidate Master 1900",
                       "lineStyle": {
-                        "color": "#8B5CF6",
+                        "color": "#9677DB",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#8B5CF6"
+                        "color": "#9677DB"
                       }
                     },
                     {
                       "yAxis": 2100,
                       "name": "Master 2100",
                       "lineStyle": {
-                        "color": "#F97316",
+                        "color": "#D17A3E",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#F97316"
+                        "color": "#D17A3E"
                       }
                     },
                     {
                       "yAxis": 2400,
                       "name": "Grandmaster 2400",
                       "lineStyle": {
-                        "color": "#EF4444",
+                        "color": "#D16262",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#EF4444"
+                        "color": "#D16262"
                       }
                     }
                   ]
@@ -13180,7 +13177,7 @@
             "_climb": {
               "platform": "codeforces",
               "label": "Codeforces",
-              "color": "#3B82F6",
+              "color": "#5C8AD5",
               "mode": "rating",
               "axis": "CF Rating",
               "ticks": []
@@ -13193,11 +13190,12 @@
                 "type": "line"
               },
               "formatter": "{b}<br/>{a}: {c}",
-              "backgroundColor": "rgba(17,24,39,0.96)",
+              "backgroundColor": "rgba(22,22,24,0.94)",
               "borderColor": "rgba(255,255,255,0.10)",
               "borderWidth": 1,
+              "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
               "textStyle": {
-                "color": "#E0E0E0",
+                "color": "#F5F5F7",
                 "fontSize": 13,
                 "fontFamily": "Inter, sans-serif"
               }
@@ -13220,9 +13218,7 @@
                 "show": false
               },
               "splitLine": {
-                "lineStyle": {
-                  "color": "rgba(255,255,255,0.03)"
-                }
+                "show": false
               },
               "axisLabel": {
                 "color": "#9CA3AF",
@@ -13348,15 +13344,15 @@
                   null
                 ],
                 "lineStyle": {
-                  "color": "#10B981",
+                  "color": "#2E9B77",
                   "width": 2.5
                 },
                 "itemStyle": {
-                  "color": "#10B981"
+                  "color": "#2E9B77"
                 },
                 "areaStyle": {
                   "opacity": 0.12,
-                  "color": "#10B981"
+                  "color": "#2E9B77"
                 },
                 "markArea": {
                   "silent": true,
@@ -13366,12 +13362,12 @@
                         "name": "入门",
                         "yAxis": 0.5,
                         "itemStyle": {
-                          "color": "#F8717126"
+                          "color": "#E0898926"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F87171",
+                          "color": "#E08989",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "入门"
@@ -13386,12 +13382,12 @@
                         "name": "普及-",
                         "yAxis": 1.5,
                         "itemStyle": {
-                          "color": "#FB923C26"
+                          "color": "#DA955D26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#FB923C",
+                          "color": "#DA955D",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "普及-"
@@ -13406,12 +13402,12 @@
                         "name": "普及",
                         "yAxis": 2.5,
                         "itemStyle": {
-                          "color": "#FACC1526"
+                          "color": "#D2B43D26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#FACC15",
+                          "color": "#D2B43D",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "普及"
@@ -13426,12 +13422,12 @@
                         "name": "普及+/提高-",
                         "yAxis": 3.5,
                         "itemStyle": {
-                          "color": "#4ADE8026"
+                          "color": "#64C48726"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#4ADE80",
+                          "color": "#64C487",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "普及+/提高-"
@@ -13446,12 +13442,12 @@
                         "name": "提高",
                         "yAxis": 4.5,
                         "itemStyle": {
-                          "color": "#22D3EE26"
+                          "color": "#46B9CA26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#22D3EE",
+                          "color": "#46B9CA",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "提高"
@@ -13466,12 +13462,12 @@
                         "name": "提高+/省选-",
                         "yAxis": 5.5,
                         "itemStyle": {
-                          "color": "#60A5FA26"
+                          "color": "#7BA8DF26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#60A5FA",
+                          "color": "#7BA8DF",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "提高+/省选-"
@@ -13486,12 +13482,12 @@
                         "name": "省选/NOI-",
                         "yAxis": 6.5,
                         "itemStyle": {
-                          "color": "#C084FC26"
+                          "color": "#C099E726"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#C084FC",
+                          "color": "#C099E7",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "省选/NOI-"
@@ -13529,44 +13525,44 @@
             "_climb": {
               "platform": "luogu",
               "label": "洛谷",
-              "color": "#10B981",
+              "color": "#2E9B77",
               "mode": "tier",
               "axis": "洛谷难度",
               "ticks": [
                 {
                   "v": 1,
                   "label": "入门",
-                  "color": "#F87171"
+                  "color": "#E08989"
                 },
                 {
                   "v": 2,
                   "label": "普及-",
-                  "color": "#FB923C"
+                  "color": "#DA955D"
                 },
                 {
                   "v": 3,
                   "label": "普及",
-                  "color": "#FACC15"
+                  "color": "#D2B43D"
                 },
                 {
                   "v": 4,
                   "label": "普及+/提高-",
-                  "color": "#4ADE80"
+                  "color": "#64C487"
                 },
                 {
                   "v": 5,
                   "label": "提高",
-                  "color": "#22D3EE"
+                  "color": "#46B9CA"
                 },
                 {
                   "v": 6,
                   "label": "提高+/省选-",
-                  "color": "#60A5FA"
+                  "color": "#7BA8DF"
                 },
                 {
                   "v": 7,
                   "label": "省选/NOI-",
-                  "color": "#C084FC"
+                  "color": "#C099E7"
                 },
                 {
                   "v": 8,
@@ -13583,11 +13579,12 @@
                 "type": "line"
               },
               "formatter": "{b}<br/>{a}: {c}",
-              "backgroundColor": "rgba(17,24,39,0.96)",
+              "backgroundColor": "rgba(22,22,24,0.94)",
               "borderColor": "rgba(255,255,255,0.10)",
               "borderWidth": 1,
+              "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
               "textStyle": {
-                "color": "#E0E0E0",
+                "color": "#F5F5F7",
                 "fontSize": 13,
                 "fontFamily": "Inter, sans-serif"
               }
@@ -13610,9 +13607,7 @@
                 "show": false
               },
               "splitLine": {
-                "lineStyle": {
-                  "color": "rgba(255,255,255,0.03)"
-                }
+                "show": false
               },
               "axisLabel": {
                 "color": "#9CA3AF",
@@ -13708,15 +13703,15 @@
                   null
                 ],
                 "lineStyle": {
-                  "color": "#8B5CF6",
+                  "color": "#9677DB",
                   "width": 2.5
                 },
                 "itemStyle": {
-                  "color": "#8B5CF6"
+                  "color": "#9677DB"
                 },
                 "areaStyle": {
                   "opacity": 0.12,
-                  "color": "#8B5CF6"
+                  "color": "#9677DB"
                 },
                 "markArea": {
                   "silent": true,
@@ -13746,12 +13741,12 @@
                         "name": "简单",
                         "yAxis": 1.5,
                         "itemStyle": {
-                          "color": "#34D39926"
+                          "color": "#50B79126"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#34D399",
+                          "color": "#50B791",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "简单"
@@ -13766,12 +13761,12 @@
                         "name": "中等",
                         "yAxis": 2.5,
                         "itemStyle": {
-                          "color": "#3B82F626"
+                          "color": "#5C8AD526"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#3B82F6",
+                          "color": "#5C8AD5",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "中等"
@@ -13786,12 +13781,12 @@
                         "name": "较难",
                         "yAxis": 3.5,
                         "itemStyle": {
-                          "color": "#F59E0B26"
+                          "color": "#CC933426"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F59E0B",
+                          "color": "#CC9334",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "较难"
@@ -13806,12 +13801,12 @@
                         "name": "困难",
                         "yAxis": 4.5,
                         "itemStyle": {
-                          "color": "#F8717126"
+                          "color": "#E0898926"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F87171",
+                          "color": "#E08989",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "困难"
@@ -13829,7 +13824,7 @@
             "_climb": {
               "platform": "nowcoder",
               "label": "牛客",
-              "color": "#8B5CF6",
+              "color": "#9677DB",
               "mode": "tier",
               "axis": "牛客难度",
               "ticks": [
@@ -13841,22 +13836,22 @@
                 {
                   "v": 2,
                   "label": "简单",
-                  "color": "#34D399"
+                  "color": "#50B791"
                 },
                 {
                   "v": 3,
                   "label": "中等",
-                  "color": "#3B82F6"
+                  "color": "#5C8AD5"
                 },
                 {
                   "v": 4,
                   "label": "较难",
-                  "color": "#F59E0B"
+                  "color": "#CC9334"
                 },
                 {
                   "v": 5,
                   "label": "困难",
-                  "color": "#F87171"
+                  "color": "#E08989"
                 }
               ]
             }
@@ -16014,11 +16009,12 @@
         "calendarHeatmap": {
           "tooltip": {
             "formatter": "{b}: <b>{c} 题 AC</b>",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -16071,10 +16067,10 @@
             "inRange": {
               "color": [
                 "#1A1A2E",
-                "#0E4429",
-                "#006D32",
-                "#26A641",
-                "#39D353"
+                "#173B29",
+                "#135A34",
+                "#3C904E",
+                "#54B865"
               ]
             }
           },
@@ -16184,11 +16180,12 @@
           "tooltip": {
             "trigger": "axis",
             "formatter": "{b}: {c} 次",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -16256,7 +16253,7 @@
                 {
                   "value": 404,
                   "itemStyle": {
-                    "color": "#10B981",
+                    "color": "#2E9B77",
                     "borderRadius": [
                       0,
                       6,
@@ -16268,7 +16265,7 @@
                 {
                   "value": 532,
                   "itemStyle": {
-                    "color": "#EF4444",
+                    "color": "#D16262",
                     "borderRadius": [
                       0,
                       6,
@@ -16292,7 +16289,7 @@
                 {
                   "value": 59,
                   "itemStyle": {
-                    "color": "#F97316",
+                    "color": "#D17A3E",
                     "borderRadius": [
                       0,
                       6,
@@ -16316,7 +16313,7 @@
                 {
                   "value": 16,
                   "itemStyle": {
-                    "color": "#F59E0B",
+                    "color": "#CC9334",
                     "borderRadius": [
                       0,
                       6,
@@ -16328,7 +16325,7 @@
                 {
                   "value": 4,
                   "itemStyle": {
-                    "color": "#8B5CF6",
+                    "color": "#9677DB",
                     "borderRadius": [
                       0,
                       6,
@@ -16355,11 +16352,12 @@
           "tooltip": {
             "trigger": "item",
             "formatter": "{b}<br/>难度: {c}",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -16394,9 +16392,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -18057,7 +18053,7 @@
               ],
               "symbolSize": 7,
               "itemStyle": {
-                "color": "#10B981",
+                "color": "#2E9B77",
                 "opacity": 0.75
               }
             },
@@ -21016,7 +21012,7 @@
               ],
               "symbolSize": 5,
               "itemStyle": {
-                "color": "#EF4444",
+                "color": "#D16262",
                 "opacity": 0.35
               }
             }
@@ -21027,11 +21023,12 @@
           "tooltip": {
             "trigger": "axis",
             "formatter": "{b}: <b>{c} 题 AC</b>",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -21054,9 +21051,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -21128,7 +21123,7 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#60A5FA"
+                      "color": "#7BA8DF"
                     },
                     {
                       "offset": 1,
@@ -21145,7 +21140,7 @@
                     "yAxis": 15,
                     "name": "目标",
                     "lineStyle": {
-                      "color": "#10B981",
+                      "color": "#2E9B77",
                       "type": "dashed",
                       "width": 1.5
                     }
@@ -21168,11 +21163,12 @@
               "type": "shadow"
             },
             "formatter": "{b}<br/>Easy: {c0} 题<br/>Medium: {c1} 题<br/>Hard: {c2} 题",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -21247,9 +21243,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -21279,7 +21273,7 @@
                 0
               ],
               "itemStyle": {
-                "color": "#10B981",
+                "color": "#2E9B77",
                 "borderRadius": [
                   0,
                   0,
@@ -21310,7 +21304,7 @@
                 1
               ],
               "itemStyle": {
-                "color": "#F97316"
+                "color": "#D17A3E"
               }
             },
             {
@@ -21335,7 +21329,7 @@
                 0
               ],
               "itemStyle": {
-                "color": "#EF4444",
+                "color": "#D16262",
                 "borderRadius": [
                   4,
                   4,
@@ -21351,11 +21345,12 @@
           "tooltip": {
             "trigger": "item",
             "formatter": "{b}<br/>{a}: {c}{@tip}",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -21378,9 +21373,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -21429,78 +21422,78 @@
                     "yAxis": 1200,
                     "name": "Pupil 1200",
                     "lineStyle": {
-                      "color": "#10B981",
+                      "color": "#2E9B77",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#10B981"
+                      "color": "#2E9B77"
                     }
                   },
                   {
                     "yAxis": 1400,
                     "name": "Specialist 1400",
                     "lineStyle": {
-                      "color": "#06B6D4",
+                      "color": "#2A9CB0",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#06B6D4"
+                      "color": "#2A9CB0"
                     }
                   },
                   {
                     "yAxis": 1600,
                     "name": "Expert 1600",
                     "lineStyle": {
-                      "color": "#3B82F6",
+                      "color": "#5C8AD5",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#3B82F6"
+                      "color": "#5C8AD5"
                     }
                   },
                   {
                     "yAxis": 1900,
                     "name": "Candidate Master 1900",
                     "lineStyle": {
-                      "color": "#8B5CF6",
+                      "color": "#9677DB",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#8B5CF6"
+                      "color": "#9677DB"
                     }
                   },
                   {
                     "yAxis": 2100,
                     "name": "Master 2100",
                     "lineStyle": {
-                      "color": "#F97316",
+                      "color": "#D17A3E",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#F97316"
+                      "color": "#D17A3E"
                     }
                   },
                   {
                     "yAxis": 2400,
                     "name": "Grandmaster 2400",
                     "lineStyle": {
-                      "color": "#EF4444",
+                      "color": "#D16262",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#EF4444"
+                      "color": "#D16262"
                     }
                   }
                 ]
@@ -21671,7 +21664,7 @@
                   ],
                   "tip": " (+46)",
                   "itemStyle": {
-                    "color": "#EF4444",
+                    "color": "#D16262",
                     "borderColor": "#fff",
                     "borderWidth": 1
                   }
@@ -21686,11 +21679,11 @@
               ],
               "smooth": false,
               "lineStyle": {
-                "color": "#8B5CF6",
+                "color": "#9677DB",
                 "width": 2
               },
               "itemStyle": {
-                "color": "#8B5CF6",
+                "color": "#9677DB",
                 "borderColor": "#fff",
                 "borderWidth": 1
               },
@@ -21704,11 +21697,11 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#8B5CF620"
+                      "color": "#9677DB20"
                     },
                     {
                       "offset": 1,
-                      "color": "#8B5CF602"
+                      "color": "#9677DB02"
                     }
                   ]
                 }
@@ -21725,11 +21718,12 @@
                 "type": "line"
               },
               "formatter": "{b}<br/>{a}: {c}",
-              "backgroundColor": "rgba(17,24,39,0.96)",
+              "backgroundColor": "rgba(22,22,24,0.94)",
               "borderColor": "rgba(255,255,255,0.10)",
               "borderWidth": 1,
+              "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
               "textStyle": {
-                "color": "#E0E0E0",
+                "color": "#F5F5F7",
                 "fontSize": 13,
                 "fontFamily": "Inter, sans-serif"
               }
@@ -21752,9 +21746,7 @@
                 "show": false
               },
               "splitLine": {
-                "lineStyle": {
-                  "color": "rgba(255,255,255,0.03)"
-                }
+                "show": false
               },
               "axisLabel": {
                 "color": "#9CA3AF",
@@ -21882,15 +21874,15 @@
                   }
                 ],
                 "lineStyle": {
-                  "color": "#3B82F6",
+                  "color": "#5C8AD5",
                   "width": 2.5
                 },
                 "itemStyle": {
-                  "color": "#3B82F6"
+                  "color": "#5C8AD5"
                 },
                 "areaStyle": {
                   "opacity": 0.12,
-                  "color": "#3B82F6"
+                  "color": "#5C8AD5"
                 },
                 "markLine": {
                   "silent": true,
@@ -21907,78 +21899,78 @@
                       "yAxis": 1200,
                       "name": "Pupil 1200",
                       "lineStyle": {
-                        "color": "#10B981",
+                        "color": "#2E9B77",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#10B981"
+                        "color": "#2E9B77"
                       }
                     },
                     {
                       "yAxis": 1400,
                       "name": "Specialist 1400",
                       "lineStyle": {
-                        "color": "#06B6D4",
+                        "color": "#2A9CB0",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#06B6D4"
+                        "color": "#2A9CB0"
                       }
                     },
                     {
                       "yAxis": 1600,
                       "name": "Expert 1600",
                       "lineStyle": {
-                        "color": "#3B82F6",
+                        "color": "#5C8AD5",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#3B82F6"
+                        "color": "#5C8AD5"
                       }
                     },
                     {
                       "yAxis": 1900,
                       "name": "Candidate Master 1900",
                       "lineStyle": {
-                        "color": "#8B5CF6",
+                        "color": "#9677DB",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#8B5CF6"
+                        "color": "#9677DB"
                       }
                     },
                     {
                       "yAxis": 2100,
                       "name": "Master 2100",
                       "lineStyle": {
-                        "color": "#F97316",
+                        "color": "#D17A3E",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#F97316"
+                        "color": "#D17A3E"
                       }
                     },
                     {
                       "yAxis": 2400,
                       "name": "Grandmaster 2400",
                       "lineStyle": {
-                        "color": "#EF4444",
+                        "color": "#D16262",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#EF4444"
+                        "color": "#D16262"
                       }
                     }
                   ]
@@ -21989,7 +21981,7 @@
             "_climb": {
               "platform": "codeforces",
               "label": "Codeforces",
-              "color": "#3B82F6",
+              "color": "#5C8AD5",
               "mode": "rating",
               "axis": "CF Rating",
               "ticks": []
@@ -22002,11 +21994,12 @@
                 "type": "line"
               },
               "formatter": "{b}<br/>{a}: {c}",
-              "backgroundColor": "rgba(17,24,39,0.96)",
+              "backgroundColor": "rgba(22,22,24,0.94)",
               "borderColor": "rgba(255,255,255,0.10)",
               "borderWidth": 1,
+              "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
               "textStyle": {
-                "color": "#E0E0E0",
+                "color": "#F5F5F7",
                 "fontSize": 13,
                 "fontFamily": "Inter, sans-serif"
               }
@@ -22029,9 +22022,7 @@
                 "show": false
               },
               "splitLine": {
-                "lineStyle": {
-                  "color": "rgba(255,255,255,0.03)"
-                }
+                "show": false
               },
               "axisLabel": {
                 "color": "#9CA3AF",
@@ -22133,15 +22124,15 @@
                   null
                 ],
                 "lineStyle": {
-                  "color": "#10B981",
+                  "color": "#2E9B77",
                   "width": 2.5
                 },
                 "itemStyle": {
-                  "color": "#10B981"
+                  "color": "#2E9B77"
                 },
                 "areaStyle": {
                   "opacity": 0.12,
-                  "color": "#10B981"
+                  "color": "#2E9B77"
                 },
                 "markArea": {
                   "silent": true,
@@ -22151,12 +22142,12 @@
                         "name": "入门",
                         "yAxis": 0.5,
                         "itemStyle": {
-                          "color": "#F8717126"
+                          "color": "#E0898926"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F87171",
+                          "color": "#E08989",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "入门"
@@ -22171,12 +22162,12 @@
                         "name": "普及-",
                         "yAxis": 1.5,
                         "itemStyle": {
-                          "color": "#FB923C26"
+                          "color": "#DA955D26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#FB923C",
+                          "color": "#DA955D",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "普及-"
@@ -22191,12 +22182,12 @@
                         "name": "普及",
                         "yAxis": 2.5,
                         "itemStyle": {
-                          "color": "#FACC1526"
+                          "color": "#D2B43D26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#FACC15",
+                          "color": "#D2B43D",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "普及"
@@ -22211,12 +22202,12 @@
                         "name": "普及+/提高-",
                         "yAxis": 3.5,
                         "itemStyle": {
-                          "color": "#4ADE8026"
+                          "color": "#64C48726"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#4ADE80",
+                          "color": "#64C487",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "普及+/提高-"
@@ -22231,12 +22222,12 @@
                         "name": "提高",
                         "yAxis": 4.5,
                         "itemStyle": {
-                          "color": "#22D3EE26"
+                          "color": "#46B9CA26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#22D3EE",
+                          "color": "#46B9CA",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "提高"
@@ -22251,12 +22242,12 @@
                         "name": "提高+/省选-",
                         "yAxis": 5.5,
                         "itemStyle": {
-                          "color": "#60A5FA26"
+                          "color": "#7BA8DF26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#60A5FA",
+                          "color": "#7BA8DF",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "提高+/省选-"
@@ -22271,12 +22262,12 @@
                         "name": "省选/NOI-",
                         "yAxis": 6.5,
                         "itemStyle": {
-                          "color": "#C084FC26"
+                          "color": "#C099E726"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#C084FC",
+                          "color": "#C099E7",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "省选/NOI-"
@@ -22314,44 +22305,44 @@
             "_climb": {
               "platform": "luogu",
               "label": "洛谷",
-              "color": "#10B981",
+              "color": "#2E9B77",
               "mode": "tier",
               "axis": "洛谷难度",
               "ticks": [
                 {
                   "v": 1,
                   "label": "入门",
-                  "color": "#F87171"
+                  "color": "#E08989"
                 },
                 {
                   "v": 2,
                   "label": "普及-",
-                  "color": "#FB923C"
+                  "color": "#DA955D"
                 },
                 {
                   "v": 3,
                   "label": "普及",
-                  "color": "#FACC15"
+                  "color": "#D2B43D"
                 },
                 {
                   "v": 4,
                   "label": "普及+/提高-",
-                  "color": "#4ADE80"
+                  "color": "#64C487"
                 },
                 {
                   "v": 5,
                   "label": "提高",
-                  "color": "#22D3EE"
+                  "color": "#46B9CA"
                 },
                 {
                   "v": 6,
                   "label": "提高+/省选-",
-                  "color": "#60A5FA"
+                  "color": "#7BA8DF"
                 },
                 {
                   "v": 7,
                   "label": "省选/NOI-",
-                  "color": "#C084FC"
+                  "color": "#C099E7"
                 },
                 {
                   "v": 8,
@@ -22368,11 +22359,12 @@
                 "type": "line"
               },
               "formatter": "{b}<br/>{a}: {c}",
-              "backgroundColor": "rgba(17,24,39,0.96)",
+              "backgroundColor": "rgba(22,22,24,0.94)",
               "borderColor": "rgba(255,255,255,0.10)",
               "borderWidth": 1,
+              "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
               "textStyle": {
-                "color": "#E0E0E0",
+                "color": "#F5F5F7",
                 "fontSize": 13,
                 "fontFamily": "Inter, sans-serif"
               }
@@ -22395,9 +22387,7 @@
                 "show": false
               },
               "splitLine": {
-                "lineStyle": {
-                  "color": "rgba(255,255,255,0.03)"
-                }
+                "show": false
               },
               "axisLabel": {
                 "color": "#9CA3AF",
@@ -22493,15 +22483,15 @@
                   null
                 ],
                 "lineStyle": {
-                  "color": "#8B5CF6",
+                  "color": "#9677DB",
                   "width": 2.5
                 },
                 "itemStyle": {
-                  "color": "#8B5CF6"
+                  "color": "#9677DB"
                 },
                 "areaStyle": {
                   "opacity": 0.12,
-                  "color": "#8B5CF6"
+                  "color": "#9677DB"
                 },
                 "markArea": {
                   "silent": true,
@@ -22531,12 +22521,12 @@
                         "name": "简单",
                         "yAxis": 1.5,
                         "itemStyle": {
-                          "color": "#34D39926"
+                          "color": "#50B79126"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#34D399",
+                          "color": "#50B791",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "简单"
@@ -22551,12 +22541,12 @@
                         "name": "中等",
                         "yAxis": 2.5,
                         "itemStyle": {
-                          "color": "#3B82F626"
+                          "color": "#5C8AD526"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#3B82F6",
+                          "color": "#5C8AD5",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "中等"
@@ -22571,12 +22561,12 @@
                         "name": "较难",
                         "yAxis": 3.5,
                         "itemStyle": {
-                          "color": "#F59E0B26"
+                          "color": "#CC933426"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F59E0B",
+                          "color": "#CC9334",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "较难"
@@ -22591,12 +22581,12 @@
                         "name": "困难",
                         "yAxis": 4.5,
                         "itemStyle": {
-                          "color": "#F8717126"
+                          "color": "#E0898926"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F87171",
+                          "color": "#E08989",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "困难"
@@ -22614,7 +22604,7 @@
             "_climb": {
               "platform": "nowcoder",
               "label": "牛客",
-              "color": "#8B5CF6",
+              "color": "#9677DB",
               "mode": "tier",
               "axis": "牛客难度",
               "ticks": [
@@ -22626,22 +22616,22 @@
                 {
                   "v": 2,
                   "label": "简单",
-                  "color": "#34D399"
+                  "color": "#50B791"
                 },
                 {
                   "v": 3,
                   "label": "中等",
-                  "color": "#3B82F6"
+                  "color": "#5C8AD5"
                 },
                 {
                   "v": 4,
                   "label": "较难",
-                  "color": "#F59E0B"
+                  "color": "#CC9334"
                 },
                 {
                   "v": 5,
                   "label": "困难",
-                  "color": "#F87171"
+                  "color": "#E08989"
                 }
               ]
             }
@@ -24801,11 +24791,12 @@
         "calendarHeatmap": {
           "tooltip": {
             "formatter": "{b}: <b>{c} 题 AC</b>",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -24858,10 +24849,10 @@
             "inRange": {
               "color": [
                 "#1A1A2E",
-                "#0E4429",
-                "#006D32",
-                "#26A641",
-                "#39D353"
+                "#173B29",
+                "#135A34",
+                "#3C904E",
+                "#54B865"
               ]
             }
           },
@@ -25003,11 +24994,12 @@
           "tooltip": {
             "trigger": "axis",
             "formatter": "{b}: {c} 次",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -25075,7 +25067,7 @@
                 {
                   "value": 414,
                   "itemStyle": {
-                    "color": "#10B981",
+                    "color": "#2E9B77",
                     "borderRadius": [
                       0,
                       6,
@@ -25087,7 +25079,7 @@
                 {
                   "value": 291,
                   "itemStyle": {
-                    "color": "#EF4444",
+                    "color": "#D16262",
                     "borderRadius": [
                       0,
                       6,
@@ -25111,7 +25103,7 @@
                 {
                   "value": 46,
                   "itemStyle": {
-                    "color": "#F97316",
+                    "color": "#D17A3E",
                     "borderRadius": [
                       0,
                       6,
@@ -25135,7 +25127,7 @@
                 {
                   "value": 7,
                   "itemStyle": {
-                    "color": "#F59E0B",
+                    "color": "#CC9334",
                     "borderRadius": [
                       0,
                       6,
@@ -25147,7 +25139,7 @@
                 {
                   "value": 2,
                   "itemStyle": {
-                    "color": "#8B5CF6",
+                    "color": "#9677DB",
                     "borderRadius": [
                       0,
                       6,
@@ -25174,11 +25166,12 @@
           "tooltip": {
             "trigger": "item",
             "formatter": "{b}<br/>难度: {c}",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -25213,9 +25206,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -26916,7 +26907,7 @@
               ],
               "symbolSize": 7,
               "itemStyle": {
-                "color": "#10B981",
+                "color": "#2E9B77",
                 "opacity": 0.75
               }
             },
@@ -29583,7 +29574,7 @@
               ],
               "symbolSize": 5,
               "itemStyle": {
-                "color": "#EF4444",
+                "color": "#D16262",
                 "opacity": 0.35
               }
             }
@@ -29594,11 +29585,12 @@
           "tooltip": {
             "trigger": "axis",
             "formatter": "{b}: <b>{c} 题 AC</b>",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -29621,9 +29613,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -29695,7 +29685,7 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#60A5FA"
+                      "color": "#7BA8DF"
                     },
                     {
                       "offset": 1,
@@ -29712,7 +29702,7 @@
                     "yAxis": 15,
                     "name": "目标",
                     "lineStyle": {
-                      "color": "#10B981",
+                      "color": "#2E9B77",
                       "type": "dashed",
                       "width": 1.5
                     }
@@ -29735,11 +29725,12 @@
               "type": "shadow"
             },
             "formatter": "{b}<br/>Easy: {c0} 题<br/>Medium: {c1} 题<br/>Hard: {c2} 题",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -29813,9 +29804,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -29844,7 +29833,7 @@
                 1
               ],
               "itemStyle": {
-                "color": "#10B981",
+                "color": "#2E9B77",
                 "borderRadius": [
                   0,
                   0,
@@ -29874,7 +29863,7 @@
                 0
               ],
               "itemStyle": {
-                "color": "#F97316"
+                "color": "#D17A3E"
               }
             },
             {
@@ -29898,7 +29887,7 @@
                 0
               ],
               "itemStyle": {
-                "color": "#EF4444",
+                "color": "#D16262",
                 "borderRadius": [
                   4,
                   4,
@@ -29914,11 +29903,12 @@
           "tooltip": {
             "trigger": "item",
             "formatter": "{b}<br/>{a}: {c}{@tip}",
-            "backgroundColor": "rgba(17,24,39,0.96)",
+            "backgroundColor": "rgba(22,22,24,0.94)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
+            "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
             "textStyle": {
-              "color": "#E0E0E0",
+              "color": "#F5F5F7",
               "fontSize": 13,
               "fontFamily": "Inter, sans-serif"
             }
@@ -29941,9 +29931,7 @@
               "show": false
             },
             "splitLine": {
-              "lineStyle": {
-                "color": "rgba(255,255,255,0.03)"
-              }
+              "show": false
             },
             "axisLabel": {
               "color": "#9CA3AF",
@@ -29992,78 +29980,78 @@
                     "yAxis": 1200,
                     "name": "Pupil 1200",
                     "lineStyle": {
-                      "color": "#10B981",
+                      "color": "#2E9B77",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#10B981"
+                      "color": "#2E9B77"
                     }
                   },
                   {
                     "yAxis": 1400,
                     "name": "Specialist 1400",
                     "lineStyle": {
-                      "color": "#06B6D4",
+                      "color": "#2A9CB0",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#06B6D4"
+                      "color": "#2A9CB0"
                     }
                   },
                   {
                     "yAxis": 1600,
                     "name": "Expert 1600",
                     "lineStyle": {
-                      "color": "#3B82F6",
+                      "color": "#5C8AD5",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#3B82F6"
+                      "color": "#5C8AD5"
                     }
                   },
                   {
                     "yAxis": 1900,
                     "name": "Candidate Master 1900",
                     "lineStyle": {
-                      "color": "#8B5CF6",
+                      "color": "#9677DB",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#8B5CF6"
+                      "color": "#9677DB"
                     }
                   },
                   {
                     "yAxis": 2100,
                     "name": "Master 2100",
                     "lineStyle": {
-                      "color": "#F97316",
+                      "color": "#D17A3E",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#F97316"
+                      "color": "#D17A3E"
                     }
                   },
                   {
                     "yAxis": 2400,
                     "name": "Grandmaster 2400",
                     "lineStyle": {
-                      "color": "#EF4444",
+                      "color": "#D16262",
                       "type": "dashed",
                       "width": 1,
                       "opacity": 0.5
                     },
                     "label": {
-                      "color": "#EF4444"
+                      "color": "#D16262"
                     }
                   }
                 ]
@@ -30199,7 +30187,7 @@
                   ],
                   "tip": " (+27)",
                   "itemStyle": {
-                    "color": "#EF4444",
+                    "color": "#D16262",
                     "borderColor": "#fff",
                     "borderWidth": 1
                   }
@@ -30207,11 +30195,11 @@
               ],
               "smooth": false,
               "lineStyle": {
-                "color": "#8B5CF6",
+                "color": "#9677DB",
                 "width": 2
               },
               "itemStyle": {
-                "color": "#8B5CF6",
+                "color": "#9677DB",
                 "borderColor": "#fff",
                 "borderWidth": 1
               },
@@ -30225,11 +30213,11 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#8B5CF620"
+                      "color": "#9677DB20"
                     },
                     {
                       "offset": 1,
-                      "color": "#8B5CF602"
+                      "color": "#9677DB02"
                     }
                   ]
                 }
@@ -30246,11 +30234,12 @@
                 "type": "line"
               },
               "formatter": "{b}<br/>{a}: {c}",
-              "backgroundColor": "rgba(17,24,39,0.96)",
+              "backgroundColor": "rgba(22,22,24,0.94)",
               "borderColor": "rgba(255,255,255,0.10)",
               "borderWidth": 1,
+              "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
               "textStyle": {
-                "color": "#E0E0E0",
+                "color": "#F5F5F7",
                 "fontSize": 13,
                 "fontFamily": "Inter, sans-serif"
               }
@@ -30273,9 +30262,7 @@
                 "show": false
               },
               "splitLine": {
-                "lineStyle": {
-                  "color": "rgba(255,255,255,0.03)"
-                }
+                "show": false
               },
               "axisLabel": {
                 "color": "#9CA3AF",
@@ -30391,15 +30378,15 @@
                   null
                 ],
                 "lineStyle": {
-                  "color": "#3B82F6",
+                  "color": "#5C8AD5",
                   "width": 2.5
                 },
                 "itemStyle": {
-                  "color": "#3B82F6"
+                  "color": "#5C8AD5"
                 },
                 "areaStyle": {
                   "opacity": 0.12,
-                  "color": "#3B82F6"
+                  "color": "#5C8AD5"
                 },
                 "markLine": {
                   "silent": true,
@@ -30416,78 +30403,78 @@
                       "yAxis": 1200,
                       "name": "Pupil 1200",
                       "lineStyle": {
-                        "color": "#10B981",
+                        "color": "#2E9B77",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#10B981"
+                        "color": "#2E9B77"
                       }
                     },
                     {
                       "yAxis": 1400,
                       "name": "Specialist 1400",
                       "lineStyle": {
-                        "color": "#06B6D4",
+                        "color": "#2A9CB0",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#06B6D4"
+                        "color": "#2A9CB0"
                       }
                     },
                     {
                       "yAxis": 1600,
                       "name": "Expert 1600",
                       "lineStyle": {
-                        "color": "#3B82F6",
+                        "color": "#5C8AD5",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#3B82F6"
+                        "color": "#5C8AD5"
                       }
                     },
                     {
                       "yAxis": 1900,
                       "name": "Candidate Master 1900",
                       "lineStyle": {
-                        "color": "#8B5CF6",
+                        "color": "#9677DB",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#8B5CF6"
+                        "color": "#9677DB"
                       }
                     },
                     {
                       "yAxis": 2100,
                       "name": "Master 2100",
                       "lineStyle": {
-                        "color": "#F97316",
+                        "color": "#D17A3E",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#F97316"
+                        "color": "#D17A3E"
                       }
                     },
                     {
                       "yAxis": 2400,
                       "name": "Grandmaster 2400",
                       "lineStyle": {
-                        "color": "#EF4444",
+                        "color": "#D16262",
                         "type": "dashed",
                         "width": 1,
                         "opacity": 0.5
                       },
                       "label": {
-                        "color": "#EF4444"
+                        "color": "#D16262"
                       }
                     }
                   ]
@@ -30498,7 +30485,7 @@
             "_climb": {
               "platform": "codeforces",
               "label": "Codeforces",
-              "color": "#3B82F6",
+              "color": "#5C8AD5",
               "mode": "rating",
               "axis": "CF Rating",
               "ticks": []
@@ -30511,11 +30498,12 @@
                 "type": "line"
               },
               "formatter": "{b}<br/>{a}: {c}",
-              "backgroundColor": "rgba(17,24,39,0.96)",
+              "backgroundColor": "rgba(22,22,24,0.94)",
               "borderColor": "rgba(255,255,255,0.10)",
               "borderWidth": 1,
+              "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
               "textStyle": {
-                "color": "#E0E0E0",
+                "color": "#F5F5F7",
                 "fontSize": 13,
                 "fontFamily": "Inter, sans-serif"
               }
@@ -30538,9 +30526,7 @@
                 "show": false
               },
               "splitLine": {
-                "lineStyle": {
-                  "color": "rgba(255,255,255,0.03)"
-                }
+                "show": false
               },
               "axisLabel": {
                 "color": "#9CA3AF",
@@ -30663,15 +30649,15 @@
                   }
                 ],
                 "lineStyle": {
-                  "color": "#10B981",
+                  "color": "#2E9B77",
                   "width": 2.5
                 },
                 "itemStyle": {
-                  "color": "#10B981"
+                  "color": "#2E9B77"
                 },
                 "areaStyle": {
                   "opacity": 0.12,
-                  "color": "#10B981"
+                  "color": "#2E9B77"
                 },
                 "markArea": {
                   "silent": true,
@@ -30681,12 +30667,12 @@
                         "name": "入门",
                         "yAxis": 0.5,
                         "itemStyle": {
-                          "color": "#F8717126"
+                          "color": "#E0898926"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F87171",
+                          "color": "#E08989",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "入门"
@@ -30701,12 +30687,12 @@
                         "name": "普及-",
                         "yAxis": 1.5,
                         "itemStyle": {
-                          "color": "#FB923C26"
+                          "color": "#DA955D26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#FB923C",
+                          "color": "#DA955D",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "普及-"
@@ -30721,12 +30707,12 @@
                         "name": "普及",
                         "yAxis": 2.5,
                         "itemStyle": {
-                          "color": "#FACC1526"
+                          "color": "#D2B43D26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#FACC15",
+                          "color": "#D2B43D",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "普及"
@@ -30741,12 +30727,12 @@
                         "name": "普及+/提高-",
                         "yAxis": 3.5,
                         "itemStyle": {
-                          "color": "#4ADE8026"
+                          "color": "#64C48726"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#4ADE80",
+                          "color": "#64C487",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "普及+/提高-"
@@ -30761,12 +30747,12 @@
                         "name": "提高",
                         "yAxis": 4.5,
                         "itemStyle": {
-                          "color": "#22D3EE26"
+                          "color": "#46B9CA26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#22D3EE",
+                          "color": "#46B9CA",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "提高"
@@ -30781,12 +30767,12 @@
                         "name": "提高+/省选-",
                         "yAxis": 5.5,
                         "itemStyle": {
-                          "color": "#60A5FA26"
+                          "color": "#7BA8DF26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#60A5FA",
+                          "color": "#7BA8DF",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "提高+/省选-"
@@ -30801,12 +30787,12 @@
                         "name": "省选/NOI-",
                         "yAxis": 6.5,
                         "itemStyle": {
-                          "color": "#C084FC26"
+                          "color": "#C099E726"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#C084FC",
+                          "color": "#C099E7",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "省选/NOI-"
@@ -30844,44 +30830,44 @@
             "_climb": {
               "platform": "luogu",
               "label": "洛谷",
-              "color": "#10B981",
+              "color": "#2E9B77",
               "mode": "tier",
               "axis": "洛谷难度",
               "ticks": [
                 {
                   "v": 1,
                   "label": "入门",
-                  "color": "#F87171"
+                  "color": "#E08989"
                 },
                 {
                   "v": 2,
                   "label": "普及-",
-                  "color": "#FB923C"
+                  "color": "#DA955D"
                 },
                 {
                   "v": 3,
                   "label": "普及",
-                  "color": "#FACC15"
+                  "color": "#D2B43D"
                 },
                 {
                   "v": 4,
                   "label": "普及+/提高-",
-                  "color": "#4ADE80"
+                  "color": "#64C487"
                 },
                 {
                   "v": 5,
                   "label": "提高",
-                  "color": "#22D3EE"
+                  "color": "#46B9CA"
                 },
                 {
                   "v": 6,
                   "label": "提高+/省选-",
-                  "color": "#60A5FA"
+                  "color": "#7BA8DF"
                 },
                 {
                   "v": 7,
                   "label": "省选/NOI-",
-                  "color": "#C084FC"
+                  "color": "#C099E7"
                 },
                 {
                   "v": 8,
@@ -30898,11 +30884,12 @@
                 "type": "line"
               },
               "formatter": "{b}<br/>{a}: {c}",
-              "backgroundColor": "rgba(17,24,39,0.96)",
+              "backgroundColor": "rgba(22,22,24,0.94)",
               "borderColor": "rgba(255,255,255,0.10)",
               "borderWidth": 1,
+              "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
               "textStyle": {
-                "color": "#E0E0E0",
+                "color": "#F5F5F7",
                 "fontSize": 13,
                 "fontFamily": "Inter, sans-serif"
               }
@@ -30925,9 +30912,7 @@
                 "show": false
               },
               "splitLine": {
-                "lineStyle": {
-                  "color": "rgba(255,255,255,0.03)"
-                }
+                "show": false
               },
               "axisLabel": {
                 "color": "#9CA3AF",
@@ -31026,15 +31011,15 @@
                   null
                 ],
                 "lineStyle": {
-                  "color": "#8B5CF6",
+                  "color": "#9677DB",
                   "width": 2.5
                 },
                 "itemStyle": {
-                  "color": "#8B5CF6"
+                  "color": "#9677DB"
                 },
                 "areaStyle": {
                   "opacity": 0.12,
-                  "color": "#8B5CF6"
+                  "color": "#9677DB"
                 },
                 "markArea": {
                   "silent": true,
@@ -31064,12 +31049,12 @@
                         "name": "简单",
                         "yAxis": 1.5,
                         "itemStyle": {
-                          "color": "#34D39926"
+                          "color": "#50B79126"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#34D399",
+                          "color": "#50B791",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "简单"
@@ -31084,12 +31069,12 @@
                         "name": "中等",
                         "yAxis": 2.5,
                         "itemStyle": {
-                          "color": "#3B82F626"
+                          "color": "#5C8AD526"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#3B82F6",
+                          "color": "#5C8AD5",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "中等"
@@ -31104,12 +31089,12 @@
                         "name": "较难",
                         "yAxis": 3.5,
                         "itemStyle": {
-                          "color": "#F59E0B26"
+                          "color": "#CC933426"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F59E0B",
+                          "color": "#CC9334",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "较难"
@@ -31124,12 +31109,12 @@
                         "name": "困难",
                         "yAxis": 4.5,
                         "itemStyle": {
-                          "color": "#F8717126"
+                          "color": "#E0898926"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F87171",
+                          "color": "#E08989",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "困难"
@@ -31147,7 +31132,7 @@
             "_climb": {
               "platform": "nowcoder",
               "label": "牛客",
-              "color": "#8B5CF6",
+              "color": "#9677DB",
               "mode": "tier",
               "axis": "牛客难度",
               "ticks": [
@@ -31159,22 +31144,22 @@
                 {
                   "v": 2,
                   "label": "简单",
-                  "color": "#34D399"
+                  "color": "#50B791"
                 },
                 {
                   "v": 3,
                   "label": "中等",
-                  "color": "#3B82F6"
+                  "color": "#5C8AD5"
                 },
                 {
                   "v": 4,
                   "label": "较难",
-                  "color": "#F59E0B"
+                  "color": "#CC9334"
                 },
                 {
                   "v": 5,
                   "label": "困难",
-                  "color": "#F87171"
+                  "color": "#E08989"
                 }
               ]
             }
@@ -31214,11 +31199,12 @@
       "tooltip": {
         "trigger": "item",
         "formatter": "{b}<br/>{a}: {c}{@tip}",
-        "backgroundColor": "rgba(17,24,39,0.96)",
+        "backgroundColor": "rgba(22,22,24,0.94)",
         "borderColor": "rgba(255,255,255,0.10)",
         "borderWidth": 1,
+        "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
         "textStyle": {
-          "color": "#E0E0E0",
+          "color": "#F5F5F7",
           "fontSize": 13,
           "fontFamily": "Inter, sans-serif"
         }
@@ -31254,9 +31240,7 @@
           "show": false
         },
         "splitLine": {
-          "lineStyle": {
-            "color": "rgba(255,255,255,0.03)"
-          }
+          "show": false
         },
         "axisLabel": {
           "color": "#9CA3AF",
@@ -31533,7 +31517,7 @@
               ],
               "tip": " (+16)",
               "itemStyle": {
-                "color": "#EF4444",
+                "color": "#D16262",
                 "borderColor": "#fff",
                 "borderWidth": 1
               }
@@ -31541,11 +31525,11 @@
           ],
           "smooth": false,
           "lineStyle": {
-            "color": "#3B82F6",
+            "color": "#5C8AD5",
             "width": 2
           },
           "itemStyle": {
-            "color": "#3B82F6",
+            "color": "#5C8AD5",
             "borderColor": "#fff",
             "borderWidth": 1
           },
@@ -31559,11 +31543,11 @@
               "colorStops": [
                 {
                   "offset": 0,
-                  "color": "#3B82F620"
+                  "color": "#5C8AD520"
                 },
                 {
                   "offset": 1,
-                  "color": "#3B82F602"
+                  "color": "#5C8AD502"
                 }
               ]
             }
@@ -31583,78 +31567,78 @@
                 "yAxis": 1200,
                 "name": "Pupil 1200",
                 "lineStyle": {
-                  "color": "#10B981",
+                  "color": "#2E9B77",
                   "type": "dashed",
                   "width": 1,
                   "opacity": 0.5
                 },
                 "label": {
-                  "color": "#10B981"
+                  "color": "#2E9B77"
                 }
               },
               {
                 "yAxis": 1400,
                 "name": "Specialist 1400",
                 "lineStyle": {
-                  "color": "#06B6D4",
+                  "color": "#2A9CB0",
                   "type": "dashed",
                   "width": 1,
                   "opacity": 0.5
                 },
                 "label": {
-                  "color": "#06B6D4"
+                  "color": "#2A9CB0"
                 }
               },
               {
                 "yAxis": 1600,
                 "name": "Expert 1600",
                 "lineStyle": {
-                  "color": "#3B82F6",
+                  "color": "#5C8AD5",
                   "type": "dashed",
                   "width": 1,
                   "opacity": 0.5
                 },
                 "label": {
-                  "color": "#3B82F6"
+                  "color": "#5C8AD5"
                 }
               },
               {
                 "yAxis": 1900,
                 "name": "Candidate Master 1900",
                 "lineStyle": {
-                  "color": "#8B5CF6",
+                  "color": "#9677DB",
                   "type": "dashed",
                   "width": 1,
                   "opacity": 0.5
                 },
                 "label": {
-                  "color": "#8B5CF6"
+                  "color": "#9677DB"
                 }
               },
               {
                 "yAxis": 2100,
                 "name": "Master 2100",
                 "lineStyle": {
-                  "color": "#F97316",
+                  "color": "#D17A3E",
                   "type": "dashed",
                   "width": 1,
                   "opacity": 0.5
                 },
                 "label": {
-                  "color": "#F97316"
+                  "color": "#D17A3E"
                 }
               },
               {
                 "yAxis": 2400,
                 "name": "Grandmaster 2400",
                 "lineStyle": {
-                  "color": "#EF4444",
+                  "color": "#D16262",
                   "type": "dashed",
                   "width": 1,
                   "opacity": 0.5
                 },
                 "label": {
-                  "color": "#EF4444"
+                  "color": "#D16262"
                 }
               }
             ]
@@ -31834,7 +31818,7 @@
               ],
               "tip": " (+46)",
               "itemStyle": {
-                "color": "#EF4444",
+                "color": "#D16262",
                 "borderColor": "#fff",
                 "borderWidth": 1
               }
@@ -31849,11 +31833,11 @@
           ],
           "smooth": false,
           "lineStyle": {
-            "color": "#8B5CF6",
+            "color": "#9677DB",
             "width": 2
           },
           "itemStyle": {
-            "color": "#8B5CF6",
+            "color": "#9677DB",
             "borderColor": "#fff",
             "borderWidth": 1
           },
@@ -31867,11 +31851,11 @@
               "colorStops": [
                 {
                   "offset": 0,
-                  "color": "#8B5CF620"
+                  "color": "#9677DB20"
                 },
                 {
                   "offset": 1,
-                  "color": "#8B5CF602"
+                  "color": "#9677DB02"
                 }
               ]
             }
@@ -32016,7 +32000,7 @@
               ],
               "tip": " (+27)",
               "itemStyle": {
-                "color": "#EF4444",
+                "color": "#D16262",
                 "borderColor": "#fff",
                 "borderWidth": 1
               }
@@ -32024,11 +32008,11 @@
           ],
           "smooth": false,
           "lineStyle": {
-            "color": "#F97316",
+            "color": "#D17A3E",
             "width": 2
           },
           "itemStyle": {
-            "color": "#F97316",
+            "color": "#D17A3E",
             "borderColor": "#fff",
             "borderWidth": 1
           },
@@ -32042,11 +32026,11 @@
               "colorStops": [
                 {
                   "offset": 0,
-                  "color": "#F9731620"
+                  "color": "#D17A3E20"
                 },
                 {
                   "offset": 1,
-                  "color": "#F9731602"
+                  "color": "#D17A3E02"
                 }
               ]
             }
@@ -32059,11 +32043,12 @@
       "tooltip": {
         "trigger": "axis",
         "formatter": "{b}: <b>Rating {c}</b>",
-        "backgroundColor": "rgba(17,24,39,0.96)",
+        "backgroundColor": "rgba(22,22,24,0.94)",
         "borderColor": "rgba(255,255,255,0.10)",
         "borderWidth": 1,
+        "extraCssText": "backdrop-filter:blur(20px) saturate(180%);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.5);",
         "textStyle": {
-          "color": "#E0E0E0",
+          "color": "#F5F5F7",
           "fontSize": 13,
           "fontFamily": "Inter, sans-serif"
         }
@@ -32138,11 +32123,11 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#3B82F6"
+                      "color": "#5C8AD5"
                     },
                     {
                       "offset": 1,
-                      "color": "#3B82F660"
+                      "color": "#5C8AD560"
                     }
                   ]
                 },
@@ -32166,11 +32151,11 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#8B5CF6"
+                      "color": "#9677DB"
                     },
                     {
                       "offset": 1,
-                      "color": "#8B5CF660"
+                      "color": "#9677DB60"
                     }
                   ]
                 },
@@ -32194,11 +32179,11 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#F97316"
+                      "color": "#D17A3E"
                     },
                     {
                       "offset": 1,
-                      "color": "#F9731660"
+                      "color": "#D17A3E60"
                     }
                   ]
                 },
@@ -32224,5 +32209,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-09 18:07"
+  "exportedAt": "2026-09-09 20:37"
 }

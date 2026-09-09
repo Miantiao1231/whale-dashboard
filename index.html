@@ -7,16 +7,61 @@
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
+/* ===== DESIGN TOKENS (2026-09-09 Apple / Sonoma 改版) ===== */
+:root{
+  /* 中性深色底：去掉原来 #050B18 的蓝味，靠极光层给色彩 */
+  --bg-0:#0b0b0d;
+  --bg-1:#0f0f12;
+  --surface:rgba(255,255,255,.045);
+  --surface-hi:rgba(255,255,255,.07);
+  --stroke:rgba(255,255,255,.085);
+  --stroke-strong:rgba(255,255,255,.14);
+  --edge:inset 0 1px 0 rgba(255,255,255,.07);
+
+  /* 文字三档 */
+  --t-1:#f5f5f7;
+  --t-2:#a1a1a6;
+  --t-3:#6e6e73;
+
+  /* 品牌 + 语义色：沿用现有色相，只做收敛 */
+  --brand:#3f9df6;
+  --brand-bright:#0a84ff;
+  --ok:#30d158;
+  --bad:#ff453a;
+  --warn:#ff9f0a;
+  --gold:#ffd60a;
+
+  /* 圆角 */
+  --r-s:10px;
+  --r-m:16px;
+  --r-l:22px;
+
+  /* 动效：Apple 的两条招牌曲线 */
+  --e-out:cubic-bezier(.16,1,.3,1);
+  --e-spring:cubic-bezier(.32,.72,0,1);
+  --dur-1:150ms;
+  --dur-2:300ms;
+
+  /* 阴影：多层低透明度，避免糊成一团 */
+  --sh-1:0 1px 2px rgba(0,0,0,.5),0 8px 24px rgba(0,0,0,.32);
+  --sh-2:0 2px 6px rgba(0,0,0,.5),0 24px 64px rgba(0,0,0,.44);
+
+  --font-ui:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;
+}
+
 /* ===== RESET & BASE ===== */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{
-  font-family:'Fira Sans',-apple-system,BlinkMacSystemFont,sans-serif;
-  background:#050B18;
-  color:#E8EEF7;
+  font-family:var(--font-ui);
+  background:var(--bg-0);
+  color:var(--t-1);
   min-height:100vh;
   overscroll-behavior:contain;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  letter-spacing:-.011em;
 }
 code,pre,.mono{font-family:'Fira Code',monospace}
 
@@ -61,7 +106,7 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 }
 
 /* ===== LAYOUT ===== */
-#app{position:relative;z-index:1;max-width:1440px;margin:0 auto;padding:0 2rem 2rem}
+#app{position:relative;z-index:1;max-width:1440px;margin:0 auto;padding:0 2rem 4rem}
 
 /* ===== AURORA 动态极光背景 ===== */
 .aurora{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
@@ -69,13 +114,13 @@ code,pre,.mono{font-family:'Fira Code',monospace}
   transition:transform 0.5s ease-out}
 .aurora-blob{position:absolute;border-radius:50%;filter:blur(100px);will-change:transform}
 .b1{width:920px;height:920px;top:-18%;right:-12%;
-  background:radial-gradient(circle at 35% 35%, rgba(63,157,246,0.32), rgba(59,130,246,0.07) 55%, transparent 70%);
+  background:radial-gradient(circle at 35% 35%, rgba(63,157,246,0.22), rgba(59,130,246,0.05) 55%, transparent 70%);
   animation:drift-a 26s ease-in-out infinite alternate}
 .b2{width:780px;height:780px;bottom:-22%;left:-14%;
-  background:radial-gradient(circle at 60% 40%, rgba(129,140,248,0.22), rgba(99,102,241,0.06) 55%, transparent 70%);
+  background:radial-gradient(circle at 60% 40%, rgba(129,140,248,0.15), rgba(99,102,241,0.04) 55%, transparent 70%);
   animation:drift-b 34s ease-in-out infinite alternate;animation-delay:-8s}
 .b3{width:560px;height:560px;top:38%;left:40%;
-  background:radial-gradient(circle at 50% 50%, rgba(34,211,238,0.12), transparent 65%);
+  background:radial-gradient(circle at 50% 50%, rgba(34,211,238,0.08), transparent 65%);
   animation:drift-c 44s ease-in-out infinite alternate;animation-delay:-20s}
 @keyframes drift-a{
   from{transform:translate3d(0,0,0) scale(1)}
@@ -108,12 +153,13 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 /* ===== HEADER ===== */
 .header{
   position:sticky;top:0;z-index:50;
-  background:rgba(5,11,24,0.88);backdrop-filter:blur(24px) saturate(180%);
-  border-bottom:1px solid rgba(96,165,250,0.16);
+  background:rgba(11,11,13,0.72);backdrop-filter:blur(32px) saturate(180%);
+  -webkit-backdrop-filter:blur(32px) saturate(180%);
+  border-bottom:1px solid var(--stroke);
   padding:1rem 2rem;
   display:flex;align-items:center;justify-content:space-between;gap:1rem;
 }
-.header h1{font-size:1.25rem;font-weight:800;letter-spacing:-0.02em}
+.header h1{font-size:1.25rem;font-weight:700;letter-spacing:-.028em}
 
 /* ===== VP 登录（打钩权限：仅 /dash 线上同源可用，本地 8080 只读降级）===== */
 .auth-area{display:flex;align-items:center;gap:0.5rem}
@@ -134,35 +180,43 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 .queue-check input{width:1rem;height:1rem;accent-color:#3f9df6;cursor:pointer}
 
 /* ===== TABS ===== */
-.tab-bar{display:flex;gap:0.25rem;margin:1.5rem 0 0.5rem}
+.tab-bar{
+  display:inline-flex;gap:2px;padding:3px;margin:1.5rem 0 0.5rem;
+  background:var(--surface);border:1px solid var(--stroke);border-radius:13px;
+}
 .tab-btn{
-  padding:0.5rem 0.875rem;border-radius:8px;border:none;cursor:pointer;
-  font-size:0.875rem;font-weight:500;color:rgba(255,255,255,0.45);
-  background:transparent;transition:all 0.2s;
+  padding:0.5rem 0.875rem;border-radius:10px;border:none;cursor:pointer;
+  font-size:0.875rem;font-weight:500;color:var(--t-2);
+  background:transparent;
+  transition:background var(--dur-1) var(--e-out),color var(--dur-1) var(--e-out);
   font-family:inherit;min-height:44px;min-width:44px;
 }
-.tab-btn:hover{color:rgba(255,255,255,0.75);background:rgba(255,255,255,0.04)}
-.tab-btn.active{color:#9ED0FF;background:rgba(63,157,246,0.16);box-shadow:0 0 14px rgba(63,157,246,0.14)}
+.tab-btn:hover{color:var(--t-1);background:rgba(255,255,255,.06)}
+.tab-btn.active{
+  color:var(--t-1);background:rgba(255,255,255,.14);
+  box-shadow:0 1px 2px rgba(0,0,0,.3);
+}
 
 /* ===== CARD ===== */
 .card{
-  padding:1.25rem;border-radius:16px;
-  background:rgba(9,18,36,0.88);backdrop-filter:blur(20px);
-  border:1px solid rgba(148,197,255,0.10);
-  box-shadow:inset 0 1px 0 rgba(148,197,255,0.05),0 4px 24px rgba(0,0,0,0.32);
-  transition:all 0.3s ease-out;
+  padding:1.5rem;border-radius:var(--r-l);
+  background:var(--surface);backdrop-filter:blur(40px) saturate(180%);
+  -webkit-backdrop-filter:blur(40px) saturate(180%);
+  border:1px solid var(--stroke);
+  box-shadow:var(--sh-1),var(--edge);
+  transition:transform var(--dur-2) var(--e-out),box-shadow var(--dur-2) var(--e-out),border-color var(--dur-2) var(--e-out);
 }
-.card:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,0.4)}
-.card-accent{border-width:1px;box-shadow:0 4px 24px var(--card-glow-strong)}
+.card:hover{transform:translateY(-1px);border-color:var(--stroke-strong);box-shadow:var(--sh-2),var(--edge)}
+.card-accent{border-width:1px;box-shadow:var(--edge),0 8px 32px var(--card-glow-strong)}
 
 /* ===== METRIC CARD ===== */
 .metric-card{min-width:200px;flex:1;max-width:320px}
-.metric-title{font-size:0.75rem;font-weight:500;text-transform:uppercase;letter-spacing:0.05em;opacity:0.7}
-.metric-value{font-size:2rem;font-weight:800;line-height:1.2}
-.metric-sub{font-size:0.75rem;margin-top:0.25rem;opacity:0.6}
+.metric-title{font-size:0.75rem;font-weight:500;color:var(--t-3)}
+.metric-value{font-size:2rem;font-weight:600;line-height:1.15;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.metric-sub{font-size:0.75rem;margin-top:0.25rem;color:var(--t-3)}
 
 /* ===== ROW / GRID HELPERS ===== */
-.flex-row{display:flex;gap:1rem;flex-wrap:wrap}
+.flex-row{display:flex;gap:1.25rem;flex-wrap:wrap}
 .flex-1{flex:1}
 .items-center{align-items:center}
 .items-stretch{align-items:stretch}
@@ -187,10 +241,10 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 .flame-row{display:flex;align-items:baseline;gap:0.25rem}
 
 /* ===== WEEK COMPARISON ===== */
-.week-label{font-size:0.75rem;font-weight:500;text-transform:uppercase;opacity:0.5;margin-bottom:0.5rem}
-.week-val{font-size:1.75rem;font-weight:700}
+.week-label{font-size:0.75rem;font-weight:500;color:var(--t-3);margin-bottom:0.5rem}
+.week-val{font-size:1.75rem;font-weight:600;letter-spacing:-.028em;font-variant-numeric:tabular-nums}
 .week-delta{font-size:0.875rem;font-weight:600}
-.week-vs{font-size:0.75rem;opacity:0.4}
+.week-vs{font-size:0.75rem;color:var(--t-3)}
 
 /* ===== PROGRESS BAR ===== */
 .progress-track{width:100%;height:0.5rem;border-radius:999px;overflow:hidden;background:rgba(255,255,255,0.06);margin-top:0.5rem}
@@ -198,7 +252,7 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 
 /* ===== CHECK-IN BANNER ===== */
 .checkin-banner{
-  margin-top:1rem;padding:0.75rem 1.25rem;border-radius:12px;
+  margin-top:1rem;padding:0.75rem 1.25rem;border-radius:var(--r-m);
   background:rgba(239,68,68,0.08);border:1px solid rgba(239,68,68,0.3);
   color:#FCA5A5;font-size:0.875rem;font-weight:500;
   display:flex;align-items:center;gap:0.5rem;
@@ -218,26 +272,29 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 .coach-toggle:hover{background:rgba(255,255,255,0.1);color:#fff}
 .coach-tips{display:flex;flex-wrap:wrap;gap:0.75rem;margin-top:0.875rem}
 .coach-tip{
-  flex:1;min-width:280px;padding:0.75rem 1rem;border-radius:12px;
+  flex:1;min-width:280px;padding:0.75rem 1rem;border-radius:var(--r-m);
   display:flex;align-items:flex-start;gap:0.625rem;
-  background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);
-  transition:all 0.25s ease-out;
+  background:var(--surface);border:1px solid var(--stroke);
+  transition:background var(--dur-2) var(--e-out),transform var(--dur-2) var(--e-out);
 }
-.coach-tip:hover{background:rgba(255,255,255,0.05);transform:translateY(-1px)}
-.coach-tip .tip-icon{font-size:1.125rem;line-height:1.4}
-.coach-tip .tip-text{font-size:0.8125rem;color:rgba(255,255,255,0.75);line-height:1.5}
+.coach-tip:hover{background:var(--surface-hi);transform:translateY(-1px)}
+.coach-tip .tip-icon{line-height:1.4;display:flex;align-items:center;margin-top:0.15rem}
+/* 卡片小标题里的图标统一走品牌色，别跟着灰色文字一起灰掉 */
+.metric-title .ico,.coach-sec-title .ico{color:var(--brand)}
+.coach-tip .tip-text{font-size:0.8125rem;color:var(--t-2);line-height:1.5}
 .coach-section{margin-top:1.125rem;padding-top:1rem;border-top:1px dashed rgba(255,255,255,0.08)}
 .coach-sec-title{font-size:0.8125rem;font-weight:700;color:rgba(255,255,255,0.55);margin-bottom:0.25rem;letter-spacing:0.02em}
 
 /* ===== ACHIEVEMENT BADGE ===== */
 .ach-grid{display:flex;flex-wrap:wrap;gap:0.75rem}
 .ach-badge{
-  padding:0.75rem;border-radius:12px;border:1px solid;
+  padding:0.75rem;border-radius:var(--r-m);border:1px solid;
   min-width:110px;max-width:160px;text-align:center;
-  transition:all 0.3s ease-out;cursor:pointer;position:relative;
+  transition:transform var(--dur-2) var(--e-out),box-shadow var(--dur-2) var(--e-out);
+  cursor:pointer;position:relative;
 }
 .ach-badge:hover{transform:translateY(-2px)}
-.ach-icon{font-size:1.5rem}
+.ach-icon{display:flex;justify-content:center;align-items:center;height:26px}
 .ach-name{font-size:0.7rem;margin-top:0.25rem;font-weight:700}
 .ach-progress{font-size:0.65rem}
 /* 自定义 tooltip（替代原生 title，观感统一且即时） */
@@ -267,33 +324,78 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 .toggle-body{overflow:hidden;transition:max-height 500ms cubic-bezier(0.4,0,0.2,1)}
 
 /* ===== SECTION HEADING ===== */
-.section-heading{display:flex;align-items:center;gap:0.75rem;margin:2.5rem 0 1rem}
-.section-heading h2{font-size:1.125rem;font-weight:700;letter-spacing:-0.01em;white-space:nowrap}
-.section-heading .line{flex:1;height:1px;background:rgba(255,255,255,0.06)}
+/* 标题内联 SVG 图标（替代 emoji：跨平台渲染一致，可随主题变色） */
+.h-ico{flex:none;color:var(--brand);opacity:.9;vertical-align:-0.15em;margin-right:0.4rem}
+/* 通用内联图标（emoji 替代品） */
+.ico{display:inline-block;vertical-align:-0.18em;flex:none}
+
+/* ===== HERO 焦点区 ===== */
+.hero{
+  margin-top:1.75rem;padding:2.25rem 2.5rem;
+  border-radius:var(--r-l);
+  background:var(--surface);border:1px solid var(--stroke);
+  box-shadow:var(--sh-1),var(--edge);
+  backdrop-filter:blur(40px) saturate(180%);
+  -webkit-backdrop-filter:blur(40px) saturate(180%);
+  display:flex;align-items:center;justify-content:space-between;
+  gap:2.5rem;flex-wrap:wrap;
+}
+.hero-kicker{font-size:0.8125rem;font-weight:500;color:var(--t-3);margin-bottom:0.625rem}
+.hero-num{
+  font-size:clamp(3rem,6vw,4.5rem);font-weight:600;
+  letter-spacing:-.045em;line-height:1;
+  font-variant-numeric:tabular-nums;
+}
+.hero-num small{font-size:0.26em;font-weight:500;color:var(--t-3);margin-left:0.4rem;letter-spacing:0}
+.hero-sub{margin-top:0.875rem;font-size:0.9375rem;color:var(--t-2)}
+.hero-sub b{font-weight:600}
+.hero-sub b.up{color:var(--ok)}
+.hero-sub b.down{color:var(--bad)}
+.hero-spark{flex:none;width:240px;height:68px}
+.hero-spark figcaption{font-size:0.75rem;color:var(--t-3);margin-top:0.375rem}
+
+/* ===== 入场动效 ===== */
+@keyframes reveal-up{
+  from{opacity:0;transform:translateY(14px)}
+  to{opacity:1;transform:none}
+}
+.reveal{animation:reveal-up 520ms var(--e-out) both}
+@media (prefers-reduced-motion:reduce){
+  .reveal{animation:none}
+}
+@media (max-width:768px){
+  .hero{padding:1.5rem 1.25rem;gap:1.5rem}
+  .hero-spark{width:100%}
+}
+
+.section-heading{display:flex;align-items:center;gap:0.75rem;margin:4rem 0 1.25rem}
+.section-heading h2{font-size:1.25rem;font-weight:600;letter-spacing:-.028em;white-space:nowrap}
+.section-heading .line{flex:1;height:1px;background:var(--stroke)}
 
 /* ===== SUBMISSION TABLE ===== */
-.sub-row{display:flex;width:100%;padding:0.5rem 0;align-items:center;transition:all 0.15s}
-.sub-row:not(:last-child){border-bottom:1px solid rgba(255,255,255,0.04)}
-.sub-date{width:5.5rem;font-size:0.75rem;color:rgba(255,255,255,0.3)}
-.sub-time{width:3rem;font-size:0.75rem;color:rgba(255,255,255,0.25)}
+.sub-row{display:flex;width:100%;padding:0.5rem 0;align-items:center;transition:background var(--dur-1) var(--e-out)}
+.sub-row:not(:last-child){border-bottom:1px solid var(--stroke)}
+.sub-date{width:5.5rem;font-size:0.75rem;color:var(--t-3);font-variant-numeric:tabular-nums}
+.sub-time{width:3rem;font-size:0.75rem;color:var(--t-3);font-variant-numeric:tabular-nums}
 .sub-pid{width:5rem;font-size:0.8125rem;font-weight:500;font-family:'Fira Code',monospace}
-.sub-plat{width:5rem;font-size:0.75rem;color:rgba(255,255,255,0.3)}
-.sub-verdict{font-size:0.8125rem}
+.sub-plat{width:5rem;font-size:0.75rem;color:var(--t-3)}
+.sub-verdict{font-size:0.8125rem;font-weight:600}
 
 /* ===== CHART CONTAINER ===== */
-.chart-box{border-radius:16px;padding:1.5rem}
-.chart-box h3{font-size:0.9375rem;font-weight:700;margin-bottom:0.5rem;color:#E0E0E0}
+.chart-box{border-radius:var(--r-l);padding:1.5rem}
+.chart-box h3{font-size:0.9375rem;font-weight:600;letter-spacing:-.014em;margin-bottom:0.5rem;color:var(--t-1)}
 .chart-inner{width:100%}
 
 /* ===== FOOTER ===== */
 .footer{text-align:center;margin-top:3rem;margin-bottom:1.5rem;font-size:0.75rem;color:rgba(255,255,255,0.2)}
 
 /* ===== DIFFICULTY CLIMB chips ===== */
-.climb-chip{border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.03);
-  color:#9CA3AF;border-radius:999px;padding:5px 14px;font-size:.8125rem;
-  cursor:pointer;transition:all .15s;line-height:1.25;white-space:nowrap}
-.climb-chip:hover{color:#E0E0E0;border-color:rgba(63,157,246,.5)}
-.climb-chip.active{background:#3f9df6;border-color:#3f9df6;color:#fff;font-weight:600}
+.climb-chip{border:1px solid var(--stroke);background:var(--surface);
+  color:var(--t-2);border-radius:980px;padding:5px 14px;font-size:.8125rem;
+  cursor:pointer;line-height:1.25;white-space:nowrap;
+  transition:background var(--dur-1) var(--e-out),color var(--dur-1) var(--e-out),border-color var(--dur-1) var(--e-out)}
+.climb-chip:hover{color:var(--t-1);border-color:var(--stroke-strong)}
+.climb-chip.active{background:rgba(255,255,255,.14);border-color:transparent;color:var(--t-1);font-weight:600}
 
 /* ===== RESPONSIVE ===== */
 @media(max-width:768px){
@@ -316,7 +418,7 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 </div>
 
 <div class="header" role="banner">
-  <h1>🐋 小鲸教练 · 训练仪表盘</h1>
+  <h1><svg class="h-ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 14c2.5 0 3.5-2 5-2s2.5 2 5 2 3.5-2 5-2 2.5 2 5 2"/><path d="M6 9c1.5-3 4-5 6-5s4.5 2 6 5"/></svg>小鲸教练 · 训练仪表盘</h1>
   <div id="authArea" class="auth-area"></div>
 </div>
 
@@ -342,6 +444,9 @@ code,pre,.mono{font-family:'Fira Code',monospace}
   <!-- Tabs -->
   <div class="tab-bar" id="tabBar" role="tablist" aria-label="队员切换"></div>
 
+  <!-- Hero 焦点区（本周主指标） -->
+  <section class="hero" id="hero" aria-label="本周焦点指标"></section>
+
   <!-- Metric Cards Row -->
   <div class="flex-row items-stretch mt-4" id="metricRow"></div>
 
@@ -352,7 +457,7 @@ code,pre,.mono{font-family:'Fira Code',monospace}
   <div id="coachRow"></div>
 
   <!-- Unearned Achievements -->
-  <div class="section-heading"><h2 id="achUnearnedTitle">🎯 待解锁成就</h2><div class="line"></div></div>
+  <div class="section-heading"><h2 id="achUnearnedTitle"><svg class="h-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>待解锁成就</h2><div class="line"></div></div>
   <div class="ach-grid" id="achUnearned" role="list" aria-label="待解锁成就列表"></div>
 
   <!-- Earned Achievements (collapsible) -->
@@ -366,7 +471,7 @@ code,pre,.mono{font-family:'Fira Code',monospace}
   </div>
 
   <!-- Charts - Row 1: Rating curve -->
-  <div class="section-heading"><h2>📈 成长轨迹</h2><div class="line"></div></div>
+  <div class="section-heading"><h2><svg class="h-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m19 9-5 5-4-4-3 3"/></svg>成长轨迹</h2><div class="line"></div></div>
   <div class="card chart-box w-full">
     <h3>COAST Rating 对比曲线</h3>
     <div class="chart-inner" id="chartRatingComp" style="height:420px" role="img" aria-label="Rating 对比曲线图"></div>
@@ -397,7 +502,7 @@ code,pre,.mono{font-family:'Fira Code',monospace}
   </div>
 
   <!-- Charts - Row 3.5: Difficulty climb (single card, platform switch chips) -->
-  <div class="section-heading"><h2>📈 难度爬升 · 每周 AC 均难</h2><div class="line"></div></div>
+  <div class="section-heading"><h2><svg class="h-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>难度爬升 · 每周 AC 均难</h2><div class="line"></div></div>
   <div class="card chart-box w-full mt-4">
     <div class="flex-row" style="gap:.5rem;margin-bottom:.25rem;align-items:center">
       <h3 id="climbTitle" style="margin:0;flex:1;font-size:.9375rem">难度爬升 · Codeforces</h3>
@@ -415,47 +520,127 @@ code,pre,.mono{font-family:'Fira Code',monospace}
   </div>
 
   <!-- Team Section -->
-  <div class="section-heading"><h2>👥 团队</h2><div class="line"></div></div>
+  <div class="section-heading"><h2><svg class="h-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>团队</h2><div class="line"></div></div>
   <div class="flex-row">
     <div class="card chart-box flex-1">
       <h3>COAST 团队 Rating 对比</h3>
       <div class="chart-inner" id="chartTeam" style="height:360px" role="img" aria-label="团队 Rating 对比图"></div>
     </div>
     <div class="card chart-box flex-1">
-      <h3>📋 最近提交</h3>
+      <h3><svg class="h-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>最近提交</h3>
       <div id="subTable" style="margin-top:0.75rem" role="table" aria-label="最近提交记录"></div>
     </div>
   </div>
 
-  <div class="footer">🐋 小鲸教练 · 数据: training.db · 图表: ECharts · 托管: GitHub Pages · <span id="footerTime"></span></div>
+  <div class="footer"><svg class="ico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 14c2.5 0 3.5-2 5-2s2.5 2 5 2 3.5-2 5-2 2.5 2 5 2"/><path d="M6 9c1.5-3 4-5 6-5s4.5 2 6 5"/></svg> 小鲸教练 · 数据: training.db · 图表: ECharts · 托管: GitHub Pages · <span id="footerTime"></span></div>
 </div>
 
 <script>
 // ===== ACCENT COLOR PALETTE（蓝基调冷色阶 + 语义色）=====
 const ACCENTS = {
-  // 蓝基调冷色阶：指标卡/周对比/里程碑统一走青→蓝→靛
-  blue:   {color:'#3f9df6',glow:'rgba(63,157,246,0.15)'},   // 品牌蓝
-  azure:  {color:'#60a5fa',glow:'rgba(96,165,250,0.15)'},
-  sky:    {color:'#38bdf8',glow:'rgba(56,189,248,0.15)'},
-  cyan:   {color:'#22d3ee',glow:'rgba(34,211,238,0.15)'},
-  indigo: {color:'#818cf8',glow:'rgba(129,140,248,0.15)'},
-  teal:   {color:'#2dd4bf',glow:'rgba(45,212,191,0.15)'},    // VP AC 青（备用）
+  // 2026-09-09 降饱和：与 charts.py 的图表色板同一套色温（S×0.65），全站不再两套色
+  blue:   {color:'#5F9CD6',glow:'rgba(95,156,214,0.15)'},   // 品牌蓝
+  azure:  {color:'#7BA8DF',glow:'rgba(123,168,223,0.15)'},
+  sky:    {color:'#5AB0D6',glow:'rgba(90,176,214,0.15)'},
+  cyan:   {color:'#46B9CA',glow:'rgba(70,185,202,0.15)'},
+  indigo: {color:'#969DE3',glow:'rgba(150,157,227,0.15)'},
+  teal:   {color:'#4AB7A9',glow:'rgba(74,183,169,0.15)'},   // VP AC 青（备用）
   // 语义色：保留含义，不参与蓝基调
-  green:  {color:'#10B981',glow:'rgba(16,185,129,0.15)'},   // AC/达成
-  red:    {color:'#f87171',glow:'rgba(248,113,113,0.15)'},  // 断训/危险/下跌
-  amber:  {color:'#f59e0b',glow:'rgba(245,158,11,0.15)'},   // (备用)
-  yellow: {color:'#facc15',glow:'rgba(250,204,21,0.15)'},   // (备用)
-  gray:   {color:'#94a3b8',glow:'rgba(148,163,184,0.15)'},
+  green:  {color:'#2E9B77',glow:'rgba(46,155,119,0.15)'},   // AC/达成
+  red:    {color:'#E08989',glow:'rgba(224,137,137,0.15)'},  // 断训/危险/下跌
+  amber:  {color:'#CC9334',glow:'rgba(204,147,52,0.15)'},   // (备用)
+  yellow: {color:'#D2B43D',glow:'rgba(210,180,61,0.15)'},   // (备用)
+  gray:   {color:'#9AA4B2',glow:'rgba(154,164,178,0.15)'},
+};
+
+// ===== 内联 SVG 图标库（替代 emoji：跨平台渲染一致、随文字变色、可统一线宽）=====
+const ICO_PATHS = {
+  whale:      '<path d="M2 14c2.5 0 3.5-2 5-2s2.5 2 5 2 3.5-2 5-2 2.5 2 5 2"/><path d="M6 9c1.5-3 4-5 6-5s4.5 2 6 5"/>',
+  trend:      '<path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m19 9-5 5-4-4-3 3"/>',
+  target:     '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/>',
+  flame:      '<path d="M12 2c1 4-3 5-3 9a3 3 0 0 0 6 0c0-1-.5-2-1-2.5 2 1 4 3.5 4 6.5a6 6 0 0 1-12 0c0-4.5 4-7 6-13Z"/>',
+  grid:       '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+  sword:      '<path d="M14.5 3.5 20 9l-9 9-2.5-2.5"/><path d="m11 13-8 8"/><path d="m5 15 4 4"/>',
+  mountain:   '<path d="m3 20 6.5-11 4 6 2.5-3.5L21 20Z"/>',
+  book:       '<path d="M4 4h9a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4Z"/><path d="M20 4h-3a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h4Z"/>',
+  zap:        '<path d="M13 2 4 14h7l-1 8 9-12h-7Z"/>',
+  shield:     '<path d="M12 3 5 6v6c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6Z"/>',
+  code:       '<path d="m9 8-5 4 5 4"/><path d="m15 8 5 4-5 4"/>',
+  clock:      '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  globe:      '<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18Z"/>',
+  moon:       '<path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/>',
+  sun:        '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+  calendar:   '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 11h18"/>',
+  send:       '<path d="M21 3 10.5 13.5"/><path d="M21 3 14 21l-3.5-7.5L3 10Z"/>',
+  layers:     '<path d="m12 3 9 5-9 5-9-5Z"/><path d="m3 13 9 5 9-5"/>',
+  flag:       '<path d="M5 21V4"/><path d="M5 5h11l-2 3.5L16 12H5"/>',
+  star:       '<path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8Z"/>',
+  check:      '<path d="m5 13 4.5 4.5L19 7"/>',
+  alert:      '<path d="M12 4 2.5 20h19Z"/><path d="M12 10v4"/><path d="M12 17.5v.01"/>',
+  lock:       '<rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/>',
+  user:       '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
+  medal:      '<circle cx="12" cy="15" r="5"/><path d="m9 3 3 6 3-6"/>',
+  pen:        '<path d="M4 20h4L19 9a2.5 2.5 0 0 0-3.5-3.5L4 16.5Z"/>',
+  heartbreak: '<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 1-.3 2-.8 2.9"/><path d="m13 11-2 3 3 2"/>',
+  trophy:     '<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>',
+};
+function svgIco(name, size, cls) {
+  const p = ICO_PATHS[name] || ICO_PATHS.star;
+  const s = size || 18;
+  return '<svg class="' + (cls || 'ico') + '" width="' + s + '" height="' + s + '" viewBox="0 0 24 24" fill="none" ' +
+         'stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" ' +
+         'aria-hidden="true">' + p + '</svg>';
+}
+
+// 后端 data.json 里仍带着 emoji（教练提示等）→ 前端查表换成图标；没收录的原样输出，不会变空白
+const EMOJI_ICO = {
+  '🎯':'target','⚡':'zap','📉':'trend','📖':'book','📚':'book','🚀':'send','⛰':'mountain','⚠':'alert',
+  '🔥':'flame','💔':'heartbreak','💥':'zap','☀':'sun','✅':'check','📝':'pen','🏅':'medal','🔐':'lock','👤':'user','🐋':'whale',
+};
+function icoOf(e, size) {
+  if (!e) return '';
+  const n = EMOJI_ICO[String(e).replace(/️/g, '')];
+  return n ? svgIco(n, size) : e;
+}
+
+// 成就 type → 图标（27 类归到 20 个图标，避免 105 个 emoji 各自为政）
+const ACH_TYPE_ICON = {
+  rating:'trend', total_ac:'target', streak:'flame', topics:'grid',
+  cf_ac:'sword', lg_ac:'mountain', nc_ac:'sword', contests:'flag',
+  max_diff:'mountain', max_daily:'book', max_weekly:'book',
+  first_try:'zap', avg_subs:'zap', diehard:'shield',
+  languages:'code', python_ac:'code', hour_span:'clock',
+  multi_platform:'globe', cf_lg_dual:'globe', cf_lg_50:'globe',
+  night_owl:'moon', early_bird:'sun',
+  full_week:'calendar', month_active:'calendar',
+  ac_rate:'trend', total_subs:'send', diff_bands:'layers',
+};
+
+// rating 类成就按段位换图标，避免十几个徽章全是同一个「趋势」图标
+function achIconName(a) {
+  if (a.type === 'rating') {
+    const t = a.target || 0;
+    if (t >= 2400) return 'trophy';
+    if (t >= 2000) return 'star';
+    if (t >= 1500) return 'target';
+    return 'trend';
+  }
+  return ACH_TYPE_ICON[a.type] || 'star';
+}
+// 成就自带的 color 字段（= CF 段位色）给图标染色，同款图标也能区分层级
+const ACH_TIER_COLOR = {
+  green:'#2E9B77', cyan:'#2A9CB0', blue:'#5C8AD5',
+  purple:'#9677DB', orange:'#D17A3E', flame:'#D16262', red:'#D16262',
 };
 
 function accentStyle(colorName) {
   const a = ACCENTS[colorName] || ACCENTS.blue;
-  const glowStrong = a.glow.replace('0.15','0.25');
+  // 2026-09-09 Apple 改版：中性玻璃卡 + 极淡品牌色光晕，颜色交给数值本身去表达
   return {
-    background: `linear-gradient(180deg, ${glowStrong} 0%, rgba(8,16,34,0.92) 100%)`,
-    backdropFilter: 'blur(20px)',
-    border: `1px solid ${a.color}66`,
-    boxShadow: `0 4px 24px ${glowStrong}`,
+    background: 'rgba(255,255,255,0.045)',
+    backdropFilter: 'blur(40px) saturate(180%)',
+    border: '1px solid rgba(255,255,255,0.085)',
+    boxShadow: `inset 0 1px 0 rgba(255,255,255,0.07), 0 8px 24px rgba(0,0,0,0.32), 0 0 26px ${a.glow}`,
   };
 }
 
@@ -475,7 +660,7 @@ async function init() {
     DATA = await resp.json();
   } catch(e) {
     document.getElementById('skeleton').innerHTML =
-      '<div style="text-align:center;padding:4rem;color:#EF4444">⚠️ 无法加载 data.json，请确认文件存在</div>';
+      '<div style="text-align:center;padding:4rem;color:#D16262">' + svgIco('alert', 18) + ' 无法加载 data.json，请确认文件存在</div>';
     return;
   }
   currentHandle = window.location.hash.slice(1) || DATA.handles[0];
@@ -541,6 +726,7 @@ function renderAll() {
   const label = DATA.labels[currentHandle] || currentHandle;
 
   updateTabs();
+  renderHero(m, label);
   renderMetrics(m, label);
   renderWeekRow(m);
   renderCoach(m);
@@ -548,6 +734,66 @@ function renderAll() {
   renderAchievements(m);
   renderCharts(m, label);
   renderTeam(m, label);
+  staggerIn();
+}
+
+// ===== HERO 焦点区：把「本周 AC」提出来当主角 =====
+function renderHero(m, label) {
+  const el = document.getElementById('hero');
+  if (!el) return;
+  const w = m.weekly || {}, tw = w.this_week || {}, lw = w.last_week || {};
+  const cur = tw.ac ?? 0, prev = lw.ac ?? 0;
+  const d = (w.ac_delta === undefined || w.ac_delta === null) ? cur - prev : w.ac_delta;
+
+  let deltaHTML;
+  if (d > 0)      deltaHTML = `比上周多 <b class="up">${d}</b> 题`;
+  else if (d < 0) deltaHTML = `比上周少 <b class="down">${-d}</b> 题`;
+  else            deltaHTML = `与上周持平`;
+
+  // 迷你趋势线：最近 8 周 AC
+  let spark = '';
+  try {
+    const bars = m.charts && m.charts.weeklyBars;
+    const vals = (bars.series[0].data || []).map(Number);
+    if (vals.length > 1) {
+      const W = 240, H = 56, PAD = 5;
+      const max = Math.max.apply(null, vals), min = Math.min.apply(null, vals);
+      const span = Math.max(max - min, 1);
+      const pts = vals.map(function (v, i) {
+        const x = PAD + (i * (W - PAD * 2)) / (vals.length - 1);
+        const y = H - PAD - ((v - min) / span) * (H - PAD * 2);
+        return x.toFixed(1) + ',' + y.toFixed(1);
+      }).join(' ');
+      const tail = pts.split(' ').pop().split(',');
+      spark = '<figure class="hero-spark" style="margin:0">' +
+        '<svg width="100%" height="56" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" ' +
+        'role="img" aria-label="最近 ' + vals.length + ' 周每周 AC 趋势">' +
+        '<polyline points="' + pts + '" fill="none" stroke="var(--brand)" stroke-width="2" ' +
+        'stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>' +
+        '<circle cx="' + tail[0] + '" cy="' + tail[1] + '" r="3.5" fill="var(--brand)"/></svg>' +
+        '<figcaption>最近 ' + vals.length + ' 周</figcaption></figure>';
+    }
+  } catch (e) { /* 数据缺失就不画趋势线 */ }
+
+  const streak = (m.streak && m.streak.current) || 0;
+  el.innerHTML =
+    '<div>' +
+      '<div class="hero-kicker">' + label + ' · 本周进度</div>' +
+      '<div class="hero-num">' + cur + '<small>题 AC</small></div>' +
+      '<div class="hero-sub">' + deltaHTML + '　·　连续打卡 ' + streak + ' 天</div>' +
+    '</div>' + spark;
+}
+
+// ===== 入场动效：卡片逐个淡入上移 =====
+function staggerIn() {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const els = document.querySelectorAll(
+    '#hero, #metricRow .card, #weekRow .card, .chart-box, .ach-badge, .coach-card'
+  );
+  els.forEach(function (el, i) {
+    el.classList.add('reveal');
+    el.style.animationDelay = Math.min(i * 35, 600) + 'ms';
+  });
 }
 
 // 本地时区的 YYYY-MM-DD（submitted_at 存的就是本地时间）
@@ -566,14 +812,15 @@ function renderCheckin(m) {
   }
   const days = Math.round((new Date(today) - new Date(m.lastSubmitDate)) / 86400000);
   el.style.display = 'flex';
-  el.innerHTML = `🔥 <span>今天还没看到你的提交${days > 1 ? `（已 ${days} 天）` : ''}</span>
+  el.innerHTML = `${svgIco('flame', 16)} <span>今天还没看到你的提交${days > 1 ? `（已 ${days} 天）` : ''}</span>
     <span class="banner-sub">数据更新于 ${DATA.exportedAt}，之后提交随下次同步刷新</span>`;
 }
 
 // ===== 小鲸教练说（折叠版：折叠=快讯，展开=薄弱点/冲刺点/复习）=====
 function coachTipHTML(t) {
+  // 图标用该条提示自带的 accent 上色（后端给每条 tip 都标了语义色）
   return `<div class="coach-tip">
-    <span class="tip-icon">${t.icon}</span>
+    <span class="tip-icon" style="color:${accentColor(t.accent || 'blue')}">${icoOf(t.icon, 15)}</span>
     <span class="tip-text">${t.text}</span>
   </div>`;
 }
@@ -588,7 +835,7 @@ function queueTipHTML(item, isMine) {
        </label>`
     : '';
   return `<div class="coach-tip queue-item">
-    <span class="tip-icon">${item.icon}</span>
+    <span class="tip-icon" style="color:${accentColor(item.accent || 'blue')}">${icoOf(item.icon, 15)}</span>
     <span class="tip-text">${item.text}</span>${cb}
   </div>`;
 }
@@ -611,7 +858,7 @@ function renderCoach(m) {
     if (!tips.length) { el.innerHTML = ''; return; }
     el.innerHTML = `
       <div class="card coach-card">
-        <div class="metric-title">🐋 小鲸教练说</div>
+        <div class="metric-title">${svgIco('whale', 16)} 小鲸教练说</div>
         <div class="coach-tips">${tips.map(coachTipHTML).join('')}</div>
       </div>`;
     return;
@@ -624,14 +871,14 @@ function renderCoach(m) {
   el.innerHTML = `
     <div class="card coach-card">
       <div class="coach-header">
-        <span class="metric-title">🐋 小鲸教练说</span>
+        <span class="metric-title">${svgIco('whale', 16)} 小鲸教练说</span>
         ${sections.length ? `<button class="coach-toggle" id="coachToggle" aria-expanded="false">展开全部 ▾</button>` : ''}
       </div>
       ${briefs.length ? `<div class="coach-tips">${briefs.map(coachTipHTML).join('')}</div>` : ''}
       <div id="coachDetails" style="display:none">
         ${sections.map(s => `
           <div class="coach-section">
-            <div class="coach-sec-title">${s.icon} ${s.title}</div>
+            <div class="coach-sec-title">${icoOf(s.icon, 14)} ${s.title}</div>
             <div class="coach-tips">${s.items.map(item => s.key === 'queue'
               ? queueTipHTML(item, MY_COACH_HANDLE === currentHandle)
               : coachTipHTML(item)).join('')}</div>
@@ -673,9 +920,9 @@ function renderAuthArea() {
   const el = document.getElementById('authArea');
   if (!el) return;
   if (!MY_COACH_HANDLE) {
-    el.innerHTML = `<button class="auth-btn" onclick="toggleAuthForm()">🔐 登录后打钩</button>`;
+    el.innerHTML = `<button class="auth-btn" onclick="toggleAuthForm()">${svgIco('lock', 15)} 登录后打钩</button>`;
   } else {
-    el.innerHTML = `<span class="auth-user">👤 ${MY_COACH_HANDLE}</span>
+    el.innerHTML = `<span class="auth-user">${svgIco('user', 15)} ${MY_COACH_HANDLE}</span>
       <button class="auth-btn" onclick="doLogout()">退出</button>`;
   }
 }
@@ -739,7 +986,7 @@ async function checkQueue(cb, problemId, platform) {
     } else {
       // 推进一轮：原地更新文案，移除勾选框防重复
       row.querySelector('.tip-text').textContent =
-        `✅ 已通过 · 第${data.stage}轮（${data.next_review} 前复习）`;
+        `已通过 · 第${data.stage}轮（${data.next_review} 前复习）`;
       row.querySelector('.queue-check')?.remove();
     }
   } catch(e) {
@@ -780,8 +1027,8 @@ function renderMetrics(m, label) {
       'min-width:200px;flex:1;max-width:320px',
       `<div class="metric-title">连续打卡</div>
        <div class="flame-row">
-         <span style="font-size:1.25rem">💔</span>
-         <span style="font-size:2rem;font-weight:800;color:#EF4444;line-height:1.2">断训</span>
+         <span style="color:#E08989">${svgIco('heartbreak', 20)}</span>
+         <span style="font-size:2rem;font-weight:800;color:#D16262;line-height:1.2">断训</span>
        </div>
        <div style="color:#FCA5A5;font-size:0.75rem;margin-top:0.25rem">${st.days_since_last} 天未提交</div>`
     );
@@ -806,19 +1053,19 @@ function metricCardHTML(title, value, sub, color) {
 function streakFlameHTML(days) {
   // 断训=红(语义警告)；活跃打卡走蓝阶由青到靛递进，火焰 emoji 保留热度语义
   let emoji, colorName, valColor;
-  if (days <= 0)       { emoji='💔'; colorName='red';    valColor='#f87171'; }
-  else if (days < 3)   { emoji='🔥'; colorName='cyan';   valColor='#22d3ee'; }
-  else if (days < 7)   { emoji='🔥'; colorName='sky';    valColor='#38bdf8'; }
-  else if (days < 14)  { emoji='🔥'; colorName='blue';   valColor='#3f9df6'; }
-  else if (days < 30)  { emoji='💥'; colorName='azure';  valColor='#60a5fa'; }
-  else                 { emoji='☀️'; colorName='indigo'; valColor='#818cf8'; }
+  if (days <= 0)       { emoji='heartbreak'; colorName='red';    valColor='#E08989'; }
+  else if (days < 3)   { emoji='flame';      colorName='cyan';   valColor='#46B9CA'; }
+  else if (days < 7)   { emoji='flame';      colorName='sky';    valColor='#5AB0D6'; }
+  else if (days < 14)  { emoji='flame';      colorName='blue';   valColor='#5F9CD6'; }
+  else if (days < 30)  { emoji='zap';        colorName='azure';  valColor='#7BA8DF'; }
+  else                 { emoji='sun';        colorName='indigo'; valColor='#969DE3'; }
 
   return cardWrap(
     accentStyle(colorName),
     'min-width:200px;flex:1;max-width:320px',
     `<div class="metric-title">连续打卡</div>
      <div class="flame-row">
-       <span style="font-size:1.25rem">${emoji}</span>
+       <span style="color:${valColor}">${svgIco(emoji, 20)}</span>
        <span style="font-size:2rem;font-weight:800;color:${valColor};line-height:1.2">${days}</span>
        <span style="color:${valColor};font-size:0.875rem;font-weight:600">天</span>
      </div>
@@ -840,10 +1087,10 @@ function renderWeekRow(m) {
   let html = '';
 
   // Week AC comparison
-  html += weekCompHTML('本周 AC 题数', w.this_week.ac, w.last_week.ac, w.ac_delta, '✅', 'cyan');
+  html += weekCompHTML('本周 AC 题数', w.this_week.ac, w.last_week.ac, w.ac_delta, 'check', 'cyan');
 
   // Week subs comparison
-  html += weekCompHTML('本周提交次数', w.this_week.subs, w.last_week.subs, w.subs_delta, '📝', 'sky');
+  html += weekCompHTML('本周提交次数', w.this_week.subs, w.last_week.subs, w.subs_delta, 'pen', 'sky');
 
   // Longest streak
   html += cardWrap(
@@ -851,9 +1098,9 @@ function renderWeekRow(m) {
     'min-width:200px;flex:1;max-width:320px',
     `<div class="metric-title">历史最长打卡</div>
      <div class="flame-row">
-       <span style="font-size:1.25rem">🏅</span>
-       <span style="font-size:1.75rem;font-weight:700;color:#818cf8;line-height:1.2">${st.longest}</span>
-       <span style="color:#818cf8;font-size:0.875rem;font-weight:600">天</span>
+       <span style="color:#969DE3">${svgIco('medal', 20)}</span>
+       <span style="font-size:1.75rem;font-weight:700;color:#969DE3;line-height:1.2">${st.longest}</span>
+       <span style="color:#969DE3;font-size:0.875rem;font-weight:600">天</span>
      </div>
      <div class="metric-sub">当前 ${st.current} 天</div>`
   );
@@ -863,12 +1110,12 @@ function renderWeekRow(m) {
     html += cardWrap(
       accentStyle('azure'),
       'min-width:200px;flex:1;max-width:320px',
-      `<div class="metric-title">🎯 下一目标</div>
-       <div style="font-size:1.125rem;font-weight:700">${nm.icon} ${nm.name}</div>
+      `<div class="metric-title">${svgIco('target', 14)} 下一目标</div>
+       <div style="font-size:1.125rem;font-weight:700">${svgIco(ACH_TYPE_ICON[nm.type] || 'star', 16)} ${nm.name}</div>
        <div class="progress-track">
-         <div class="progress-fill" style="width:${nm.progress}%;background:linear-gradient(90deg,#3f9df6,#38bdf8)"></div>
+         <div class="progress-fill" style="width:${nm.progress}%;background:linear-gradient(90deg,#5F9CD6,#5AB0D6)"></div>
        </div>
-       <div style="font-size:0.75rem;color:#3f9df6;margin-top:0.25rem">${nm.progress}%</div>`
+       <div style="font-size:0.75rem;color:#5F9CD6;margin-top:0.25rem">${nm.progress}%</div>`
     );
   }
 
@@ -877,14 +1124,14 @@ function renderWeekRow(m) {
 
 function weekCompHTML(label, thisVal, lastVal, delta, icon, accent) {
   let arrow, clr;
-  if (delta > 0)      { arrow='↑'; clr='#10B981'; }
-  else if (delta < 0) { arrow='↓'; clr='#EF4444'; }
+  if (delta > 0)      { arrow='↑'; clr='#2E9B77'; }
+  else if (delta < 0) { arrow='↓'; clr='#D16262'; }
   else                { arrow='→'; clr='#6B7280'; }
 
   return cardWrap(
     accentStyle(accent),
     'min-width:200px;flex:1;max-width:320px',
-    `<div class="week-label">${icon} ${label}</div>
+    `<div class="week-label">${svgIco(icon, 14)} ${label}</div>
      <div class="week-val">${thisVal}</div>
      <div class="flex-row gap-1" style="margin-top:0.25rem;align-items:center">
        <span class="week-delta" style="color:${clr}">${arrow} ${Math.abs(delta)}%</span>
@@ -900,8 +1147,8 @@ function renderAchievements(m) {
   const earned = all.filter(a => a.earned);
 
   // Section title with count
-  document.getElementById('achUnearnedTitle').textContent =
-    `🎯 待解锁成就 (${all.filter(a => !a.earned).length})`;
+  document.getElementById('achUnearnedTitle').innerHTML =
+    svgIco('target', 18, 'h-ico') + '待解锁成就 (' + all.filter(a => !a.earned).length + ')';
 
   // Unearned
   document.getElementById('achUnearned').innerHTML = unearned.map((a, i) =>
@@ -923,14 +1170,14 @@ function achBadgeHTML(a, delay) {
   let tooltip = '';
 
   if (a.earned) {
-    bg = 'rgba(16,185,129,0.12)'; border = 'rgba(16,185,129,0.4)';
-    txt = '#10B981'; bar = '#10B981';
-    shadow = '0 0 16px rgba(16,185,129,0.2)'; badge = '✅';
+    bg = 'rgba(46,155,119,0.12)'; border = 'rgba(46,155,119,0.4)';
+    txt = '#2E9B77'; bar = '#2E9B77';
+    shadow = '0 0 16px rgba(46,155,119,0.2)'; badge = svgIco('check', 13);
     const dateStr = a.earned_date || '?';
     tooltip = `解锁于 ${dateStr}\n${a.unlock_hint||''}`;
   } else if (a.progress > 70) {
     bg = 'rgba(96,165,250,0.08)'; border = 'rgba(96,165,250,0.28)';
-    txt = '#60a5fa'; bar = '#60a5fa';
+    txt = '#7BA8DF'; bar = '#7BA8DF';
     shadow = 'none'; badge = '';
     tooltip = `${a.unlock_hint||''}\n进度 ${a.progress}%`;
   } else if (a.progress > 30) {
@@ -946,7 +1193,7 @@ function achBadgeHTML(a, delay) {
   }
 
   const inner = `
-    <div class="ach-icon">${a.icon}</div>
+    <div class="ach-icon" style="color:${ACH_TIER_COLOR[a.color] || txt}">${svgIco(achIconName(a), 24)}</div>
     <div class="ach-name" style="color:${txt}">${a.name}</div>
     ${a.earned ? `<div style="font-size:0.7rem;margin-top:0.15rem">${badge}</div>` : `
       <div class="progress-track" style="height:0.25rem;margin-top:0.25rem">
@@ -1155,8 +1402,8 @@ function renderTeam(m, label) {
   for (const r of subs.slice(0, 15)) {
     const v = r.verdict;
     let vc, vw;
-    if (v === 'AC') { vc = '#10B981'; vw = '700'; }
-    else if (['WA','TLE','MLE','RE','CE'].includes(v)) { vc = '#EF4444'; vw = '500'; }
+    if (v === 'AC') { vc = '#2E9B77'; vw = '700'; }
+    else if (['WA','TLE','MLE','RE','CE'].includes(v)) { vc = '#D16262'; vw = '500'; }
     else { vc = '#9CA3AF'; vw = '400'; }
 
     html += `<div class="sub-row">

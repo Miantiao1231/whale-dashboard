@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 24,
+        "week_ac": 23,
         "total_ac": 830,
         "total_subs": 2363,
         "ac_rate": 39.9,
@@ -22,7 +22,7 @@
         "current": 8,
         "longest": 13,
         "last_active": "2026-09-09",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
@@ -2183,8 +2183,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-16",
-              "2026-09-09"
+              "2026-07-17",
+              "2026-09-10"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -2241,10 +2241,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-07-16",
-                  7
-                ],
                 [
                   "2026-07-18",
                   5
@@ -13861,7 +13857,7 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 13,
+        "week_ac": 11,
         "total_ac": 329,
         "total_subs": 1141,
         "ac_rate": 35.4,
@@ -13871,7 +13867,7 @@
         "current": 3,
         "longest": 14,
         "last_active": "2026-09-09",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
@@ -15704,7 +15700,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 0.7 题，上周日均 1.9 题——先把热度捡回来"
+            "text": "本周日均 0.5 题，上周日均 1.9 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -16021,8 +16017,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-16",
-              "2026-09-09"
+              "2026-07-17",
+              "2026-09-10"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -16079,10 +16075,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-07-16",
-                  4
-                ],
                 [
                   "2026-07-18",
                   7
@@ -22641,7 +22633,7 @@
     },
     "lywyb": {
       "stats": {
-        "week_ac": 25,
+        "week_ac": 21,
         "total_ac": 362,
         "total_subs": 1078,
         "ac_rate": 38.4,
@@ -22651,7 +22643,7 @@
         "current": 5,
         "longest": 14,
         "last_active": "2026-09-09",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
@@ -24496,21 +24488,21 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2254E Chronostasis · 第1轮 · 超期 21 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "text": "1500 2254E Chronostasis · 第1轮 · 超期 22 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1300 2248C Maximize the Score · 第1轮 · 超期 11 天 · ⚡自动 · ⚡自动入队：难度 1300（超当前 rating 1080 的 +220）· dp,greedy",
+                "text": "1300 2248C Maximize the Score · 第1轮 · 超期 12 天 · ⚡自动 · ⚡自动入队：难度 1300（超当前 rating 1080 的 +220）· dp,greedy",
                 "problem_id": "2248C",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 超期 11 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1132 的 +268）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 12 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1132 的 +268）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -24803,8 +24795,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-16",
-              "2026-09-09"
+              "2026-07-17",
+              "2026-09-10"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -24861,10 +24853,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-07-16",
-                  3
-                ],
                 [
                   "2026-07-17",
                   1
@@ -32209,5 +32197,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-09 21:07"
+  "exportedAt": "2026-09-10 00:07"
 }

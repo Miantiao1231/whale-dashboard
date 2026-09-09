@@ -14,7 +14,7 @@
       "stats": {
         "week_ac": 22,
         "total_ac": 828,
-        "total_subs": 2356,
+        "total_subs": 2358,
         "ac_rate": 39.9,
         "topic_count": 18
       },
@@ -28,14 +28,14 @@
       "weekly": {
         "this_week": {
           "ac": 12,
-          "subs": 25
+          "subs": 27
         },
         "last_week": {
           "ac": 16,
           "subs": 31
         },
         "ac_delta": -25,
-        "subs_delta": -19
+        "subs_delta": -13
       },
       "achievements": {
         "achievements": [
@@ -334,7 +334,7 @@
             "color": "red",
             "earned": false,
             "progress": 47,
-            "current": 2356,
+            "current": 2358,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -1957,6 +1957,20 @@
       "lastSubmitDate": "2026-09-09",
       "recentSubmissions": [
         {
+          "time": "13:07",
+          "date": "2026-09-09",
+          "platform": "codeforces",
+          "problem": "1363C",
+          "verdict": "WA"
+        },
+        {
+          "time": "13:06",
+          "date": "2026-09-09",
+          "platform": "codeforces",
+          "problem": "1363C",
+          "verdict": "RE"
+        },
+        {
           "time": "00:07",
           "date": "2026-09-09",
           "platform": "codeforces",
@@ -2151,20 +2165,6 @@
           "platform": "codeforces",
           "problem": "1013B",
           "verdict": "WA"
-        },
-        {
-          "time": "10:52",
-          "date": "2026-09-06",
-          "platform": "codeforces",
-          "problem": "1013B",
-          "verdict": "WA"
-        },
-        {
-          "time": "10:40",
-          "date": "2026-09-06",
-          "platform": "codeforces",
-          "problem": "1051A",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -2487,7 +2487,7 @@
                   }
                 },
                 {
-                  "value": 819,
+                  "value": 820,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -2535,7 +2535,7 @@
                   }
                 },
                 {
-                  "value": 20,
+                  "value": 21,
                   "itemStyle": {
                     "color": "#F59E0B",
                     "borderRadius": [
@@ -12093,6 +12093,14 @@
                 [
                   "2026-09-08",
                   800
+                ],
+                [
+                  "2026-09-09",
+                  1600.0
+                ],
+                [
+                  "2026-09-09",
+                  1600.0
                 ]
               ],
               "symbolSize": 5,
@@ -32154,5 +32162,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-09 12:32"
+  "exportedAt": "2026-09-09 15:07"
 }

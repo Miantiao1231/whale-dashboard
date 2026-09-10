@@ -22633,10 +22633,10 @@
     },
     "lywyb": {
       "stats": {
-        "week_ac": 21,
-        "total_ac": 362,
-        "total_subs": 1078,
-        "ac_rate": 38.4,
+        "week_ac": 22,
+        "total_ac": 363,
+        "total_subs": 1079,
+        "ac_rate": 38.5,
         "topic_count": 16
       },
       "streak": {
@@ -22648,15 +22648,15 @@
       },
       "weekly": {
         "this_week": {
-          "ac": 10,
-          "subs": 18
+          "ac": 11,
+          "subs": 19
         },
         "last_week": {
           "ac": 19,
           "subs": 32
         },
-        "ac_delta": -47,
-        "subs_delta": -44
+        "ac_delta": -42,
+        "subs_delta": -41
       },
       "achievements": {
         "achievements": [
@@ -22700,19 +22700,6 @@
             "unlock_hint": "单周 AC 35 题"
           },
           {
-            "id": "df_2200",
-            "name": "攀登者",
-            "icon": "🧗",
-            "type": "max_diff",
-            "target": 2200,
-            "color": "orange",
-            "earned": false,
-            "progress": 91,
-            "current": 2000.0,
-            "earned_date": null,
-            "unlock_hint": "解决难度 >= 2200 的题目"
-          },
-          {
             "id": "ft_200",
             "name": "无瑕之人",
             "icon": "😇",
@@ -22720,8 +22707,8 @@
             "target": 200,
             "color": "red",
             "earned": false,
-            "progress": 91,
-            "current": 182,
+            "progress": 92,
+            "current": 183,
             "earned_date": null,
             "unlock_hint": "200 题首次提交即 AC"
           },
@@ -22733,10 +22720,23 @@
             "target": 400,
             "color": "purple",
             "earned": false,
-            "progress": 90,
-            "current": 362,
+            "progress": 91,
+            "current": 363,
             "earned_date": null,
             "unlock_hint": "累计 AC 400 题"
+          },
+          {
+            "id": "df_2200",
+            "name": "攀登者",
+            "icon": "🧗",
+            "type": "max_diff",
+            "target": 2200,
+            "color": "orange",
+            "earned": false,
+            "progress": 91,
+            "current": 2000.0,
+            "earned_date": null,
+            "unlock_hint": "解决难度 >= 2200 的题目"
           },
           {
             "id": "r_1500",
@@ -22929,7 +22929,7 @@
             "color": "orange",
             "earned": false,
             "progress": 74,
-            "current": 148,
+            "current": 149,
             "earned_date": null,
             "unlock_hint": "洛谷 AC 200 题"
           },
@@ -22941,8 +22941,8 @@
             "target": 500,
             "color": "purple",
             "earned": false,
-            "progress": 72,
-            "current": 362,
+            "progress": 73,
+            "current": 363,
             "earned_date": null,
             "unlock_hint": "累计 AC 500 题"
           },
@@ -23085,7 +23085,7 @@
             "color": "orange",
             "earned": false,
             "progress": 54,
-            "current": 1078,
+            "current": 1079,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -23124,7 +23124,7 @@
             "color": "purple",
             "earned": false,
             "progress": 48,
-            "current": 362,
+            "current": 363,
             "earned_date": null,
             "unlock_hint": "累计 AC 750 题"
           },
@@ -23189,7 +23189,7 @@
             "color": "orange",
             "earned": false,
             "progress": 36,
-            "current": 362,
+            "current": 363,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -23215,7 +23215,7 @@
             "color": "red",
             "earned": false,
             "progress": 30,
-            "current": 148,
+            "current": 149,
             "earned_date": null,
             "unlock_hint": "洛谷 AC 500 题"
           },
@@ -23241,7 +23241,7 @@
             "color": "orange",
             "earned": false,
             "progress": 24,
-            "current": 362,
+            "current": 363,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -23254,7 +23254,7 @@
             "color": "red",
             "earned": false,
             "progress": 22,
-            "current": 1078,
+            "current": 1079,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -23267,7 +23267,7 @@
             "color": "red",
             "earned": false,
             "progress": 18,
-            "current": 362,
+            "current": 363,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -23306,7 +23306,7 @@
             "color": "red",
             "earned": false,
             "progress": 12,
-            "current": 362,
+            "current": 363,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -23319,7 +23319,7 @@
             "color": "red",
             "earned": false,
             "progress": 7,
-            "current": 362,
+            "current": 363,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -24569,6 +24569,13 @@
       "lastSubmitDate": "2026-09-09",
       "recentSubmissions": [
         {
+          "time": "17:29",
+          "date": "2026-09-09",
+          "platform": "luogu",
+          "problem": "P1421",
+          "verdict": "AC"
+        },
+        {
           "time": "00:43",
           "date": "2026-09-09",
           "platform": "codeforces",
@@ -24770,13 +24777,6 @@
           "platform": "luogu",
           "problem": "P1714",
           "verdict": "Othe"
-        },
-        {
-          "time": "18:18",
-          "date": "2026-09-03",
-          "platform": "luogu",
-          "problem": "P1714",
-          "verdict": "Othe"
         }
       ],
       "charts": {
@@ -24972,6 +24972,10 @@
                 [
                   "2026-09-08",
                   3
+                ],
+                [
+                  "2026-09-09",
+                  1
                 ]
               ]
             }
@@ -25053,7 +25057,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 414,
+                  "value": 415,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -26891,6 +26895,10 @@
                 [
                   "2026-09-08",
                   800
+                ],
+                [
+                  "2026-09-09",
+                  1.0
                 ]
               ],
               "symbolSize": 7,
@@ -29608,14 +29616,14 @@
               "fontSize": 11
             },
             "data": [
-              "08/19",
               "08/31",
               "09/02",
               "09/03",
               "09/05",
               "09/06",
               "09/07",
-              "09/08"
+              "09/08",
+              "09/09"
             ]
           },
           "yAxis": {
@@ -29647,14 +29655,14 @@
             {
               "type": "bar",
               "data": [
-                5,
                 4,
                 4,
                 6,
                 4,
                 1,
                 7,
-                3
+                3,
+                1
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -29814,7 +29822,7 @@
                 16,
                 23,
                 12,
-                76,
+                77,
                 37,
                 4,
                 11,
@@ -30632,8 +30640,8 @@
                     "solved": 14
                   },
                   {
-                    "value": 2.2,
-                    "solved": 6
+                    "value": 2.0,
+                    "solved": 7
                   }
                 ],
                 "lineStyle": {
@@ -31179,7 +31187,7 @@
         "label": "小任",
         "rating": 1341,
         "rank": "3309",
-        "last_submit_days": 1,
+        "last_submit_days": 0,
         "nc_rating": 1233
       }
     ],
@@ -32197,5 +32205,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-10 09:08"
+  "exportedAt": "2026-09-10 12:07"
 }

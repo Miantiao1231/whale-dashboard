@@ -31225,7 +31225,7 @@
         "label": "Mianiii",
         "rating": 1769,
         "rank": "900",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1229
       },
       {
@@ -31233,7 +31233,7 @@
         "label": "小宋",
         "rating": 1174,
         "rank": "10402",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 429
       },
       {
@@ -31241,7 +31241,7 @@
         "label": "小任",
         "rating": 1341,
         "rank": "3309",
-        "last_submit_days": 1,
+        "last_submit_days": 2,
         "nc_rating": 1233
       }
     ],
@@ -32259,5 +32259,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-12 18:07"
+  "exportedAt": "2026-09-12 21:07"
 }

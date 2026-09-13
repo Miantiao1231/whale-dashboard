@@ -31262,7 +31262,7 @@
         "label": "小宋",
         "rating": 1148,
         "rank": "6586",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 429
       },
       {
@@ -32295,5 +32295,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-14 00:07"
+  "exportedAt": "2026-09-14 03:07"
 }

@@ -31254,7 +31254,7 @@
         "label": "Mianiii",
         "rating": 1769,
         "rank": "900",
-        "last_submit_days": 2,
+        "last_submit_days": 3,
         "nc_rating": 1229
       },
       {
@@ -31270,7 +31270,7 @@
         "label": "小任",
         "rating": 1341,
         "rank": "3309",
-        "last_submit_days": 3,
+        "last_submit_days": 4,
         "nc_rating": 1233
       }
     ],
@@ -32295,5 +32295,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-14 18:07"
+  "exportedAt": "2026-09-14 21:07"
 }

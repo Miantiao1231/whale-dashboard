@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 14,
+        "week_ac": 7,
         "total_ac": 833,
         "total_subs": 2370,
         "ac_rate": 40.0,
@@ -22,7 +22,7 @@
         "current": 10,
         "longest": 13,
         "last_active": "2026-09-11",
-        "days_since_last": 4,
+        "days_since_last": 5,
         "is_broken": true
       },
       "weekly": {
@@ -2188,8 +2188,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-22",
-              "2026-09-15"
+              "2026-07-23",
+              "2026-09-16"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -2246,10 +2246,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-07-22",
-                  3
-                ],
                 [
                   "2026-07-25",
                   3
@@ -13884,7 +13880,7 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 6,
+        "week_ac": 5,
         "total_ac": 343,
         "total_subs": 1171,
         "ac_rate": 35.8,
@@ -13894,8 +13890,8 @@
         "current": 7,
         "longest": 14,
         "last_active": "2026-09-13",
-        "days_since_last": 2,
-        "is_broken": false
+        "days_since_last": 3,
+        "is_broken": true
       },
       "weekly": {
         "this_week": {
@@ -15744,14 +15740,14 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2259E Treasure Map Destruction (Constructive Version) · 第1轮 · 超期 4 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1259 的 +241）· 2-sat,constructive algorithms,greedy",
+                "text": "1500 2259E Treasure Map Destruction (Constructive Version) · 第1轮 · 超期 5 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1259 的 +241）· 2-sat,constructive algorithms,greedy",
                 "problem_id": "2259E",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
-                "accent": "amber",
-                "text": "1400 2252C Risky Tower · 第3轮 · 9-16 到期 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
+                "accent": "red",
+                "text": "1400 2252C Risky Tower · 第3轮 · 今天复习 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -16044,8 +16040,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-22",
-              "2026-09-15"
+              "2026-07-23",
+              "2026-09-16"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -22809,7 +22805,7 @@
     },
     "lywyb": {
       "stats": {
-        "week_ac": 7,
+        "week_ac": 4,
         "total_ac": 371,
         "total_subs": 1101,
         "ac_rate": 38.9,
@@ -22819,7 +22815,7 @@
         "current": 9,
         "longest": 14,
         "last_active": "2026-09-10",
-        "days_since_last": 5,
+        "days_since_last": 6,
         "is_broken": true
       },
       "weekly": {
@@ -24669,28 +24665,28 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2254E Chronostasis · 第1轮 · 超期 27 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "text": "1500 2254E Chronostasis · 第1轮 · 超期 28 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1300 2248C Maximize the Score · 第1轮 · 超期 17 天 · ⚡自动 · ⚡自动入队：难度 1300（超当前 rating 1080 的 +220）· dp,greedy",
+                "text": "1300 2248C Maximize the Score · 第1轮 · 超期 18 天 · ⚡自动 · ⚡自动入队：难度 1300（超当前 rating 1080 的 +220）· dp,greedy",
                 "problem_id": "2248C",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 超期 17 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1132 的 +268）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 18 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1132 的 +268）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1600 1033C Permutation Game · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 1600（超当前 rating 1341 的 +259）· brute force,dp,games",
+                "text": "1600 1033C Permutation Game · 第1轮 · 超期 3 天 · ⚡自动 · ⚡自动入队：难度 1600（超当前 rating 1341 的 +259）· brute force,dp,games",
                 "problem_id": "1033C",
                 "platform": "codeforces"
               }
@@ -24983,8 +24979,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-22",
-              "2026-09-15"
+              "2026-07-23",
+              "2026-09-16"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -25041,10 +25037,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-07-22",
-                  1
-                ],
                 [
                   "2026-07-24",
                   2
@@ -32498,5 +32490,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-15 21:07"
+  "exportedAt": "2026-09-16 00:07"
 }

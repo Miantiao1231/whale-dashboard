@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 7,
+        "week_ac": 6,
         "total_ac": 839,
         "total_subs": 2381,
         "ac_rate": 40.1,
@@ -22,7 +22,7 @@
         "current": 2,
         "longest": 13,
         "last_active": "2026-09-17",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -1855,7 +1855,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 1.2 题，上周日均 2.6 题——先把热度捡回来"
+            "text": "本周日均 1.0 题，上周日均 2.6 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -2188,8 +2188,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-25",
-              "2026-09-18"
+              "2026-07-26",
+              "2026-09-19"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -2246,10 +2246,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-07-25",
-                  3
-                ],
                 [
                   "2026-07-26",
                   4
@@ -6411,19 +6407,19 @@
                 ],
                 [
                   "2026-09-08",
-                  800
+                  800.0
                 ],
                 [
                   "2026-09-08",
-                  800
+                  900.0
                 ],
                 [
                   "2026-09-08",
-                  800
+                  1300.0
                 ],
                 [
                   "2026-09-09",
-                  800
+                  1700.0
                 ],
                 [
                   "2026-09-09",
@@ -12150,11 +12146,11 @@
                 ],
                 [
                   "2026-09-08",
-                  800
+                  1700.0
                 ],
                 [
                   "2026-09-08",
-                  800
+                  1700.0
                 ],
                 [
                   "2026-09-09",
@@ -12448,9 +12444,9 @@
               "stack": "total",
               "data": [
                 20,
-                141,
+                140,
                 123,
-                45,
+                44,
                 53,
                 36,
                 21,
@@ -12458,7 +12454,7 @@
                 43,
                 134,
                 71,
-                11,
+                10,
                 11,
                 3,
                 0
@@ -12478,18 +12474,18 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                25,
-                40,
+                26,
+                41,
                 35,
-                19,
+                20,
                 23,
                 19,
                 3,
                 0,
-                22,
-                13,
-                19,
-                9,
+                23,
+                14,
+                20,
+                10,
                 8,
                 1,
                 1
@@ -13138,8 +13134,8 @@
                     "solved": 8
                   },
                   {
-                    "value": 1662.5,
-                    "solved": 8
+                    "value": 1500.0,
+                    "solved": 12
                   },
                   {
                     "value": 1666.7,
@@ -13941,7 +13937,7 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 5,
+        "week_ac": 3,
         "total_ac": 344,
         "total_subs": 1176,
         "ac_rate": 35.8,
@@ -13951,7 +13947,7 @@
         "current": 1,
         "longest": 14,
         "last_active": "2026-09-17",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -15801,14 +15797,14 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2259E Treasure Map Destruction (Constructive Version) · 第1轮 · 超期 7 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1259 的 +241）· 2-sat,constructive algorithms,greedy",
+                "text": "1500 2259E Treasure Map Destruction (Constructive Version) · 第1轮 · 超期 8 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1259 的 +241）· 2-sat,constructive algorithms,greedy",
                 "problem_id": "2259E",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第3轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第3轮 · 超期 3 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -16101,8 +16097,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-25",
-              "2026-09-18"
+              "2026-07-26",
+              "2026-09-19"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -16159,10 +16155,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-07-25",
-                  2
-                ],
                 [
                   "2026-07-26",
                   1
@@ -18180,7 +18172,7 @@
                 ],
                 [
                   "2026-09-08",
-                  800
+                  800.0
                 ],
                 [
                   "2026-09-10",
@@ -18188,11 +18180,11 @@
                 ],
                 [
                   "2026-09-11",
-                  800
+                  900.0
                 ],
                 [
                   "2026-09-11",
-                  800
+                  1300.0
                 ],
                 [
                   "2026-09-12",
@@ -21191,19 +21183,19 @@
                 ],
                 [
                   "2026-09-08",
-                  800
+                  1300.0
                 ],
                 [
                   "2026-09-09",
-                  800
+                  1300.0
                 ],
                 [
                   "2026-09-09",
-                  800
+                  1300.0
                 ],
                 [
                   "2026-09-09",
-                  800
+                  1300.0
                 ],
                 [
                   "2026-09-12",
@@ -21489,7 +21481,7 @@
               "stack": "total",
               "data": [
                 18,
-                64,
+                63,
                 79,
                 11,
                 30,
@@ -21498,8 +21490,8 @@
                 15,
                 21,
                 59,
-                30,
-                2,
+                31,
+                1,
                 9,
                 1,
                 0
@@ -21520,7 +21512,7 @@
               "stack": "total",
               "data": [
                 2,
-                12,
+                13,
                 13,
                 2,
                 6,
@@ -21530,7 +21522,7 @@
                 4,
                 7,
                 9,
-                2,
+                3,
                 1,
                 0,
                 1
@@ -22104,8 +22096,8 @@
                     "solved": 7
                   },
                   {
-                    "value": 1500.0,
-                    "solved": 1
+                    "value": 1125.0,
+                    "solved": 4
                   },
                   null
                 ],
@@ -22896,8 +22888,8 @@
         "current": 1,
         "longest": 14,
         "last_active": "2026-09-16",
-        "days_since_last": 2,
-        "is_broken": false
+        "days_since_last": 3,
+        "is_broken": true
       },
       "weekly": {
         "this_week": {
@@ -24729,7 +24721,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 0.4 题，上周日均 2.0 题——先把热度捡回来"
+            "text": "本周日均 0.3 题，上周日均 2.0 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -24746,28 +24738,28 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2254E Chronostasis · 第1轮 · 超期 30 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "text": "1500 2254E Chronostasis · 第1轮 · 超期 31 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1300 2248C Maximize the Score · 第1轮 · 超期 20 天 · ⚡自动 · ⚡自动入队：难度 1300（超当前 rating 1080 的 +220）· dp,greedy",
+                "text": "1300 2248C Maximize the Score · 第1轮 · 超期 21 天 · ⚡自动 · ⚡自动入队：难度 1300（超当前 rating 1080 的 +220）· dp,greedy",
                 "problem_id": "2248C",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 超期 20 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1132 的 +268）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 21 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1132 的 +268）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1600 1033C Permutation Game · 第1轮 · 超期 5 天 · ⚡自动 · ⚡自动入队：难度 1600（超当前 rating 1341 的 +259）· brute force,dp,games",
+                "text": "1600 1033C Permutation Game · 第1轮 · 超期 6 天 · ⚡自动 · ⚡自动入队：难度 1600（超当前 rating 1341 的 +259）· brute force,dp,games",
                 "problem_id": "1033C",
                 "platform": "codeforces"
               }
@@ -25060,8 +25052,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-25",
-              "2026-09-18"
+              "2026-07-26",
+              "2026-09-19"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -25118,10 +25110,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-07-25",
-                  2
-                ],
                 [
                   "2026-07-26",
                   5
@@ -27191,15 +27179,15 @@
                 ],
                 [
                   "2026-09-08",
-                  800
+                  800.0
                 ],
                 [
                   "2026-09-08",
-                  800
+                  900.0
                 ],
                 [
                   "2026-09-08",
-                  800
+                  1300.0
                 ],
                 [
                   "2026-09-09",
@@ -29918,15 +29906,15 @@
                 ],
                 [
                   "2026-09-08",
-                  800
+                  1300.0
                 ],
                 [
                   "2026-09-09",
-                  800
+                  1300.0
                 ],
                 [
                   "2026-09-09",
-                  800
+                  1300.0
                 ],
                 [
                   "2026-09-16",
@@ -30179,7 +30167,7 @@
               "stack": "total",
               "data": [
                 6,
-                61,
+                60,
                 79,
                 9,
                 23,
@@ -30188,8 +30176,8 @@
                 25,
                 13,
                 81,
-                38,
-                4,
+                39,
+                3,
                 12,
                 1
               ],
@@ -30209,7 +30197,7 @@
               "stack": "total",
               "data": [
                 4,
-                4,
+                5,
                 3,
                 0,
                 5,
@@ -30219,7 +30207,7 @@
                 2,
                 0,
                 3,
-                0,
+                1,
                 2,
                 0
               ],
@@ -30736,8 +30724,8 @@
                     "solved": 5
                   },
                   {
-                    "value": 1600.0,
-                    "solved": 1
+                    "value": 1150.0,
+                    "solved": 4
                   },
                   null
                 ],
@@ -31553,7 +31541,7 @@
         "label": "小宋",
         "rating": 1148,
         "rank": "6586",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 429
       },
       {
@@ -32586,5 +32574,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-18 21:07"
+  "exportedAt": "2026-09-19 00:07"
 }

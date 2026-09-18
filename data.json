@@ -24782,6 +24782,13 @@
                 "text": "1600 1033C Permutation Game · 第1轮 · 超期 6 天 · ⚡自动 · ⚡自动入队：难度 1600（超当前 rating 1341 的 +259）· brute force,dp,games",
                 "problem_id": "1033C",
                 "platform": "codeforces"
+              },
+              {
+                "icon": "⚡",
+                "accent": "amber",
+                "text": "1500 2259E Treasure Map Destruction (Constructive Version) · 第1轮 · 9-22 到期 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1286 的 +214）· 2-sat,constructive algorithms,greedy",
+                "problem_id": "2259E",
+                "platform": "codeforces"
               }
             ]
           },
@@ -32594,5 +32601,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-19 03:07"
+  "exportedAt": "2026-09-19 06:07"
 }

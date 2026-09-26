@@ -21761,7 +21761,7 @@
               "stack": "total",
               "data": [
                 20,
-                66,
+                67,
                 85,
                 11,
                 32,
@@ -21769,8 +21769,8 @@
                 8,
                 16,
                 21,
-                60,
-                31,
+                61,
+                32,
                 1,
                 11,
                 1,
@@ -31960,7 +31960,7 @@
         "label": "小任",
         "rating": 1326,
         "rank": "3547",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1233
       }
     ],
@@ -33006,5 +33006,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-27 00:07"
+  "exportedAt": "2026-09-27 03:07"
 }

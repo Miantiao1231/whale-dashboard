@@ -14,28 +14,28 @@
       "stats": {
         "week_ac": 16,
         "total_ac": 857,
-        "total_subs": 2422,
+        "total_subs": 2423,
         "ac_rate": 40.3,
         "topic_count": 18
       },
       "streak": {
-        "current": 2,
+        "current": 1,
         "longest": 13,
-        "last_active": "2026-09-24",
-        "days_since_last": 4,
-        "is_broken": true
+        "last_active": "2026-09-28",
+        "days_since_last": 0,
+        "is_broken": false
       },
       "weekly": {
         "this_week": {
           "ac": 0,
-          "subs": 0
+          "subs": 1
         },
         "last_week": {
           "ac": 16,
           "subs": 35
         },
         "ac_delta": -100,
-        "subs_delta": -100
+        "subs_delta": -97
       },
       "achievements": {
         "achievements": [
@@ -334,7 +334,7 @@
             "color": "red",
             "earned": false,
             "progress": 48,
-            "current": 2422,
+            "current": 2423,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -1959,8 +1959,15 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-09-24",
+      "lastSubmitDate": "2026-09-28",
       "recentSubmissions": [
+        {
+          "time": "14:58",
+          "date": "2026-09-28",
+          "platform": "codeforces",
+          "problem": "104976D",
+          "verdict": "WA"
+        },
         {
           "time": "18:13",
           "date": "2026-09-24",
@@ -2163,13 +2170,6 @@
           "platform": "luogu",
           "problem": "P2216",
           "verdict": "AC"
-        },
-        {
-          "time": "16:41",
-          "date": "2026-09-21",
-          "platform": "luogu",
-          "problem": "P2216",
-          "verdict": "Othe"
         }
       ],
       "charts": {
@@ -2486,7 +2486,7 @@
                   }
                 },
                 {
-                  "value": 837,
+                  "value": 838,
                   "itemStyle": {
                     "color": "#D16262",
                     "borderRadius": [
@@ -12355,6 +12355,10 @@
                 [
                   "2026-09-24",
                   2000.0
+                ],
+                [
+                  "2026-09-28",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -31975,7 +31979,7 @@
         "label": "Mianiii",
         "rating": 1769,
         "rank": "expert",
-        "last_submit_days": 3,
+        "last_submit_days": 0,
         "nc_rating": 1229
       },
       {
@@ -33044,5 +33048,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-28 12:07"
+  "exportedAt": "2026-09-28 15:07"
 }

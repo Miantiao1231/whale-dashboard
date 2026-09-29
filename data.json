@@ -14,8 +14,8 @@
       "stats": {
         "week_ac": 19,
         "total_ac": 864,
-        "total_subs": 2447,
-        "ac_rate": 40.2,
+        "total_subs": 2457,
+        "ac_rate": 40.0,
         "topic_count": 18
       },
       "streak": {
@@ -28,14 +28,14 @@
       "weekly": {
         "this_week": {
           "ac": 8,
-          "subs": 25
+          "subs": 35
         },
         "last_week": {
           "ac": 16,
           "subs": 35
         },
         "ac_delta": -50,
-        "subs_delta": -29
+        "subs_delta": 0
       },
       "achievements": {
         "achievements": [
@@ -321,7 +321,7 @@
             "color": "red",
             "earned": false,
             "progress": 49,
-            "current": 2447,
+            "current": 2457,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -1957,6 +1957,76 @@
       "lastSubmitDate": "2026-09-29",
       "recentSubmissions": [
         {
+          "time": "18:05",
+          "date": "2026-09-29",
+          "platform": "codeforces",
+          "problem": "105657E",
+          "verdict": "WA"
+        },
+        {
+          "time": "18:04",
+          "date": "2026-09-29",
+          "platform": "codeforces",
+          "problem": "105657E",
+          "verdict": "WA"
+        },
+        {
+          "time": "18:00",
+          "date": "2026-09-29",
+          "platform": "codeforces",
+          "problem": "105657E",
+          "verdict": "WA"
+        },
+        {
+          "time": "17:58",
+          "date": "2026-09-29",
+          "platform": "codeforces",
+          "problem": "105657E",
+          "verdict": "WA"
+        },
+        {
+          "time": "17:35",
+          "date": "2026-09-29",
+          "platform": "codeforces",
+          "problem": "105657E",
+          "verdict": "WA"
+        },
+        {
+          "time": "17:32",
+          "date": "2026-09-29",
+          "platform": "codeforces",
+          "problem": "105657E",
+          "verdict": "WA"
+        },
+        {
+          "time": "17:26",
+          "date": "2026-09-29",
+          "platform": "codeforces",
+          "problem": "105657E",
+          "verdict": "WA"
+        },
+        {
+          "time": "17:21",
+          "date": "2026-09-29",
+          "platform": "codeforces",
+          "problem": "105657E",
+          "verdict": "WA"
+        },
+        {
+          "time": "17:15",
+          "date": "2026-09-29",
+          "platform": "codeforces",
+          "problem": "105657E",
+          "verdict": "WA"
+        },
+        {
+          "time": "16:10",
+          "date": "2026-09-29",
+          "platform": "codeforces",
+          "problem": "105657E",
+          "verdict": "WA"
+        },
+        {
           "time": "14:28",
           "date": "2026-09-29",
           "platform": "codeforces",
@@ -2094,76 +2164,6 @@
           "date": "2026-09-28",
           "platform": "codeforces",
           "problem": "104976J",
-          "verdict": "WA"
-        },
-        {
-          "time": "15:35",
-          "date": "2026-09-28",
-          "platform": "codeforces",
-          "problem": "104976M",
-          "verdict": "AC"
-        },
-        {
-          "time": "15:12",
-          "date": "2026-09-28",
-          "platform": "codeforces",
-          "problem": "104976M",
-          "verdict": "WA"
-        },
-        {
-          "time": "15:11",
-          "date": "2026-09-28",
-          "platform": "codeforces",
-          "problem": "104976M",
-          "verdict": "WA"
-        },
-        {
-          "time": "15:09",
-          "date": "2026-09-28",
-          "platform": "codeforces",
-          "problem": "104976M",
-          "verdict": "WA"
-        },
-        {
-          "time": "14:58",
-          "date": "2026-09-28",
-          "platform": "codeforces",
-          "problem": "104976D",
-          "verdict": "WA"
-        },
-        {
-          "time": "18:13",
-          "date": "2026-09-24",
-          "platform": "codeforces",
-          "problem": "621E",
-          "verdict": "AC"
-        },
-        {
-          "time": "18:10",
-          "date": "2026-09-24",
-          "platform": "codeforces",
-          "problem": "621E",
-          "verdict": "WA"
-        },
-        {
-          "time": "18:08",
-          "date": "2026-09-24",
-          "platform": "codeforces",
-          "problem": "621E",
-          "verdict": "WA"
-        },
-        {
-          "time": "18:00",
-          "date": "2026-09-24",
-          "platform": "codeforces",
-          "problem": "621E",
-          "verdict": "WA"
-        },
-        {
-          "time": "17:58",
-          "date": "2026-09-24",
-          "platform": "codeforces",
-          "problem": "621E",
           "verdict": "WA"
         }
       ],
@@ -2485,7 +2485,7 @@
                   }
                 },
                 {
-                  "value": 854,
+                  "value": 864,
                   "itemStyle": {
                     "color": "#D16262",
                     "borderRadius": [
@@ -12437,6 +12437,46 @@
                 ],
                 [
                   "2026-09-28",
+                  800
+                ],
+                [
+                  "2026-09-29",
+                  800
+                ],
+                [
+                  "2026-09-29",
+                  800
+                ],
+                [
+                  "2026-09-29",
+                  800
+                ],
+                [
+                  "2026-09-29",
+                  800
+                ],
+                [
+                  "2026-09-29",
+                  800
+                ],
+                [
+                  "2026-09-29",
+                  800
+                ],
+                [
+                  "2026-09-29",
+                  800
+                ],
+                [
+                  "2026-09-29",
+                  800
+                ],
+                [
+                  "2026-09-29",
+                  800
+                ],
+                [
+                  "2026-09-29",
                   800
                 ],
                 [
@@ -33158,5 +33198,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-29 15:07"
+  "exportedAt": "2026-09-29 18:07"
 }

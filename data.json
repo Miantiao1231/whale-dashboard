@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 25,
-        "total_ac": 878,
-        "total_subs": 2490,
+        "week_ac": 26,
+        "total_ac": 879,
+        "total_subs": 2491,
         "ac_rate": 40.1,
         "topic_count": 18
       },
       "streak": {
-        "current": 3,
+        "current": 4,
         "longest": 13,
-        "last_active": "2026-09-30",
-        "days_since_last": 1,
+        "last_active": "2026-10-01",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 22,
-          "subs": 68
+          "ac": 23,
+          "subs": 69
         },
         "last_week": {
           "ac": 16,
           "subs": 35
         },
-        "ac_delta": 38,
-        "subs_delta": 94
+        "ac_delta": 44,
+        "subs_delta": 97
       },
       "achievements": {
         "achievements": [
@@ -126,7 +126,7 @@
             "color": "orange",
             "earned": false,
             "progress": 88,
-            "current": 878,
+            "current": 879,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -157,6 +157,19 @@
             "unlock_hint": "AC 率达到 50%"
           },
           {
+            "id": "cf_500",
+            "name": "CF 传说",
+            "icon": "👑",
+            "type": "cf_ac",
+            "target": 500,
+            "color": "red",
+            "earned": false,
+            "progress": 78,
+            "current": 388,
+            "earned_date": null,
+            "unlock_hint": "CF 平台 AC 500 题"
+          },
+          {
             "id": "r_2300",
             "name": "International Master",
             "icon": "🌍",
@@ -168,19 +181,6 @@
             "current": 1769,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2300"
-          },
-          {
-            "id": "cf_500",
-            "name": "CF 传说",
-            "icon": "👑",
-            "type": "cf_ac",
-            "target": 500,
-            "color": "red",
-            "earned": false,
-            "progress": 77,
-            "current": 387,
-            "earned_date": null,
-            "unlock_hint": "CF 平台 AC 500 题"
           },
           {
             "id": "es_2",
@@ -308,7 +308,7 @@
             "color": "orange",
             "earned": false,
             "progress": 59,
-            "current": 878,
+            "current": 879,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -321,7 +321,7 @@
             "color": "red",
             "earned": false,
             "progress": 50,
-            "current": 2490,
+            "current": 2491,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -347,7 +347,7 @@
             "color": "red",
             "earned": false,
             "progress": 44,
-            "current": 878,
+            "current": 879,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -399,7 +399,7 @@
             "color": "red",
             "earned": false,
             "progress": 29,
-            "current": 878,
+            "current": 879,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -425,7 +425,7 @@
             "color": "red",
             "earned": false,
             "progress": 18,
-            "current": 878,
+            "current": 879,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1954,8 +1954,15 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-09-30",
+      "lastSubmitDate": "2026-10-01",
       "recentSubmissions": [
+        {
+          "time": "12:53",
+          "date": "2026-10-01",
+          "platform": "codeforces",
+          "problem": "706C",
+          "verdict": "AC"
+        },
         {
           "time": "22:42",
           "date": "2026-09-30",
@@ -2158,13 +2165,6 @@
           "platform": "luogu",
           "problem": "P1253",
           "verdict": "AC"
-        },
-        {
-          "time": "18:55",
-          "date": "2026-09-29",
-          "platform": "luogu",
-          "problem": "P1253",
-          "verdict": "Othe"
         }
       ],
       "charts": {
@@ -2392,6 +2392,10 @@
                 [
                   "2026-09-30",
                   8
+                ],
+                [
+                  "2026-10-01",
+                  1
                 ]
               ]
             }
@@ -2473,7 +2477,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 999,
+                  "value": 1000,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -6651,6 +6655,10 @@
                 [
                   "2026-09-30",
                   800
+                ],
+                [
+                  "2026-10-01",
+                  1600.0
                 ]
               ],
               "symbolSize": 7,
@@ -12676,14 +12684,14 @@
               "fontSize": 11
             },
             "data": [
-              "09/08",
               "09/11",
               "09/16",
               "09/17",
               "09/20",
               "09/21",
               "09/24",
-              "09/30"
+              "09/30",
+              "10/01"
             ]
           },
           "yAxis": {
@@ -12715,14 +12723,14 @@
             {
               "type": "bar",
               "data": [
-                7,
                 1,
                 5,
                 4,
                 1,
                 5,
                 3,
-                8
+                8,
+                1
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -12905,14 +12913,14 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                27,
+                28,
                 42,
                 36,
                 20,
                 24,
                 22,
                 3,
-                0,
+                1,
                 23,
                 14,
                 20,
@@ -13575,8 +13583,8 @@
                     "solved": 4
                   },
                   {
-                    "value": 1666.7,
-                    "solved": 3
+                    "value": 1650.0,
+                    "solved": 4
                   }
                 ],
                 "lineStyle": {
@@ -16246,6 +16254,13 @@
                 "accent": "red",
                 "text": "1400 2252C Risky Tower · 第3轮 · 超期 15 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
+                "platform": "codeforces"
+              },
+              {
+                "icon": "⚡",
+                "accent": "amber",
+                "text": "1500 1791F Range Update Point Query · 第1轮 · 10-4 到期 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1200 的 +300）· binary search,brute force,data structures",
+                "problem_id": "1791F",
                 "platform": "codeforces"
               }
             ]
@@ -33360,5 +33375,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-01 12:07"
+  "exportedAt": "2026-10-01 15:07"
 }

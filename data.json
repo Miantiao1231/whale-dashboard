@@ -14,7 +14,7 @@
       "stats": {
         "week_ac": 33,
         "total_ac": 889,
-        "total_subs": 2516,
+        "total_subs": 2517,
         "ac_rate": 40.2,
         "topic_count": 18
       },
@@ -28,14 +28,14 @@
       "weekly": {
         "this_week": {
           "ac": 33,
-          "subs": 94
+          "subs": 95
         },
         "last_week": {
           "ac": 16,
           "subs": 35
         },
         "ac_delta": 106,
-        "subs_delta": 169
+        "subs_delta": 171
       },
       "achievements": {
         "achievements": [
@@ -170,6 +170,19 @@
             "unlock_hint": "AC 率达到 50%"
           },
           {
+            "id": "es_2",
+            "name": "一发入魂",
+            "icon": "💥",
+            "type": "avg_subs",
+            "target": 2,
+            "color": "purple",
+            "earned": false,
+            "progress": 78,
+            "current": 2.58,
+            "earned_date": null,
+            "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
+          },
+          {
             "id": "r_2300",
             "name": "International Master",
             "icon": "🌍",
@@ -181,19 +194,6 @@
             "current": 1769,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2300"
-          },
-          {
-            "id": "es_2",
-            "name": "一发入魂",
-            "icon": "💥",
-            "type": "avg_subs",
-            "target": 2,
-            "color": "purple",
-            "earned": false,
-            "progress": 77,
-            "current": 2.59,
-            "earned_date": null,
-            "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
           {
             "id": "dd_25",
@@ -321,7 +321,7 @@
             "color": "red",
             "earned": false,
             "progress": 50,
-            "current": 2516,
+            "current": 2517,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -1582,7 +1582,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.59,
+            "current": 2.58,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -1595,7 +1595,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.59,
+            "current": 2.58,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -1948,7 +1948,7 @@
               {
                 "icon": "📖",
                 "accent": "blue",
-                "text": "错误里 WA 占 83%——提交前先跑一遍样例边界值"
+                "text": "错误里 WA 占 82%——提交前先跑一遍样例边界值"
               }
             ]
           }
@@ -1956,6 +1956,13 @@
       },
       "lastSubmitDate": "2026-10-03",
       "recentSubmissions": [
+        {
+          "time": "15:08",
+          "date": "2026-10-03",
+          "platform": "codeforces",
+          "problem": "105471G",
+          "verdict": "TLE"
+        },
         {
           "time": "12:01",
           "date": "2026-10-03",
@@ -2157,13 +2164,6 @@
           "date": "2026-09-30",
           "platform": "codeforces",
           "problem": "2269A",
-          "verdict": "AC"
-        },
-        {
-          "time": "21:11",
-          "date": "2026-09-30",
-          "platform": "luogu",
-          "problem": "P3567",
           "verdict": "AC"
         }
       ],
@@ -2513,7 +2513,7 @@
                   }
                 },
                 {
-                  "value": 115,
+                  "value": 116,
                   "itemStyle": {
                     "color": "#D17A3E",
                     "borderRadius": [
@@ -12734,6 +12734,10 @@
                 [
                   "2026-10-03",
                   1700.0
+                ],
+                [
+                  "2026-10-03",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -33509,5 +33513,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-03 15:07"
+  "exportedAt": "2026-10-03 18:07"
 }

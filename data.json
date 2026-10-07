@@ -14661,28 +14661,28 @@
       "stats": {
         "week_ac": 5,
         "total_ac": 368,
-        "total_subs": 1236,
+        "total_subs": 1238,
         "ac_rate": 36.4,
         "topic_count": 17
       },
       "streak": {
-        "current": 2,
+        "current": 3,
         "longest": 14,
-        "last_active": "2026-10-06",
-        "days_since_last": 1,
+        "last_active": "2026-10-07",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
           "ac": 3,
-          "subs": 17
+          "subs": 19
         },
         "last_week": {
           "ac": 3,
           "subs": 7
         },
         "ac_delta": 0,
-        "subs_delta": 143
+        "subs_delta": 171
       },
       "achievements": {
         "achievements": [
@@ -15007,7 +15007,7 @@
             "color": "orange",
             "earned": false,
             "progress": 62,
-            "current": 1236,
+            "current": 1238,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -15280,7 +15280,7 @@
             "color": "red",
             "earned": false,
             "progress": 25,
-            "current": 1236,
+            "current": 1238,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -16587,8 +16587,22 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-10-06",
+      "lastSubmitDate": "2026-10-07",
       "recentSubmissions": [
+        {
+          "time": "20:26",
+          "date": "2026-10-07",
+          "platform": "codeforces",
+          "problem": "106252K",
+          "verdict": "WA"
+        },
+        {
+          "time": "20:16",
+          "date": "2026-10-07",
+          "platform": "codeforces",
+          "problem": "106252B",
+          "verdict": "AC"
+        },
         {
           "time": "17:48",
           "date": "2026-10-06",
@@ -16784,20 +16798,6 @@
           "platform": "nowcoder",
           "problem": "324146",
           "verdict": "WA"
-        },
-        {
-          "time": "20:08",
-          "date": "2026-09-27",
-          "platform": "nowcoder",
-          "problem": "324146",
-          "verdict": "RE"
-        },
-        {
-          "time": "19:23",
-          "date": "2026-09-27",
-          "platform": "nowcoder",
-          "problem": "324142",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -16961,6 +16961,10 @@
                 [
                   "2026-10-06",
                   3
+                ],
+                [
+                  "2026-10-07",
+                  1
                 ]
               ]
             }
@@ -17042,7 +17046,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 450,
+                  "value": 451,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -17054,7 +17058,7 @@
                   }
                 },
                 {
-                  "value": 562,
+                  "value": 563,
                   "itemStyle": {
                     "color": "#D16262",
                     "borderRadius": [
@@ -19023,6 +19027,10 @@
                 ],
                 [
                   "2026-10-06",
+                  800
+                ],
+                [
+                  "2026-10-07",
                   800
                 ]
               ],
@@ -22179,6 +22187,10 @@
                 [
                   "2026-10-06",
                   800
+                ],
+                [
+                  "2026-10-07",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -22229,14 +22241,14 @@
               "fontSize": 11
             },
             "data": [
-              "09/17",
               "09/21",
               "09/23",
               "09/26",
               "09/27",
               "09/28",
               "10/01",
-              "10/06"
+              "10/06",
+              "10/07"
             ]
           },
           "yAxis": {
@@ -22268,14 +22280,14 @@
             {
               "type": "bar",
               "data": [
-                1,
                 7,
                 6,
                 3,
                 2,
                 1,
                 2,
-                3
+                3,
+                1
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -32718,7 +32730,7 @@
         "label": "小宋",
         "rating": 1200,
         "rank": "4092",
-        "last_submit_days": 1,
+        "last_submit_days": 0,
         "nc_rating": 561
       },
       {
@@ -33779,5 +33791,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-07 18:07"
+  "exportedAt": "2026-10-07 21:07"
 }

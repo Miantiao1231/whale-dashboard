@@ -14698,30 +14698,30 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 9,
-        "total_ac": 372,
-        "total_subs": 1244,
+        "week_ac": 10,
+        "total_ac": 373,
+        "total_subs": 1247,
         "ac_rate": 36.6,
         "topic_count": 17
       },
       "streak": {
-        "current": 3,
+        "current": 4,
         "longest": 14,
-        "last_active": "2026-10-07",
-        "days_since_last": 1,
+        "last_active": "2026-10-08",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 7,
-          "subs": 25
+          "ac": 8,
+          "subs": 28
         },
         "last_week": {
           "ac": 3,
           "subs": 7
         },
-        "ac_delta": 133,
-        "subs_delta": 257
+        "ac_delta": 167,
+        "subs_delta": 300
       },
       "achievements": {
         "achievements": [
@@ -14773,7 +14773,7 @@
             "color": "purple",
             "earned": false,
             "progress": 93,
-            "current": 372,
+            "current": 373,
             "earned_date": null,
             "unlock_hint": "累计 AC 400 题"
           },
@@ -14789,6 +14789,19 @@
             "current": 11,
             "earned_date": null,
             "unlock_hint": "单日 AC 12 题"
+          },
+          {
+            "id": "no_10",
+            "name": "深夜战神",
+            "icon": "🌙",
+            "type": "night_owl",
+            "target": 10,
+            "color": "purple",
+            "earned": false,
+            "progress": 90,
+            "current": 9,
+            "earned_date": null,
+            "unlock_hint": "深夜 (0-6 点) AC 10 题"
           },
           {
             "id": "fn_ac_rate_40",
@@ -14856,19 +14869,6 @@
             "unlock_hint": "CF Rating 达到 1500"
           },
           {
-            "id": "no_10",
-            "name": "深夜战神",
-            "icon": "🌙",
-            "type": "night_owl",
-            "target": 10,
-            "color": "purple",
-            "earned": false,
-            "progress": 80,
-            "current": 8,
-            "earned_date": null,
-            "unlock_hint": "深夜 (0-6 点) AC 10 题"
-          },
-          {
             "id": "ma_25",
             "name": "满月战士",
             "icon": "🌕",
@@ -14903,7 +14903,7 @@
             "color": "orange",
             "earned": false,
             "progress": 76,
-            "current": 152,
+            "current": 153,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 200 题"
           },
@@ -14921,6 +14921,19 @@
             "unlock_hint": "CF Rating 达到 1600"
           },
           {
+            "id": "ac_500",
+            "name": "五百题",
+            "icon": "🔥",
+            "type": "total_ac",
+            "target": 500,
+            "color": "purple",
+            "earned": false,
+            "progress": 75,
+            "current": 373,
+            "earned_date": null,
+            "unlock_hint": "累计 AC 500 题"
+          },
+          {
             "id": "mp_4",
             "name": "四通八达",
             "icon": "🧭",
@@ -14932,19 +14945,6 @@
             "current": 3,
             "earned_date": null,
             "unlock_hint": "覆盖 4 个刷题平台"
-          },
-          {
-            "id": "ac_500",
-            "name": "五百题",
-            "icon": "🔥",
-            "type": "total_ac",
-            "target": 500,
-            "color": "purple",
-            "earned": false,
-            "progress": 74,
-            "current": 372,
-            "earned_date": null,
-            "unlock_hint": "累计 AC 500 题"
           },
           {
             "id": "fn_ac_rate_50",
@@ -15046,7 +15046,7 @@
             "color": "orange",
             "earned": false,
             "progress": 62,
-            "current": 1244,
+            "current": 1247,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -15150,7 +15150,7 @@
             "color": "purple",
             "earned": false,
             "progress": 50,
-            "current": 372,
+            "current": 373,
             "earned_date": null,
             "unlock_hint": "累计 AC 750 题"
           },
@@ -15228,7 +15228,7 @@
             "color": "orange",
             "earned": false,
             "progress": 37,
-            "current": 372,
+            "current": 373,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -15266,10 +15266,23 @@
             "target": 500,
             "color": "red",
             "earned": false,
-            "progress": 30,
-            "current": 152,
+            "progress": 31,
+            "current": 153,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
+          },
+          {
+            "id": "no_30",
+            "name": "夜之帝王",
+            "icon": "🦇",
+            "type": "night_owl",
+            "target": 30,
+            "color": "red",
+            "earned": false,
+            "progress": 30,
+            "current": 9,
+            "earned_date": null,
+            "unlock_hint": "深夜 (0-6 点) AC 30 题"
           },
           {
             "id": "st_50",
@@ -15285,19 +15298,6 @@
             "unlock_hint": "连续 50 天打卡"
           },
           {
-            "id": "no_30",
-            "name": "夜之帝王",
-            "icon": "🦇",
-            "type": "night_owl",
-            "target": 30,
-            "color": "red",
-            "earned": false,
-            "progress": 27,
-            "current": 8,
-            "earned_date": null,
-            "unlock_hint": "深夜 (0-6 点) AC 30 题"
-          },
-          {
             "id": "ac_1500",
             "name": "千五战神",
             "icon": "🗡️",
@@ -15306,7 +15306,7 @@
             "color": "orange",
             "earned": false,
             "progress": 25,
-            "current": 372,
+            "current": 373,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -15319,7 +15319,7 @@
             "color": "red",
             "earned": false,
             "progress": 25,
-            "current": 1244,
+            "current": 1247,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -15332,7 +15332,7 @@
             "color": "red",
             "earned": false,
             "progress": 19,
-            "current": 372,
+            "current": 373,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -15371,7 +15371,7 @@
             "color": "red",
             "earned": false,
             "progress": 12,
-            "current": 372,
+            "current": 373,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -15397,7 +15397,7 @@
             "color": "red",
             "earned": false,
             "progress": 7,
-            "current": 372,
+            "current": 373,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -16581,12 +16581,12 @@
               {
                 "icon": "📉",
                 "accent": "amber",
-                "text": "「计算几何」只 AC 过 1 题，是当前最弱专题——从 easy 档补 5 道"
+                "text": "「交互」只 AC 过 1 题，是当前最弱专题——从 easy 档补 5 道"
               },
               {
                 "icon": "📉",
                 "accent": "amber",
-                "text": "「交互」只 AC 过 1 题，是当前最弱专题——从 easy 档补 5 道"
+                "text": "「计算几何」只 AC 过 2 题，是当前最弱专题——从 easy 档补 5 道"
               }
             ]
           },
@@ -16626,8 +16626,29 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-10-07",
+      "lastSubmitDate": "2026-10-08",
       "recentSubmissions": [
+        {
+          "time": "00:21",
+          "date": "2026-10-08",
+          "platform": "codeforces",
+          "problem": "2275D",
+          "verdict": "AC"
+        },
+        {
+          "time": "00:16",
+          "date": "2026-10-08",
+          "platform": "codeforces",
+          "problem": "2275D",
+          "verdict": "WA"
+        },
+        {
+          "time": "00:15",
+          "date": "2026-10-08",
+          "platform": "codeforces",
+          "problem": "2275D",
+          "verdict": "WA"
+        },
         {
           "time": "23:28",
           "date": "2026-10-07",
@@ -16816,27 +16837,6 @@
           "platform": "codeforces",
           "problem": "438D",
           "verdict": "AC"
-        },
-        {
-          "time": "07:09",
-          "date": "2026-10-01",
-          "platform": "codeforces",
-          "problem": "438D",
-          "verdict": "AC"
-        },
-        {
-          "time": "13:13",
-          "date": "2026-09-28",
-          "platform": "nowcoder",
-          "problem": "324421",
-          "verdict": "AC"
-        },
-        {
-          "time": "13:12",
-          "date": "2026-09-28",
-          "platform": "nowcoder",
-          "problem": "324421",
-          "verdict": "WA"
         }
       ],
       "charts": {
@@ -17004,6 +17004,10 @@
                 [
                   "2026-10-07",
                   5
+                ],
+                [
+                  "2026-10-08",
+                  1
                 ]
               ]
             }
@@ -17085,7 +17089,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 455,
+                  "value": 456,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -17097,7 +17101,7 @@
                   }
                 },
                 {
-                  "value": 565,
+                  "value": 567,
                   "itemStyle": {
                     "color": "#D16262",
                     "borderRadius": [
@@ -19086,6 +19090,10 @@
                 ],
                 [
                   "2026-10-07",
+                  800
+                ],
+                [
+                  "2026-10-08",
                   800
                 ]
               ],
@@ -22254,6 +22262,14 @@
                 [
                   "2026-10-07",
                   800
+                ],
+                [
+                  "2026-10-08",
+                  800
+                ],
+                [
+                  "2026-10-08",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -22304,14 +22320,14 @@
               "fontSize": 11
             },
             "data": [
-              "09/21",
               "09/23",
               "09/26",
               "09/27",
               "09/28",
               "10/01",
               "10/06",
-              "10/07"
+              "10/07",
+              "10/08"
             ]
           },
           "yAxis": {
@@ -22343,14 +22359,14 @@
             {
               "type": "bar",
               "data": [
-                7,
                 6,
                 3,
                 2,
                 1,
                 2,
                 3,
-                5
+                5,
+                1
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -22503,19 +22519,19 @@
               "stack": "total",
               "data": [
                 20,
-                67,
+                68,
                 86,
                 11,
-                32,
-                16,
+                34,
+                17,
                 8,
                 16,
                 21,
-                61,
-                32,
+                63,
+                33,
                 1,
                 11,
-                1,
+                2,
                 0
               ],
               "itemStyle": {
@@ -33850,5 +33866,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-08 00:07"
+  "exportedAt": "2026-10-08 03:07"
 }

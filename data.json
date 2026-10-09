@@ -14733,28 +14733,28 @@
       "stats": {
         "week_ac": 8,
         "total_ac": 373,
-        "total_subs": 1249,
+        "total_subs": 1250,
         "ac_rate": 36.6,
         "topic_count": 17
       },
       "streak": {
-        "current": 4,
+        "current": 5,
         "longest": 14,
-        "last_active": "2026-10-08",
-        "days_since_last": 1,
+        "last_active": "2026-10-09",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
           "ac": 8,
-          "subs": 30
+          "subs": 31
         },
         "last_week": {
           "ac": 3,
           "subs": 7
         },
         "ac_delta": 167,
-        "subs_delta": 329
+        "subs_delta": 343
       },
       "achievements": {
         "achievements": [
@@ -15079,7 +15079,7 @@
             "color": "orange",
             "earned": false,
             "progress": 62,
-            "current": 1249,
+            "current": 1250,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -15352,7 +15352,7 @@
             "color": "red",
             "earned": false,
             "progress": 25,
-            "current": 1249,
+            "current": 1250,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -16659,8 +16659,15 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-10-08",
+      "lastSubmitDate": "2026-10-09",
       "recentSubmissions": [
+        {
+          "time": "17:33",
+          "date": "2026-10-09",
+          "platform": "codeforces",
+          "problem": "106252K",
+          "verdict": "AC"
+        },
         {
           "time": "20:31",
           "date": "2026-10-08",
@@ -16863,13 +16870,6 @@
           "platform": "codeforces",
           "problem": "106252I",
           "verdict": "WA"
-        },
-        {
-          "time": "15:03",
-          "date": "2026-10-05",
-          "platform": "codeforces",
-          "problem": "104077C",
-          "verdict": "WA"
         }
       ],
       "charts": {
@@ -17041,6 +17041,10 @@
                 [
                   "2026-10-08",
                   1
+                ],
+                [
+                  "2026-10-09",
+                  1
                 ]
               ]
             }
@@ -17122,7 +17126,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 457,
+                  "value": 458,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -19131,6 +19135,10 @@
                 ],
                 [
                   "2026-10-08",
+                  800
+                ],
+                [
+                  "2026-10-09",
                   800
                 ]
               ],
@@ -22361,14 +22369,14 @@
               "fontSize": 11
             },
             "data": [
-              "09/23",
               "09/26",
               "09/27",
               "09/28",
               "10/01",
               "10/06",
               "10/07",
-              "10/08"
+              "10/08",
+              "10/09"
             ]
           },
           "yAxis": {
@@ -22400,13 +22408,13 @@
             {
               "type": "bar",
               "data": [
-                6,
                 3,
                 2,
                 1,
                 2,
                 3,
                 5,
+                1,
                 1
               ],
               "barWidth": "55%",
@@ -33940,5 +33948,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-09 15:07"
+  "exportedAt": "2026-10-09 18:07"
 }

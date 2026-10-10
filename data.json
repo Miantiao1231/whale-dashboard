@@ -12,9 +12,9 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 35,
-        "total_ac": 922,
-        "total_subs": 2581,
+        "week_ac": 37,
+        "total_ac": 924,
+        "total_subs": 2583,
         "ac_rate": 40.5,
         "topic_count": 18
       },
@@ -27,15 +27,15 @@
       },
       "weekly": {
         "this_week": {
-          "ac": 24,
-          "subs": 51
+          "ac": 26,
+          "subs": 53
         },
         "last_week": {
           "ac": 42,
           "subs": 108
         },
-        "ac_delta": -43,
-        "subs_delta": -53
+        "ac_delta": -38,
+        "subs_delta": -51
       },
       "achievements": {
         "achievements": [
@@ -87,7 +87,7 @@
             "color": "orange",
             "earned": false,
             "progress": 92,
-            "current": 922,
+            "current": 924,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -138,8 +138,8 @@
             "target": 500,
             "color": "red",
             "earned": false,
-            "progress": 86,
-            "current": 431,
+            "progress": 87,
+            "current": 433,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -178,7 +178,7 @@
             "color": "purple",
             "earned": false,
             "progress": 78,
-            "current": 2.57,
+            "current": 2.56,
             "earned_date": null,
             "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
@@ -261,6 +261,19 @@
             "unlock_hint": "AC 率达到 60%"
           },
           {
+            "id": "ac_1500",
+            "name": "千五战神",
+            "icon": "🗡️",
+            "type": "total_ac",
+            "target": 1500,
+            "color": "orange",
+            "earned": false,
+            "progress": 62,
+            "current": 924,
+            "earned_date": null,
+            "unlock_hint": "累计 AC 1500 题"
+          },
+          {
             "id": "st_21",
             "name": "三周不怠",
             "icon": "📖",
@@ -272,19 +285,6 @@
             "current": 13,
             "earned_date": null,
             "unlock_hint": "连续 21 天打卡"
-          },
-          {
-            "id": "ac_1500",
-            "name": "千五战神",
-            "icon": "🗡️",
-            "type": "total_ac",
-            "target": 1500,
-            "color": "orange",
-            "earned": false,
-            "progress": 61,
-            "current": 922,
-            "earned_date": null,
-            "unlock_hint": "累计 AC 1500 题"
           },
           {
             "id": "dw_75",
@@ -321,7 +321,7 @@
             "color": "red",
             "earned": false,
             "progress": 52,
-            "current": 2581,
+            "current": 2583,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -347,7 +347,7 @@
             "color": "red",
             "earned": false,
             "progress": 46,
-            "current": 922,
+            "current": 924,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -386,7 +386,7 @@
             "color": "red",
             "earned": false,
             "progress": 31,
-            "current": 922,
+            "current": 924,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -425,7 +425,7 @@
             "color": "red",
             "earned": false,
             "progress": 18,
-            "current": 922,
+            "current": 924,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1582,7 +1582,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.57,
+            "current": 2.56,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -1595,7 +1595,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.57,
+            "current": 2.56,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -1853,11 +1853,6 @@
       "coachTips": {
         "collapsed": [
           {
-            "icon": "⚠️",
-            "accent": "amber",
-            "text": "本周日均 4.0 题，上周日均 6.0 题——先把热度捡回来"
-          },
-          {
             "icon": "🚀",
             "accent": "green",
             "text": "距「紫名在望」只差 2% 进度——集中火力冲一下"
@@ -1961,6 +1956,20 @@
       },
       "lastSubmitDate": "2026-10-10",
       "recentSubmissions": [
+        {
+          "time": "12:37",
+          "date": "2026-10-10",
+          "platform": "codeforces",
+          "problem": "1304D",
+          "verdict": "AC"
+        },
+        {
+          "time": "12:17",
+          "date": "2026-10-10",
+          "platform": "codeforces",
+          "problem": "1535D",
+          "verdict": "AC"
+        },
         {
           "time": "11:10",
           "date": "2026-10-10",
@@ -2155,20 +2164,6 @@
           "date": "2026-10-06",
           "platform": "codeforces",
           "problem": "106252I",
-          "verdict": "AC"
-        },
-        {
-          "time": "10:05",
-          "date": "2026-10-06",
-          "platform": "codeforces",
-          "problem": "106252I",
-          "verdict": "RE"
-        },
-        {
-          "time": "19:35",
-          "date": "2026-10-05",
-          "platform": "codeforces",
-          "problem": "1156C",
           "verdict": "AC"
         }
       ],
@@ -2404,7 +2399,7 @@
                 ],
                 [
                   "2026-10-10",
-                  1
+                  3
                 ]
               ]
             }
@@ -2486,7 +2481,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1045,
+                  "value": 1047,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -6844,6 +6839,14 @@
                 [
                   "2026-10-09",
                   900.0
+                ],
+                [
+                  "2026-10-10",
+                  1800.0
+                ],
+                [
+                  "2026-10-10",
+                  1800.0
                 ],
                 [
                   "2026-10-10",
@@ -13282,16 +13285,16 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                36,
-                44,
+                37,
+                45,
                 40,
-                22,
-                25,
+                24,
+                26,
                 23,
                 3,
                 1,
-                30,
-                20,
+                31,
+                21,
                 20,
                 10,
                 8,
@@ -13952,8 +13955,8 @@
                     "solved": 26
                   },
                   {
-                    "value": 1392.3,
-                    "solved": 13
+                    "value": 1446.7,
+                    "solved": 15
                   }
                 ],
                 "lineStyle": {
@@ -33995,5 +33998,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-10 12:07"
+  "exportedAt": "2026-10-10 15:07"
 }

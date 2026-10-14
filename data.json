@@ -14,7 +14,7 @@
       "stats": {
         "week_ac": 27,
         "total_ac": 937,
-        "total_subs": 2607,
+        "total_subs": 2608,
         "ac_rate": 40.7,
         "topic_count": 18
       },
@@ -28,14 +28,14 @@
       "weekly": {
         "this_week": {
           "ac": 7,
-          "subs": 14
+          "subs": 15
         },
         "last_week": {
           "ac": 32,
           "subs": 63
         },
         "ac_delta": -78,
-        "subs_delta": -78
+        "subs_delta": -76
       },
       "achievements": {
         "achievements": [
@@ -308,7 +308,7 @@
             "color": "red",
             "earned": false,
             "progress": 52,
-            "current": 2607,
+            "current": 2608,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -1962,6 +1962,13 @@
       "lastSubmitDate": "2026-10-14",
       "recentSubmissions": [
         {
+          "time": "14:32",
+          "date": "2026-10-14",
+          "platform": "codeforces",
+          "problem": "1467C",
+          "verdict": "AC"
+        },
+        {
           "time": "00:04",
           "date": "2026-10-14",
           "platform": "codeforces",
@@ -2162,13 +2169,6 @@
           "date": "2026-10-09",
           "platform": "codeforces",
           "problem": "16A",
-          "verdict": "AC"
-        },
-        {
-          "time": "22:04",
-          "date": "2026-10-09",
-          "platform": "codeforces",
-          "problem": "2266D",
           "verdict": "AC"
         }
       ],
@@ -2490,7 +2490,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1060,
+                  "value": 1061,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -6908,6 +6908,10 @@
                 [
                   "2026-10-13",
                   800
+                ],
+                [
+                  "2026-10-14",
+                  1900.0
                 ],
                 [
                   "2026-10-14",
@@ -13416,14 +13420,14 @@
               "stack": "total",
               "data": [
                 18,
-                12,
+                13,
                 14,
                 10,
                 19,
                 9,
                 0,
                 2,
-                4,
+                5,
                 4,
                 3,
                 1,
@@ -34341,5 +34345,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-14 12:07"
+  "exportedAt": "2026-10-14 15:07"
 }

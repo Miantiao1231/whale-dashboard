@@ -12,9 +12,9 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 27,
-        "total_ac": 937,
-        "total_subs": 2608,
+        "week_ac": 28,
+        "total_ac": 938,
+        "total_subs": 2609,
         "ac_rate": 40.7,
         "topic_count": 18
       },
@@ -27,15 +27,15 @@
       },
       "weekly": {
         "this_week": {
-          "ac": 7,
-          "subs": 15
+          "ac": 8,
+          "subs": 16
         },
         "last_week": {
           "ac": 32,
           "subs": 63
         },
-        "ac_delta": -78,
-        "subs_delta": -76
+        "ac_delta": -75,
+        "subs_delta": -75
       },
       "achievements": {
         "achievements": [
@@ -61,7 +61,7 @@
             "color": "orange",
             "earned": false,
             "progress": 94,
-            "current": 937,
+            "current": 938,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -113,7 +113,7 @@
             "color": "red",
             "earned": false,
             "progress": 89,
-            "current": 446,
+            "current": 447,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -255,8 +255,8 @@
             "target": 1500,
             "color": "orange",
             "earned": false,
-            "progress": 62,
-            "current": 937,
+            "progress": 63,
+            "current": 938,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -308,7 +308,7 @@
             "color": "red",
             "earned": false,
             "progress": 52,
-            "current": 2608,
+            "current": 2609,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -334,7 +334,7 @@
             "color": "red",
             "earned": false,
             "progress": 47,
-            "current": 937,
+            "current": 938,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -373,7 +373,7 @@
             "color": "red",
             "earned": false,
             "progress": 31,
-            "current": 937,
+            "current": 938,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -399,7 +399,7 @@
             "color": "red",
             "earned": false,
             "progress": 19,
-            "current": 937,
+            "current": 938,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1855,7 +1855,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 2.3 题，上周日均 4.6 题——先把热度捡回来"
+            "text": "本周日均 2.7 题，上周日均 4.6 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -1936,7 +1936,7 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「千题大师」还有 63（进度 94%）"
+                "text": "距「千题大师」还有 62（进度 94%）"
               },
               {
                 "icon": "🎯",
@@ -1961,6 +1961,13 @@
       },
       "lastSubmitDate": "2026-10-14",
       "recentSubmissions": [
+        {
+          "time": "17:57",
+          "date": "2026-10-14",
+          "platform": "codeforces",
+          "problem": "1117C",
+          "verdict": "AC"
+        },
         {
           "time": "14:32",
           "date": "2026-10-14",
@@ -2162,13 +2169,6 @@
           "date": "2026-10-09",
           "platform": "codeforces",
           "problem": "16B",
-          "verdict": "AC"
-        },
-        {
-          "time": "22:11",
-          "date": "2026-10-09",
-          "platform": "codeforces",
-          "problem": "16A",
           "verdict": "AC"
         }
       ],
@@ -2408,7 +2408,7 @@
                 ],
                 [
                   "2026-10-14",
-                  1
+                  2
                 ]
               ]
             }
@@ -2490,7 +2490,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1061,
+                  "value": 1062,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -6908,6 +6908,10 @@
                 [
                   "2026-10-13",
                   800
+                ],
+                [
+                  "2026-10-14",
+                  1900.0
                 ],
                 [
                   "2026-10-14",
@@ -13211,7 +13215,7 @@
                 3,
                 3,
                 5,
-                1
+                2
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -13424,7 +13428,7 @@
                 14,
                 10,
                 19,
-                9,
+                10,
                 0,
                 2,
                 5,
@@ -14072,7 +14076,7 @@
                   },
                   {
                     "value": 1900.0,
-                    "solved": 1
+                    "solved": 2
                   }
                 ],
                 "lineStyle": {
@@ -34345,5 +34349,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-14 15:07"
+  "exportedAt": "2026-10-14 18:07"
 }

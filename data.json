@@ -12,9 +12,9 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 21,
-        "total_ac": 950,
-        "total_subs": 2638,
+        "week_ac": 22,
+        "total_ac": 951,
+        "total_subs": 2639,
         "ac_rate": 40.8,
         "topic_count": 18
       },
@@ -27,15 +27,15 @@
       },
       "weekly": {
         "this_week": {
-          "ac": 4,
-          "subs": 10
+          "ac": 5,
+          "subs": 11
         },
         "last_week": {
           "ac": 17,
           "subs": 35
         },
-        "ac_delta": -76,
-        "subs_delta": -71
+        "ac_delta": -71,
+        "subs_delta": -69
       },
       "achievements": {
         "achievements": [
@@ -61,9 +61,22 @@
             "color": "orange",
             "earned": false,
             "progress": 95,
-            "current": 950,
+            "current": 951,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
+          },
+          {
+            "id": "cf_500",
+            "name": "CF 传说",
+            "icon": "👑",
+            "type": "cf_ac",
+            "target": 500,
+            "color": "red",
+            "earned": false,
+            "progress": 92,
+            "current": 458,
+            "earned_date": null,
+            "unlock_hint": "CF 平台 AC 500 题"
           },
           {
             "id": "df_2600",
@@ -77,19 +90,6 @@
             "current": 2400,
             "earned_date": null,
             "unlock_hint": "解决难度 >= 2600 的题目"
-          },
-          {
-            "id": "cf_500",
-            "name": "CF 传说",
-            "icon": "👑",
-            "type": "cf_ac",
-            "target": 500,
-            "color": "red",
-            "earned": false,
-            "progress": 91,
-            "current": 457,
-            "earned_date": null,
-            "unlock_hint": "CF 平台 AC 500 题"
           },
           {
             "id": "r_2000",
@@ -256,7 +256,7 @@
             "color": "orange",
             "earned": false,
             "progress": 63,
-            "current": 950,
+            "current": 951,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -295,7 +295,7 @@
             "color": "red",
             "earned": false,
             "progress": 53,
-            "current": 2638,
+            "current": 2639,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -321,7 +321,7 @@
             "color": "red",
             "earned": false,
             "progress": 48,
-            "current": 950,
+            "current": 951,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -360,7 +360,7 @@
             "color": "red",
             "earned": false,
             "progress": 32,
-            "current": 950,
+            "current": 951,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -399,7 +399,7 @@
             "color": "red",
             "earned": false,
             "progress": 19,
-            "current": 950,
+            "current": 951,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1931,12 +1931,12 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「千题大师」还有 50（进度 95%）"
+                "text": "距「千题大师」还有 49（进度 95%）"
               },
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「传说级」还有 200（进度 92%）"
+                "text": "距「CF 传说」还有 42（进度 92%）"
               }
             ]
           },
@@ -1956,6 +1956,13 @@
       },
       "lastSubmitDate": "2026-10-19",
       "recentSubmissions": [
+        {
+          "time": "14:44",
+          "date": "2026-10-19",
+          "platform": "codeforces",
+          "problem": "104869C",
+          "verdict": "AC"
+        },
         {
           "time": "11:02",
           "date": "2026-10-19",
@@ -2157,13 +2164,6 @@
           "date": "2026-10-14",
           "platform": "codeforces",
           "problem": "1043E",
-          "verdict": "AC"
-        },
-        {
-          "time": "17:57",
-          "date": "2026-10-14",
-          "platform": "codeforces",
-          "problem": "1117C",
           "verdict": "AC"
         }
       ],
@@ -2411,7 +2411,7 @@
                 ],
                 [
                   "2026-10-19",
-                  4
+                  5
                 ]
               ]
             }
@@ -2493,7 +2493,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1076,
+                  "value": 1077,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -6979,6 +6979,10 @@
                 [
                   "2026-10-19",
                   1900.0
+                ],
+                [
+                  "2026-10-19",
+                  800
                 ]
               ],
               "symbolSize": 7,
@@ -34554,5 +34558,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-19 12:07"
+  "exportedAt": "2026-10-19 15:07"
 }

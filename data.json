@@ -12,10 +12,10 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 24,
-        "total_ac": 953,
-        "total_subs": 2642,
-        "ac_rate": 40.8,
+        "week_ac": 25,
+        "total_ac": 954,
+        "total_subs": 2643,
+        "ac_rate": 40.9,
         "topic_count": 18
       },
       "streak": {
@@ -27,15 +27,15 @@
       },
       "weekly": {
         "this_week": {
-          "ac": 7,
-          "subs": 14
+          "ac": 8,
+          "subs": 15
         },
         "last_week": {
           "ac": 17,
           "subs": 35
         },
-        "ac_delta": -59,
-        "subs_delta": -60
+        "ac_delta": -53,
+        "subs_delta": -57
       },
       "achievements": {
         "achievements": [
@@ -61,7 +61,7 @@
             "color": "orange",
             "earned": false,
             "progress": 95,
-            "current": 953,
+            "current": 954,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -74,7 +74,7 @@
             "color": "red",
             "earned": false,
             "progress": 92,
-            "current": 460,
+            "current": 461,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -256,7 +256,7 @@
             "color": "orange",
             "earned": false,
             "progress": 64,
-            "current": 953,
+            "current": 954,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -295,7 +295,7 @@
             "color": "red",
             "earned": false,
             "progress": 53,
-            "current": 2642,
+            "current": 2643,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -321,7 +321,7 @@
             "color": "red",
             "earned": false,
             "progress": 48,
-            "current": 953,
+            "current": 954,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -360,7 +360,7 @@
             "color": "red",
             "earned": false,
             "progress": 32,
-            "current": 953,
+            "current": 954,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -399,7 +399,7 @@
             "color": "red",
             "earned": false,
             "progress": 19,
-            "current": 953,
+            "current": 954,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1931,12 +1931,12 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「千题大师」还有 47（进度 95%）"
+                "text": "距「千题大师」还有 46（进度 95%）"
               },
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「CF 传说」还有 40（进度 92%）"
+                "text": "距「CF 传说」还有 39（进度 92%）"
               }
             ]
           },
@@ -1956,6 +1956,13 @@
       },
       "lastSubmitDate": "2026-10-19",
       "recentSubmissions": [
+        {
+          "time": "19:24",
+          "date": "2026-10-19",
+          "platform": "codeforces",
+          "problem": "104869K",
+          "verdict": "AC"
+        },
         {
           "time": "17:49",
           "date": "2026-10-19",
@@ -2158,13 +2165,6 @@
           "platform": "codeforces",
           "problem": "2276A",
           "verdict": "AC"
-        },
-        {
-          "time": "19:37",
-          "date": "2026-10-15",
-          "platform": "codeforces",
-          "problem": "2276A",
-          "verdict": "WA"
         }
       ],
       "charts": {
@@ -2411,7 +2411,7 @@
                 ],
                 [
                   "2026-10-19",
-                  7
+                  8
                 ]
               ]
             }
@@ -2493,7 +2493,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1079,
+                  "value": 1080,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -6979,6 +6979,10 @@
                 [
                   "2026-10-19",
                   1900.0
+                ],
+                [
+                  "2026-10-19",
+                  800
                 ],
                 [
                   "2026-10-19",
@@ -33474,7 +33478,7 @@
         "label": "小宋",
         "rating": 1148,
         "rank": "7563",
-        "last_submit_days": 3,
+        "last_submit_days": 4,
         "nc_rating": 561
       },
       {
@@ -34570,5 +34574,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-19 18:07"
+  "exportedAt": "2026-10-19 21:07"
 }

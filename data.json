@@ -14,8 +14,8 @@
       "stats": {
         "week_ac": 27,
         "total_ac": 965,
-        "total_subs": 2672,
-        "ac_rate": 40.9,
+        "total_subs": 2676,
+        "ac_rate": 40.8,
         "topic_count": 18
       },
       "streak": {
@@ -28,14 +28,14 @@
       "weekly": {
         "this_week": {
           "ac": 20,
-          "subs": 44
+          "subs": 48
         },
         "last_week": {
           "ac": 17,
           "subs": 35
         },
         "ac_delta": 18,
-        "subs_delta": 26
+        "subs_delta": 37
       },
       "achievements": {
         "achievements": [
@@ -157,19 +157,6 @@
             "unlock_hint": "AC 率达到 50%"
           },
           {
-            "id": "es_2",
-            "name": "一发入魂",
-            "icon": "💥",
-            "type": "avg_subs",
-            "target": 2,
-            "color": "purple",
-            "earned": false,
-            "progress": 79,
-            "current": 2.54,
-            "earned_date": null,
-            "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
-          },
-          {
             "id": "r_2300",
             "name": "International Master",
             "icon": "🌍",
@@ -181,6 +168,19 @@
             "current": 1800,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2300"
+          },
+          {
+            "id": "es_2",
+            "name": "一发入魂",
+            "icon": "💥",
+            "type": "avg_subs",
+            "target": 2,
+            "color": "purple",
+            "earned": false,
+            "progress": 78,
+            "current": 2.55,
+            "earned_date": null,
+            "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
           {
             "id": "dd_25",
@@ -294,8 +294,8 @@
             "target": 5000,
             "color": "red",
             "earned": false,
-            "progress": 53,
-            "current": 2672,
+            "progress": 54,
+            "current": 2676,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -1582,7 +1582,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.54,
+            "current": 2.55,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -1595,7 +1595,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.54,
+            "current": 2.55,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -1957,6 +1957,34 @@
       "lastSubmitDate": "2026-10-22",
       "recentSubmissions": [
         {
+          "time": "14:40",
+          "date": "2026-10-22",
+          "platform": "codeforces",
+          "problem": "104901G",
+          "verdict": "WA"
+        },
+        {
+          "time": "14:39",
+          "date": "2026-10-22",
+          "platform": "codeforces",
+          "problem": "104901G",
+          "verdict": "WA"
+        },
+        {
+          "time": "14:16",
+          "date": "2026-10-22",
+          "platform": "codeforces",
+          "problem": "104901G",
+          "verdict": "WA"
+        },
+        {
+          "time": "14:07",
+          "date": "2026-10-22",
+          "platform": "codeforces",
+          "problem": "104901G",
+          "verdict": "WA"
+        },
+        {
           "time": "12:05",
           "date": "2026-10-22",
           "platform": "codeforces",
@@ -2136,34 +2164,6 @@
           "date": "2026-10-19",
           "platform": "codeforces",
           "problem": "12C",
-          "verdict": "AC"
-        },
-        {
-          "time": "22:25",
-          "date": "2026-10-19",
-          "platform": "codeforces",
-          "problem": "9B",
-          "verdict": "AC"
-        },
-        {
-          "time": "22:05",
-          "date": "2026-10-19",
-          "platform": "codeforces",
-          "problem": "9A",
-          "verdict": "AC"
-        },
-        {
-          "time": "22:02",
-          "date": "2026-10-19",
-          "platform": "codeforces",
-          "problem": "12A",
-          "verdict": "AC"
-        },
-        {
-          "time": "19:24",
-          "date": "2026-10-19",
-          "platform": "codeforces",
-          "problem": "104869K",
           "verdict": "AC"
         }
       ],
@@ -2505,7 +2505,7 @@
                   }
                 },
                 {
-                  "value": 932,
+                  "value": 936,
                   "itemStyle": {
                     "color": "#D16262",
                     "borderRadius": [
@@ -13370,6 +13370,22 @@
                 [
                   "2026-10-21",
                   1600.0
+                ],
+                [
+                  "2026-10-22",
+                  800
+                ],
+                [
+                  "2026-10-22",
+                  800
+                ],
+                [
+                  "2026-10-22",
+                  800
+                ],
+                [
+                  "2026-10-22",
+                  800
                 ],
                 [
                   "2026-10-22",
@@ -34791,5 +34807,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-22 12:07"
+  "exportedAt": "2026-10-22 15:07"
 }

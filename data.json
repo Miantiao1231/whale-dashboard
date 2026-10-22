@@ -15106,30 +15106,30 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 2,
-        "total_ac": 380,
-        "total_subs": 1283,
+        "week_ac": 3,
+        "total_ac": 381,
+        "total_subs": 1284,
         "ac_rate": 36.4,
         "topic_count": 17
       },
       "streak": {
-        "current": 1,
+        "current": 2,
         "longest": 14,
-        "last_active": "2026-10-21",
-        "days_since_last": 1,
+        "last_active": "2026-10-22",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 1,
-          "subs": 4
+          "ac": 2,
+          "subs": 5
         },
         "last_week": {
           "ac": 3,
           "subs": 8
         },
-        "ac_delta": -67,
-        "subs_delta": -50
+        "ac_delta": -33,
+        "subs_delta": -38
       },
       "achievements": {
         "achievements": [
@@ -15141,8 +15141,8 @@
             "target": 200,
             "color": "red",
             "earned": false,
-            "progress": 98,
-            "current": 197,
+            "progress": 99,
+            "current": 198,
             "earned_date": null,
             "unlock_hint": "200 题首次提交即 AC"
           },
@@ -15181,7 +15181,7 @@
             "color": "purple",
             "earned": false,
             "progress": 95,
-            "current": 380,
+            "current": 381,
             "earned_date": null,
             "unlock_hint": "累计 AC 400 题"
           },
@@ -15285,7 +15285,7 @@
             "color": "orange",
             "earned": false,
             "progress": 80,
-            "current": 160,
+            "current": 161,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 200 题"
           },
@@ -15337,7 +15337,7 @@
             "color": "purple",
             "earned": false,
             "progress": 76,
-            "current": 380,
+            "current": 381,
             "earned_date": null,
             "unlock_hint": "累计 AC 500 题"
           },
@@ -15389,7 +15389,7 @@
             "color": "purple",
             "earned": false,
             "progress": 69,
-            "current": 2.91,
+            "current": 2.9,
             "earned_date": null,
             "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
@@ -15454,7 +15454,7 @@
             "color": "orange",
             "earned": false,
             "progress": 64,
-            "current": 1283,
+            "current": 1284,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -15545,7 +15545,7 @@
             "color": "purple",
             "earned": false,
             "progress": 51,
-            "current": 380,
+            "current": 381,
             "earned_date": null,
             "unlock_hint": "累计 AC 750 题"
           },
@@ -15649,7 +15649,7 @@
             "color": "orange",
             "earned": false,
             "progress": 38,
-            "current": 380,
+            "current": 381,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -15675,7 +15675,7 @@
             "color": "red",
             "earned": false,
             "progress": 32,
-            "current": 160,
+            "current": 161,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -15727,7 +15727,7 @@
             "color": "red",
             "earned": false,
             "progress": 26,
-            "current": 1283,
+            "current": 1284,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -15740,7 +15740,7 @@
             "color": "orange",
             "earned": false,
             "progress": 25,
-            "current": 380,
+            "current": 381,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -15753,7 +15753,7 @@
             "color": "red",
             "earned": false,
             "progress": 19,
-            "current": 380,
+            "current": 381,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -15779,7 +15779,7 @@
             "color": "red",
             "earned": false,
             "progress": 13,
-            "current": 380,
+            "current": 381,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -15818,7 +15818,7 @@
             "color": "red",
             "earned": false,
             "progress": 8,
-            "current": 380,
+            "current": 381,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -16741,7 +16741,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.91,
+            "current": 2.9,
             "earned_date": "2025-10-05",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -16754,7 +16754,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.91,
+            "current": 2.9,
             "earned_date": "2025-10-05",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -16938,8 +16938,8 @@
           "target": 200,
           "color": "red",
           "earned": false,
-          "progress": 98,
-          "current": 197,
+          "progress": 99,
+          "current": 198,
           "earned_date": null,
           "unlock_hint": "200 题首次提交即 AC"
         }
@@ -16947,14 +16947,9 @@
       "coachTips": {
         "collapsed": [
           {
-            "icon": "⚠️",
-            "accent": "amber",
-            "text": "本周日均 0.2 题，上周日均 0.4 题——先把热度捡回来"
-          },
-          {
             "icon": "🚀",
             "accent": "green",
-            "text": "距「无瑕之人」只差 2% 进度——集中火力冲一下"
+            "text": "距「无瑕之人」只差 1% 进度——集中火力冲一下"
           }
         ],
         "sections": [
@@ -17018,7 +17013,7 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「无瑕之人」还有 3（进度 98%）"
+                "text": "距「无瑕之人」还有 2（进度 99%）"
               },
               {
                 "icon": "🎯",
@@ -17046,8 +17041,15 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-10-21",
+      "lastSubmitDate": "2026-10-22",
       "recentSubmissions": [
+        {
+          "time": "09:05",
+          "date": "2026-10-22",
+          "platform": "codeforces",
+          "problem": "706C",
+          "verdict": "AC"
+        },
         {
           "time": "22:25",
           "date": "2026-10-21",
@@ -17250,13 +17252,6 @@
           "platform": "codeforces",
           "problem": "2271B",
           "verdict": "WA"
-        },
-        {
-          "time": "23:33",
-          "date": "2026-10-10",
-          "platform": "codeforces",
-          "problem": "2271B",
-          "verdict": "WA"
         }
       ],
       "charts": {
@@ -17444,6 +17439,10 @@
                 [
                   "2026-10-21",
                   1
+                ],
+                [
+                  "2026-10-22",
+                  1
                 ]
               ]
             }
@@ -17525,7 +17524,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 467,
+                  "value": 468,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -19575,6 +19574,10 @@
                 [
                   "2026-10-21",
                   1500.0
+                ],
+                [
+                  "2026-10-22",
+                  1600.0
                 ]
               ],
               "symbolSize": 7,
@@ -22900,14 +22903,14 @@
               "fontSize": 11
             },
             "data": [
-              "10/07",
               "10/08",
               "10/09",
               "10/10",
               "10/11",
               "10/12",
               "10/15",
-              "10/21"
+              "10/21",
+              "10/22"
             ]
           },
           "yAxis": {
@@ -22939,12 +22942,12 @@
             {
               "type": "bar",
               "data": [
-                5,
                 1,
                 1,
                 2,
                 3,
                 2,
+                1,
                 1,
                 1
               ],
@@ -23129,14 +23132,14 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                4,
+                5,
                 16,
                 14,
                 3,
                 7,
                 10,
                 2,
-                0,
+                1,
                 6,
                 11,
                 12,
@@ -23748,7 +23751,10 @@
                     "value": 1200.0,
                     "solved": 2
                   },
-                  null
+                  {
+                    "value": 1600.0,
+                    "solved": 1
+                  }
                 ],
                 "lineStyle": {
                   "color": "#5C8AD5",
@@ -34765,5 +34771,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-22 06:07"
+  "exportedAt": "2026-10-22 09:07"
 }

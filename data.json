@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 25,
-        "total_ac": 968,
-        "total_subs": 2682,
+        "week_ac": 27,
+        "total_ac": 970,
+        "total_subs": 2684,
         "ac_rate": 40.9,
         "topic_count": 18
       },
       "streak": {
-        "current": 26,
-        "longest": 26,
-        "last_active": "2026-10-23",
-        "days_since_last": 1,
+        "current": 27,
+        "longest": 27,
+        "last_active": "2026-10-24",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 23,
-          "subs": 54
+          "ac": 25,
+          "subs": 56
         },
         "last_week": {
           "ac": 17,
           "subs": 35
         },
-        "ac_delta": 35,
-        "subs_delta": 54
+        "ac_delta": 47,
+        "subs_delta": 60
       },
       "achievements": {
         "achievements": [
@@ -48,7 +48,7 @@
             "color": "orange",
             "earned": false,
             "progress": 97,
-            "current": 968,
+            "current": 970,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -74,7 +74,7 @@
             "color": "red",
             "earned": false,
             "progress": 95,
-            "current": 475,
+            "current": 477,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -105,6 +105,19 @@
             "unlock_hint": "CF Rating 达到 2000"
           },
           {
+            "id": "st_30",
+            "name": "月度全勤",
+            "icon": "🌟",
+            "type": "streak",
+            "target": 30,
+            "color": "orange",
+            "earned": false,
+            "progress": 90,
+            "current": 27,
+            "earned_date": null,
+            "unlock_hint": "连续 30 天打卡"
+          },
+          {
             "id": "dw_50",
             "name": "周刷五十",
             "icon": "💪",
@@ -116,19 +129,6 @@
             "current": 45,
             "earned_date": null,
             "unlock_hint": "单周 AC 50 题"
-          },
-          {
-            "id": "st_30",
-            "name": "月度全勤",
-            "icon": "🌟",
-            "type": "streak",
-            "target": 30,
-            "color": "orange",
-            "earned": false,
-            "progress": 87,
-            "current": 26,
-            "earned_date": null,
-            "unlock_hint": "连续 30 天打卡"
           },
           {
             "id": "r_2100",
@@ -177,8 +177,8 @@
             "target": 2,
             "color": "purple",
             "earned": false,
-            "progress": 78,
-            "current": 2.55,
+            "progress": 79,
+            "current": 2.54,
             "earned_date": null,
             "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
@@ -256,7 +256,7 @@
             "color": "orange",
             "earned": false,
             "progress": 65,
-            "current": 968,
+            "current": 970,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -287,6 +287,19 @@
             "unlock_hint": "单周 AC 75 题"
           },
           {
+            "id": "st_50",
+            "name": "五十连击",
+            "icon": "💪",
+            "type": "streak",
+            "target": 50,
+            "color": "orange",
+            "earned": false,
+            "progress": 54,
+            "current": 27,
+            "earned_date": null,
+            "unlock_hint": "连续 50 天打卡"
+          },
+          {
             "id": "fn_sub_5000",
             "name": "提交狂魔",
             "icon": "📮",
@@ -295,22 +308,9 @@
             "color": "red",
             "earned": false,
             "progress": 54,
-            "current": 2682,
+            "current": 2684,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
-          },
-          {
-            "id": "st_50",
-            "name": "五十连击",
-            "icon": "💪",
-            "type": "streak",
-            "target": 50,
-            "color": "orange",
-            "earned": false,
-            "progress": 52,
-            "current": 26,
-            "earned_date": null,
-            "unlock_hint": "连续 50 天打卡"
           },
           {
             "id": "lg_500",
@@ -334,7 +334,7 @@
             "color": "red",
             "earned": false,
             "progress": 48,
-            "current": 968,
+            "current": 970,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -360,7 +360,7 @@
             "color": "red",
             "earned": false,
             "progress": 32,
-            "current": 968,
+            "current": 970,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -385,8 +385,8 @@
             "target": 100,
             "color": "red",
             "earned": false,
-            "progress": 26,
-            "current": 26,
+            "progress": 27,
+            "current": 27,
             "earned_date": null,
             "unlock_hint": "连续 100 天打卡"
           },
@@ -399,7 +399,7 @@
             "color": "red",
             "earned": false,
             "progress": 19,
-            "current": 968,
+            "current": 970,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1582,7 +1582,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.55,
+            "current": 2.54,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -1595,7 +1595,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.55,
+            "current": 2.54,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -1845,7 +1845,7 @@
           "color": "orange",
           "earned": false,
           "progress": 97,
-          "current": 968,
+          "current": 970,
           "earned_date": null,
           "unlock_hint": "累计 AC 1000 题"
         }
@@ -1926,7 +1926,7 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「千题大师」还有 32（进度 97%）"
+                "text": "距「千题大师」还有 30（进度 97%）"
               },
               {
                 "icon": "🎯",
@@ -1936,7 +1936,7 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「CF 传说」还有 25（进度 95%）"
+                "text": "距「CF 传说」还有 23（进度 95%）"
               }
             ]
           },
@@ -1954,8 +1954,22 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-10-23",
+      "lastSubmitDate": "2026-10-24",
       "recentSubmissions": [
+        {
+          "time": "01:06",
+          "date": "2026-10-24",
+          "platform": "codeforces",
+          "problem": "2175C",
+          "verdict": "AC"
+        },
+        {
+          "time": "00:48",
+          "date": "2026-10-24",
+          "platform": "codeforces",
+          "problem": "2175B",
+          "verdict": "AC"
+        },
         {
           "time": "23:15",
           "date": "2026-10-23",
@@ -2151,20 +2165,6 @@
           "platform": "codeforces",
           "problem": "105484G",
           "verdict": "Othe"
-        },
-        {
-          "time": "19:17",
-          "date": "2026-10-20",
-          "platform": "codeforces",
-          "problem": "105484K",
-          "verdict": "AC"
-        },
-        {
-          "time": "16:32",
-          "date": "2026-10-20",
-          "platform": "codeforces",
-          "problem": "105484J",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -2416,6 +2416,10 @@
                 [
                   "2026-10-23",
                   1
+                ],
+                [
+                  "2026-10-24",
+                  2
                 ]
               ]
             }
@@ -2497,7 +2501,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1096,
+                  "value": 1098,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -7063,6 +7067,14 @@
                 [
                   "2026-10-23",
                   800.0
+                ],
+                [
+                  "2026-10-24",
+                  1300.0
+                ],
+                [
+                  "2026-10-24",
+                  800
                 ]
               ],
               "symbolSize": 7,
@@ -13468,14 +13480,14 @@
               "fontSize": 11
             },
             "data": [
-              "10/06",
               "10/07",
               "10/08",
               "10/09",
               "10/12",
               "10/14",
               "10/16",
-              "10/17"
+              "10/17",
+              "10/24"
             ]
           },
           "yAxis": {
@@ -13507,13 +13519,13 @@
             {
               "type": "bar",
               "data": [
-                3,
                 5,
                 3,
                 3,
                 5,
                 3,
                 3,
+                2,
                 2
               ],
               "barWidth": "55%",
@@ -13699,13 +13711,13 @@
               "data": [
                 41,
                 50,
-                43,
+                44,
                 26,
                 26,
                 24,
                 3,
                 3,
-                34,
+                35,
                 23,
                 24,
                 12,
@@ -14374,8 +14386,8 @@
                     "solved": 10
                   },
                   {
-                    "value": 1250.0,
-                    "solved": 10
+                    "value": 1254.5,
+                    "solved": 11
                   }
                 ],
                 "lineStyle": {
@@ -34855,5 +34867,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-24 00:07"
+  "exportedAt": "2026-10-24 03:07"
 }

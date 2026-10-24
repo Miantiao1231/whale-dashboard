@@ -24607,28 +24607,28 @@
       "stats": {
         "week_ac": 13,
         "total_ac": 445,
-        "total_subs": 1219,
+        "total_subs": 1220,
         "ac_rate": 41.3,
         "topic_count": 16
       },
       "streak": {
-        "current": 5,
+        "current": 6,
         "longest": 14,
-        "last_active": "2026-10-23",
-        "days_since_last": 1,
+        "last_active": "2026-10-24",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
           "ac": 13,
-          "subs": 19
+          "subs": 20
         },
         "last_week": {
           "ac": 17,
           "subs": 25
         },
         "ac_delta": -24,
-        "subs_delta": -24
+        "subs_delta": -20
       },
       "achievements": {
         "achievements": [
@@ -24763,6 +24763,19 @@
             "unlock_hint": "CF Rating 达到 1700"
           },
           {
+            "id": "es_2",
+            "name": "一发入魂",
+            "icon": "💥",
+            "type": "avg_subs",
+            "target": 2,
+            "color": "purple",
+            "earned": false,
+            "progress": 82,
+            "current": 2.45,
+            "earned_date": null,
+            "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
+          },
+          {
             "id": "fn_ac_rate_50",
             "name": "五五开",
             "icon": "⚖️",
@@ -24774,19 +24787,6 @@
             "current": 41,
             "earned_date": null,
             "unlock_hint": "AC 率达到 50%"
-          },
-          {
-            "id": "es_2",
-            "name": "一发入魂",
-            "icon": "💥",
-            "type": "avg_subs",
-            "target": 2,
-            "color": "purple",
-            "earned": false,
-            "progress": 81,
-            "current": 2.46,
-            "earned_date": null,
-            "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
           {
             "id": "ma_25",
@@ -24992,7 +24992,7 @@
             "color": "orange",
             "earned": false,
             "progress": 61,
-            "current": 1219,
+            "current": 1220,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -25187,7 +25187,7 @@
             "color": "red",
             "earned": false,
             "progress": 24,
-            "current": 1219,
+            "current": 1220,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -26266,7 +26266,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.46,
+            "current": 2.45,
             "earned_date": "2025-10-19",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -26279,7 +26279,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.46,
+            "current": 2.45,
             "earned_date": "2025-10-19",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -26552,8 +26552,15 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-10-23",
+      "lastSubmitDate": "2026-10-24",
       "recentSubmissions": [
+        {
+          "time": "01:26",
+          "date": "2026-10-24",
+          "platform": "nowcoder",
+          "problem": "294720",
+          "verdict": "WA"
+        },
         {
           "time": "20:20",
           "date": "2026-10-23",
@@ -26756,13 +26763,6 @@
           "platform": "codeforces",
           "problem": "2276B",
           "verdict": "WA"
-        },
-        {
-          "time": "22:40",
-          "date": "2026-10-14",
-          "platform": "codeforces",
-          "problem": "2276A",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -27067,7 +27067,7 @@
                   }
                 },
                 {
-                  "value": 319,
+                  "value": 320,
                   "itemStyle": {
                     "color": "#D16262",
                     "borderRadius": [
@@ -32124,6 +32124,10 @@
                 [
                   "2026-10-19",
                   1300.0
+                ],
+                [
+                  "2026-10-24",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -33771,7 +33775,7 @@
         "label": "小宋",
         "rating": 1166,
         "rank": "newbie",
-        "last_submit_days": 1,
+        "last_submit_days": 2,
         "nc_rating": 561
       },
       {
@@ -34867,5 +34871,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-24 06:07"
+  "exportedAt": "2026-10-24 09:08"
 }

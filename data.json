@@ -12,10 +12,10 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 19,
-        "total_ac": 975,
-        "total_subs": 2694,
-        "ac_rate": 40.9,
+        "week_ac": 21,
+        "total_ac": 977,
+        "total_subs": 2697,
+        "ac_rate": 41.0,
         "topic_count": 18
       },
       "streak": {
@@ -27,15 +27,15 @@
       },
       "weekly": {
         "this_week": {
-          "ac": 4,
-          "subs": 9
+          "ac": 6,
+          "subs": 12
         },
         "last_week": {
           "ac": 26,
           "subs": 57
         },
-        "ac_delta": -85,
-        "subs_delta": -84
+        "ac_delta": -77,
+        "subs_delta": -79
       },
       "achievements": {
         "achievements": [
@@ -48,22 +48,9 @@
             "color": "orange",
             "earned": false,
             "progress": 98,
-            "current": 975,
+            "current": 977,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
-          },
-          {
-            "id": "cf_500",
-            "name": "CF 传说",
-            "icon": "👑",
-            "type": "cf_ac",
-            "target": 500,
-            "color": "red",
-            "earned": false,
-            "progress": 96,
-            "current": 482,
-            "earned_date": null,
-            "unlock_hint": "CF 平台 AC 500 题"
           },
           {
             "id": "r_1900",
@@ -73,10 +60,36 @@
             "target": 1900,
             "color": "purple",
             "earned": false,
-            "progress": 95,
-            "current": 1814,
+            "progress": 97,
+            "current": 1847,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 1900"
+          },
+          {
+            "id": "cf_500",
+            "name": "CF 传说",
+            "icon": "👑",
+            "type": "cf_ac",
+            "target": 500,
+            "color": "red",
+            "earned": false,
+            "progress": 97,
+            "current": 484,
+            "earned_date": null,
+            "unlock_hint": "CF 平台 AC 500 题"
+          },
+          {
+            "id": "r_2000",
+            "name": "两千大关",
+            "icon": "🏰",
+            "type": "rating",
+            "target": 2000,
+            "color": "purple",
+            "earned": false,
+            "progress": 92,
+            "current": 1847,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 2000"
           },
           {
             "id": "df_2600",
@@ -90,19 +103,6 @@
             "current": 2400,
             "earned_date": null,
             "unlock_hint": "解决难度 >= 2600 的题目"
-          },
-          {
-            "id": "r_2000",
-            "name": "两千大关",
-            "icon": "🏰",
-            "type": "rating",
-            "target": 2000,
-            "color": "purple",
-            "earned": false,
-            "progress": 91,
-            "current": 1814,
-            "earned_date": null,
-            "unlock_hint": "CF Rating 达到 2000"
           },
           {
             "id": "dw_50",
@@ -125,8 +125,8 @@
             "target": 2100,
             "color": "orange",
             "earned": false,
-            "progress": 86,
-            "current": 1814,
+            "progress": 88,
+            "current": 1847,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2100"
           },
@@ -138,8 +138,8 @@
             "target": 50,
             "color": "purple",
             "earned": false,
-            "progress": 80,
-            "current": 40,
+            "progress": 82,
+            "current": 41,
             "earned_date": null,
             "unlock_hint": "AC 率达到 50%"
           },
@@ -151,8 +151,8 @@
             "target": 2300,
             "color": "flame",
             "earned": false,
-            "progress": 79,
-            "current": 1814,
+            "progress": 80,
+            "current": 1847,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2300"
           },
@@ -177,8 +177,8 @@
             "target": 2400,
             "color": "red",
             "earned": false,
-            "progress": 76,
-            "current": 1814,
+            "progress": 77,
+            "current": 1847,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2400"
           },
@@ -216,8 +216,8 @@
             "target": 2600,
             "color": "red",
             "earned": false,
-            "progress": 70,
-            "current": 1814,
+            "progress": 71,
+            "current": 1847,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2600"
           },
@@ -229,8 +229,8 @@
             "target": 60,
             "color": "orange",
             "earned": false,
-            "progress": 67,
-            "current": 40,
+            "progress": 68,
+            "current": 41,
             "earned_date": null,
             "unlock_hint": "AC 率达到 60%"
           },
@@ -243,7 +243,7 @@
             "color": "orange",
             "earned": false,
             "progress": 65,
-            "current": 975,
+            "current": 977,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -255,8 +255,8 @@
             "target": 3000,
             "color": "red",
             "earned": false,
-            "progress": 60,
-            "current": 1814,
+            "progress": 62,
+            "current": 1847,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 3000"
           },
@@ -295,7 +295,7 @@
             "color": "red",
             "earned": false,
             "progress": 54,
-            "current": 2694,
+            "current": 2697,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -308,7 +308,7 @@
             "color": "red",
             "earned": false,
             "progress": 49,
-            "current": 975,
+            "current": 977,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -326,6 +326,19 @@
             "unlock_hint": "洛谷 AC 500 题"
           },
           {
+            "id": "ac_3000",
+            "name": "三千传说",
+            "icon": "🐉",
+            "type": "total_ac",
+            "target": 3000,
+            "color": "red",
+            "earned": false,
+            "progress": 33,
+            "current": 977,
+            "earned_date": null,
+            "unlock_hint": "累计 AC 3000 题"
+          },
+          {
             "id": "fw_3",
             "name": "连轴转",
             "icon": "🗓️",
@@ -337,19 +350,6 @@
             "current": 1,
             "earned_date": null,
             "unlock_hint": "累计 3 个全勤周 (7 天全打卡)"
-          },
-          {
-            "id": "ac_3000",
-            "name": "三千传说",
-            "icon": "🐉",
-            "type": "total_ac",
-            "target": 3000,
-            "color": "red",
-            "earned": false,
-            "progress": 32,
-            "current": 975,
-            "earned_date": null,
-            "unlock_hint": "累计 AC 3000 题"
           },
           {
             "id": "st_100",
@@ -386,7 +386,7 @@
             "color": "red",
             "earned": false,
             "progress": 20,
-            "current": 975,
+            "current": 977,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1845,18 +1845,13 @@
           "color": "orange",
           "earned": false,
           "progress": 98,
-          "current": 975,
+          "current": 977,
           "earned_date": null,
           "unlock_hint": "累计 AC 1000 题"
         }
       },
       "coachTips": {
         "collapsed": [
-          {
-            "icon": "⚠️",
-            "accent": "amber",
-            "text": "本周日均 2.0 题，上周日均 3.7 题——先把热度捡回来"
-          },
           {
             "icon": "🚀",
             "accent": "green",
@@ -1931,17 +1926,17 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「千题大师」还有 25（进度 98%）"
+                "text": "距「千题大师」还有 23（进度 98%）"
               },
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「CF 传说」还有 18（进度 96%）"
+                "text": "距「Candidate Master 紫名」还有 53（进度 97%）"
               },
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「Candidate Master 紫名」还有 86（进度 95%）"
+                "text": "距「CF 传说」还有 16（进度 97%）"
               }
             ]
           },
@@ -1961,6 +1956,27 @@
       },
       "lastSubmitDate": "2026-10-27",
       "recentSubmissions": [
+        {
+          "time": "00:46",
+          "date": "2026-10-27",
+          "platform": "codeforces",
+          "problem": "2272F",
+          "verdict": "AC"
+        },
+        {
+          "time": "00:45",
+          "date": "2026-10-27",
+          "platform": "codeforces",
+          "problem": "2272F",
+          "verdict": "RE"
+        },
+        {
+          "time": "00:10",
+          "date": "2026-10-27",
+          "platform": "codeforces",
+          "problem": "2272D",
+          "verdict": "AC"
+        },
         {
           "time": "00:06",
           "date": "2026-10-27",
@@ -2148,27 +2164,6 @@
           "date": "2026-10-21",
           "platform": "codeforces",
           "problem": "1051D",
-          "verdict": "AC"
-        },
-        {
-          "time": "12:52",
-          "date": "2026-10-21",
-          "platform": "codeforces",
-          "problem": "1513C",
-          "verdict": "AC"
-        },
-        {
-          "time": "12:49",
-          "date": "2026-10-21",
-          "platform": "codeforces",
-          "problem": "1513C",
-          "verdict": "TLE"
-        },
-        {
-          "time": "23:54",
-          "date": "2026-10-20",
-          "platform": "codeforces",
-          "problem": "2261B",
           "verdict": "AC"
         }
       ],
@@ -2425,6 +2420,10 @@
                 [
                   "2026-10-26",
                   4
+                ],
+                [
+                  "2026-10-27",
+                  2
                 ]
               ]
             }
@@ -2506,7 +2505,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1103,
+                  "value": 1105,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -2566,7 +2565,7 @@
                   }
                 },
                 {
-                  "value": 26,
+                  "value": 27,
                   "itemStyle": {
                     "color": "#CC9334",
                     "borderRadius": [
@@ -7099,6 +7098,14 @@
                 ],
                 [
                   "2026-10-26",
+                  800
+                ],
+                [
+                  "2026-10-27",
+                  800
+                ],
+                [
+                  "2026-10-27",
                   800
                 ]
               ],
@@ -13475,6 +13482,10 @@
                 [
                   "2026-10-27",
                   800
+                ],
+                [
+                  "2026-10-27",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -13525,14 +13536,14 @@
               "fontSize": 11
             },
             "data": [
-              "10/08",
               "10/09",
               "10/12",
               "10/14",
               "10/16",
               "10/17",
               "10/24",
-              "10/25"
+              "10/25",
+              "10/27"
             ]
           },
           "yAxis": {
@@ -13565,13 +13576,13 @@
               "type": "bar",
               "data": [
                 3,
-                3,
                 5,
                 3,
                 3,
                 2,
                 2,
-                1
+                1,
+                2
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -13723,17 +13734,17 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                23,
-                168,
+                26,
+                169,
                 144,
-                46,
+                48,
                 61,
-                40,
+                41,
                 21,
                 69,
-                60,
+                62,
                 155,
-                83,
+                84,
                 19,
                 14,
                 9,
@@ -14213,7 +14224,14 @@
                     "2026-10-11",
                     1800
                   ],
-                  "tip": " (+31)",
+                  "tip": " (+31)"
+                },
+                {
+                  "value": [
+                    "2026-10-27",
+                    1847
+                  ],
+                  "tip": " (+47)",
                   "itemStyle": {
                     "color": "#D16262",
                     "borderColor": "#fff",
@@ -24667,17 +24685,17 @@
       "achievements": {
         "achievements": [
           {
-            "id": "r_1400",
-            "name": "Specialist 青名",
-            "icon": "🌿",
+            "id": "r_1500",
+            "name": "蓝名在望",
+            "icon": "🔷",
             "type": "rating",
-            "target": 1400,
-            "color": "cyan",
+            "target": 1500,
+            "color": "blue",
             "earned": false,
-            "progress": 99,
-            "current": 1388,
+            "progress": 94,
+            "current": 1403,
             "earned_date": null,
-            "unlock_hint": "CF Rating 达到 1400"
+            "unlock_hint": "CF Rating 达到 1500"
           },
           {
             "id": "dw_35",
@@ -24691,19 +24709,6 @@
             "current": 33,
             "earned_date": null,
             "unlock_hint": "单周 AC 35 题"
-          },
-          {
-            "id": "r_1500",
-            "name": "蓝名在望",
-            "icon": "🔷",
-            "type": "rating",
-            "target": 1500,
-            "color": "blue",
-            "earned": false,
-            "progress": 93,
-            "current": 1388,
-            "earned_date": null,
-            "unlock_hint": "CF Rating 达到 1500"
           },
           {
             "id": "df_2200",
@@ -24745,6 +24750,19 @@
             "unlock_hint": "覆盖 18 个专题"
           },
           {
+            "id": "r_1600",
+            "name": "Expert 蓝名",
+            "icon": "⚡",
+            "type": "rating",
+            "target": 1600,
+            "color": "blue",
+            "earned": false,
+            "progress": 88,
+            "current": 1403,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 1600"
+          },
+          {
             "id": "ma_25",
             "name": "满月战士",
             "icon": "🌕",
@@ -24756,19 +24774,6 @@
             "current": 22,
             "earned_date": null,
             "unlock_hint": "单月活跃 25 天"
-          },
-          {
-            "id": "r_1600",
-            "name": "Expert 蓝名",
-            "icon": "⚡",
-            "type": "rating",
-            "target": 1600,
-            "color": "blue",
-            "earned": false,
-            "progress": 87,
-            "current": 1388,
-            "earned_date": null,
-            "unlock_hint": "CF Rating 达到 1600"
           },
           {
             "id": "lg_200",
@@ -24784,6 +24789,19 @@
             "unlock_hint": "洛谷 AC 200 题"
           },
           {
+            "id": "r_1700",
+            "name": "蓝名中坚",
+            "icon": "💪",
+            "type": "rating",
+            "target": 1700,
+            "color": "blue",
+            "earned": false,
+            "progress": 83,
+            "current": 1403,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 1700"
+          },
+          {
             "id": "df_2400",
             "name": "巅峰对决",
             "icon": "🏆",
@@ -24795,19 +24813,6 @@
             "current": 2000.0,
             "earned_date": null,
             "unlock_hint": "解决难度 >= 2400 的题目"
-          },
-          {
-            "id": "r_1700",
-            "name": "蓝名中坚",
-            "icon": "💪",
-            "type": "rating",
-            "target": 1700,
-            "color": "blue",
-            "earned": false,
-            "progress": 82,
-            "current": 1388,
-            "earned_date": null,
-            "unlock_hint": "CF Rating 达到 1700"
           },
           {
             "id": "es_2",
@@ -24836,6 +24841,19 @@
             "unlock_hint": "AC 率达到 50%"
           },
           {
+            "id": "r_1800",
+            "name": "紫名在望",
+            "icon": "🌀",
+            "type": "rating",
+            "target": 1800,
+            "color": "purple",
+            "earned": false,
+            "progress": 78,
+            "current": 1403,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 1800"
+          },
+          {
             "id": "dd_18",
             "name": "日刷十八",
             "icon": "🤯",
@@ -24847,19 +24865,6 @@
             "current": 14,
             "earned_date": null,
             "unlock_hint": "单日 AC 18 题"
-          },
-          {
-            "id": "r_1800",
-            "name": "紫名在望",
-            "icon": "🌀",
-            "type": "rating",
-            "target": 1800,
-            "color": "purple",
-            "earned": false,
-            "progress": 77,
-            "current": 1388,
-            "earned_date": null,
-            "unlock_hint": "CF Rating 达到 1800"
           },
           {
             "id": "df_2600",
@@ -24901,6 +24906,19 @@
             "unlock_hint": "四个难度段覆盖 4 段"
           },
           {
+            "id": "r_1900",
+            "name": "Candidate Master 紫名",
+            "icon": "💎",
+            "type": "rating",
+            "target": 1900,
+            "color": "purple",
+            "earned": false,
+            "progress": 74,
+            "current": 1403,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 1900"
+          },
+          {
             "id": "cf_200",
             "name": "CF 狂人",
             "icon": "🔥",
@@ -24914,17 +24932,17 @@
             "unlock_hint": "CF 平台 AC 200 题"
           },
           {
-            "id": "r_1900",
-            "name": "Candidate Master 紫名",
-            "icon": "💎",
+            "id": "r_2000",
+            "name": "两千大关",
+            "icon": "🏰",
             "type": "rating",
-            "target": 1900,
+            "target": 2000,
             "color": "purple",
             "earned": false,
-            "progress": 73,
-            "current": 1388,
+            "progress": 70,
+            "current": 1403,
             "earned_date": null,
-            "unlock_hint": "CF Rating 达到 1900"
+            "unlock_hint": "CF Rating 达到 2000"
           },
           {
             "id": "no_30",
@@ -24940,19 +24958,6 @@
             "unlock_hint": "深夜 (0-6 点) AC 30 题"
           },
           {
-            "id": "r_2000",
-            "name": "两千大关",
-            "icon": "🏰",
-            "type": "rating",
-            "target": 2000,
-            "color": "purple",
-            "earned": false,
-            "progress": 69,
-            "current": 1388,
-            "earned_date": null,
-            "unlock_hint": "CF Rating 达到 2000"
-          },
-          {
             "id": "fn_ac_rate_60",
             "name": "高效选手",
             "icon": "🚀",
@@ -24964,6 +24969,19 @@
             "current": 41,
             "earned_date": null,
             "unlock_hint": "AC 率达到 60%"
+          },
+          {
+            "id": "r_2100",
+            "name": "Master 橙名",
+            "icon": "👑",
+            "type": "rating",
+            "target": 2100,
+            "color": "orange",
+            "earned": false,
+            "progress": 67,
+            "current": 1403,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 2100"
           },
           {
             "id": "st_21",
@@ -24990,19 +25008,6 @@
             "current": 134,
             "earned_date": null,
             "unlock_hint": "牛客 AC 200 题"
-          },
-          {
-            "id": "r_2100",
-            "name": "Master 橙名",
-            "icon": "👑",
-            "type": "rating",
-            "target": 2100,
-            "color": "orange",
-            "earned": false,
-            "progress": 66,
-            "current": 1388,
-            "earned_date": null,
-            "unlock_hint": "CF Rating 达到 2100"
           },
           {
             "id": "dw_50",
@@ -25038,8 +25043,8 @@
             "target": 2300,
             "color": "flame",
             "earned": false,
-            "progress": 60,
-            "current": 1388,
+            "progress": 61,
+            "current": 1403,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2300"
           },
@@ -25065,7 +25070,7 @@
             "color": "red",
             "earned": false,
             "progress": 58,
-            "current": 1388,
+            "current": 1403,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2400"
           },
@@ -25090,10 +25095,23 @@
             "target": 2600,
             "color": "red",
             "earned": false,
-            "progress": 53,
-            "current": 1388,
+            "progress": 54,
+            "current": 1403,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2600"
+          },
+          {
+            "id": "r_3000",
+            "name": "Legendary Grandmaster",
+            "icon": "🌌",
+            "type": "rating",
+            "target": 3000,
+            "color": "red",
+            "earned": false,
+            "progress": 47,
+            "current": 1403,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 3000"
           },
           {
             "id": "st_30",
@@ -25107,19 +25125,6 @@
             "current": 14,
             "earned_date": null,
             "unlock_hint": "连续 30 天打卡"
-          },
-          {
-            "id": "r_3000",
-            "name": "Legendary Grandmaster",
-            "icon": "🌌",
-            "type": "rating",
-            "target": 3000,
-            "color": "red",
-            "earned": false,
-            "progress": 46,
-            "current": 1388,
-            "earned_date": null,
-            "unlock_hint": "CF Rating 达到 3000"
           },
           {
             "id": "ac_1000",
@@ -25354,6 +25359,19 @@
             "current": 1200,
             "earned_date": "2026-08-07",
             "unlock_hint": "CF Rating 达到 1200"
+          },
+          {
+            "id": "r_1400",
+            "name": "Specialist 青名",
+            "icon": "🌿",
+            "type": "rating",
+            "target": 1400,
+            "color": "cyan",
+            "earned": true,
+            "progress": 100,
+            "current": 1400,
+            "earned_date": "2026-10-27",
+            "unlock_hint": "CF Rating 达到 1400"
           },
           {
             "id": "ac_10",
@@ -26461,20 +26479,20 @@
             "unlock_hint": "四个难度段覆盖 3 段"
           }
         ],
-        "earned_count": 87,
+        "earned_count": 88,
         "total_count": 138,
         "next_milestone": {
-          "id": "r_1400",
-          "name": "Specialist 青名",
-          "icon": "🌿",
+          "id": "r_1500",
+          "name": "蓝名在望",
+          "icon": "🔷",
           "type": "rating",
-          "target": 1400,
-          "color": "cyan",
+          "target": 1500,
+          "color": "blue",
           "earned": false,
-          "progress": 99,
-          "current": 1388,
+          "progress": 94,
+          "current": 1403,
           "earned_date": null,
-          "unlock_hint": "CF Rating 达到 1400"
+          "unlock_hint": "CF Rating 达到 1500"
         }
       },
       "coachTips": {
@@ -26482,7 +26500,7 @@
           {
             "icon": "🚀",
             "accent": "green",
-            "text": "距「Specialist 青名」只差 1% 进度——集中火力冲一下"
+            "text": "距「蓝名在望」只差 6% 进度——集中火力冲一下"
           }
         ],
         "sections": [
@@ -26558,7 +26576,7 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「Specialist 青名」还有 12（进度 99%）"
+                "text": "距「蓝名在望」还有 97（进度 94%）"
               },
               {
                 "icon": "🎯",
@@ -26568,7 +26586,7 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「蓝名在望」还有 112（进度 93%）"
+                "text": "距「攀登者」还有 200（进度 91%）"
               }
             ]
           },
@@ -32461,17 +32479,17 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                8,
-                79,
+                9,
+                80,
                 103,
                 10,
                 32,
-                23,
+                24,
                 16,
                 35,
-                26,
+                27,
                 95,
-                51,
+                52,
                 9,
                 17,
                 4
@@ -32857,7 +32875,14 @@
                     "2026-10-15",
                     1371
                   ],
-                  "tip": " (+33)",
+                  "tip": " (+33)"
+                },
+                {
+                  "value": [
+                    "2026-10-27",
+                    1403
+                  ],
+                  "tip": " (+32)",
                   "itemStyle": {
                     "color": "#D16262",
                     "borderColor": "#fff",
@@ -33848,8 +33873,8 @@
       {
         "handle": "Mianii",
         "label": "Mianiii",
-        "rating": 1814,
-        "rank": "expert",
+        "rating": 1847,
+        "rank": "393",
         "last_submit_days": 0,
         "nc_rating": 1229
       },
@@ -33864,8 +33889,8 @@
       {
         "handle": "lywyb",
         "label": "小任",
-        "rating": 1388,
-        "rank": "pupil",
+        "rating": 1403,
+        "rank": "2398",
         "last_submit_days": 0,
         "nc_rating": 1297
       }
@@ -34197,7 +34222,14 @@
                 "2026-10-11",
                 1800
               ],
-              "tip": " (+31)",
+              "tip": " (+31)"
+            },
+            {
+              "value": [
+                "2026-10-27",
+                1847
+              ],
+              "tip": " (+47)",
               "itemStyle": {
                 "color": "#D16262",
                 "borderColor": "#fff",
@@ -34743,7 +34775,14 @@
                 "2026-10-15",
                 1371
               ],
-              "tip": " (+33)",
+              "tip": " (+33)"
+            },
+            {
+              "value": [
+                "2026-10-27",
+                1403
+              ],
+              "tip": " (+32)",
               "itemStyle": {
                 "color": "#D16262",
                 "borderColor": "#fff",
@@ -34857,7 +34896,7 @@
           "barWidth": "45%",
           "data": [
             {
-              "value": 1814,
+              "value": 1847,
               "itemStyle": {
                 "color": {
                   "type": "linear",
@@ -34913,7 +34952,7 @@
               }
             },
             {
-              "value": 1388,
+              "value": 1403,
               "itemStyle": {
                 "color": {
                   "type": "linear",
@@ -34954,5 +34993,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-27 00:07"
+  "exportedAt": "2026-10-27 03:07"
 }

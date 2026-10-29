@@ -12,9 +12,9 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 18,
-        "total_ac": 980,
-        "total_subs": 2704,
+        "week_ac": 19,
+        "total_ac": 981,
+        "total_subs": 2706,
         "ac_rate": 41.0,
         "topic_count": 18
       },
@@ -27,15 +27,15 @@
       },
       "weekly": {
         "this_week": {
-          "ac": 9,
-          "subs": 19
+          "ac": 10,
+          "subs": 21
         },
         "last_week": {
           "ac": 26,
           "subs": 57
         },
-        "ac_delta": -65,
-        "subs_delta": -67
+        "ac_delta": -62,
+        "subs_delta": -63
       },
       "achievements": {
         "achievements": [
@@ -48,9 +48,22 @@
             "color": "orange",
             "earned": false,
             "progress": 98,
-            "current": 980,
+            "current": 981,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
+          },
+          {
+            "id": "cf_500",
+            "name": "CF 传说",
+            "icon": "👑",
+            "type": "cf_ac",
+            "target": 500,
+            "color": "red",
+            "earned": false,
+            "progress": 98,
+            "current": 488,
+            "earned_date": null,
+            "unlock_hint": "CF 平台 AC 500 题"
           },
           {
             "id": "r_1900",
@@ -64,19 +77,6 @@
             "current": 1847,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 1900"
-          },
-          {
-            "id": "cf_500",
-            "name": "CF 传说",
-            "icon": "👑",
-            "type": "cf_ac",
-            "target": 500,
-            "color": "red",
-            "earned": false,
-            "progress": 97,
-            "current": 487,
-            "earned_date": null,
-            "unlock_hint": "CF 平台 AC 500 题"
           },
           {
             "id": "r_2000",
@@ -243,7 +243,7 @@
             "color": "orange",
             "earned": false,
             "progress": 65,
-            "current": 980,
+            "current": 981,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -295,7 +295,7 @@
             "color": "red",
             "earned": false,
             "progress": 54,
-            "current": 2704,
+            "current": 2706,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -308,7 +308,7 @@
             "color": "red",
             "earned": false,
             "progress": 49,
-            "current": 980,
+            "current": 981,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -334,7 +334,7 @@
             "color": "red",
             "earned": false,
             "progress": 33,
-            "current": 980,
+            "current": 981,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -386,7 +386,7 @@
             "color": "red",
             "earned": false,
             "progress": 20,
-            "current": 980,
+            "current": 981,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1845,7 +1845,7 @@
           "color": "orange",
           "earned": false,
           "progress": 98,
-          "current": 980,
+          "current": 981,
           "earned_date": null,
           "unlock_hint": "累计 AC 1000 题"
         }
@@ -1855,7 +1855,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 2.2 题，上周日均 3.7 题——先把热度捡回来"
+            "text": "本周日均 2.5 题，上周日均 3.7 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -1931,17 +1931,17 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「千题大师」还有 20（进度 98%）"
+                "text": "距「千题大师」还有 19（进度 98%）"
+              },
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「CF 传说」还有 12（进度 98%）"
               },
               {
                 "icon": "🎯",
                 "accent": "green",
                 "text": "距「Candidate Master 紫名」还有 53（进度 97%）"
-              },
-              {
-                "icon": "🎯",
-                "accent": "green",
-                "text": "距「CF 传说」还有 13（进度 97%）"
               }
             ]
           },
@@ -1961,6 +1961,20 @@
       },
       "lastSubmitDate": "2026-10-29",
       "recentSubmissions": [
+        {
+          "time": "19:55",
+          "date": "2026-10-29",
+          "platform": "codeforces",
+          "problem": "163A",
+          "verdict": "AC"
+        },
+        {
+          "time": "19:53",
+          "date": "2026-10-29",
+          "platform": "codeforces",
+          "problem": "163A",
+          "verdict": "WA"
+        },
         {
           "time": "16:42",
           "date": "2026-10-29",
@@ -2152,20 +2166,6 @@
         },
         {
           "time": "15:23",
-          "date": "2026-10-22",
-          "platform": "codeforces",
-          "problem": "104901G",
-          "verdict": "WA"
-        },
-        {
-          "time": "14:40",
-          "date": "2026-10-22",
-          "platform": "codeforces",
-          "problem": "104901G",
-          "verdict": "WA"
-        },
-        {
-          "time": "14:39",
           "date": "2026-10-22",
           "platform": "codeforces",
           "problem": "104901G",
@@ -2428,7 +2428,7 @@
                 ],
                 [
                   "2026-10-29",
-                  1
+                  2
                 ]
               ]
             }
@@ -2510,7 +2510,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1109,
+                  "value": 1110,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -2522,7 +2522,7 @@
                   }
                 },
                 {
-                  "value": 945,
+                  "value": 946,
                   "itemStyle": {
                     "color": "#D16262",
                     "borderRadius": [
@@ -7128,6 +7128,10 @@
                 [
                   "2026-10-29",
                   1800.0
+                ],
+                [
+                  "2026-10-29",
+                  1700.0
                 ]
               ],
               "symbolSize": 7,
@@ -13519,6 +13523,10 @@
                 [
                   "2026-10-28",
                   1900.0
+                ],
+                [
+                  "2026-10-29",
+                  1700.0
                 ]
               ],
               "symbolSize": 5,
@@ -13798,7 +13806,7 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                43,
+                44,
                 50,
                 44,
                 26,
@@ -14482,8 +14490,8 @@
                     "solved": 11
                   },
                   {
-                    "value": 1625.0,
-                    "solved": 4
+                    "value": 1640.0,
+                    "solved": 5
                   }
                 ],
                 "lineStyle": {
@@ -35054,5 +35062,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-10-29 18:07"
+  "exportedAt": "2026-10-29 21:07"
 }

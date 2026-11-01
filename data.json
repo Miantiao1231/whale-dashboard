@@ -34019,7 +34019,7 @@
         "label": "Mianiii",
         "rating": 1847,
         "rank": "393",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1229
       },
       {
@@ -34035,7 +34035,7 @@
         "label": "小任",
         "rating": 1403,
         "rank": "2398",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1297
       }
     ],
@@ -35137,5 +35137,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-11-01 15:07"
+  "exportedAt": "2026-11-01 18:07"
 }

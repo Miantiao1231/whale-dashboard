@@ -34262,7 +34262,7 @@
         "label": "Mianiii",
         "rating": 1941,
         "rank": "103",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1229
       },
       {
@@ -35394,5 +35394,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-11-08 00:09"
+  "exportedAt": "2026-11-08 03:07"
 }

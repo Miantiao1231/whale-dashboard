@@ -12,46 +12,33 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 16,
-        "total_ac": 999,
-        "total_subs": 2733,
+        "week_ac": 18,
+        "total_ac": 1001,
+        "total_subs": 2740,
         "ac_rate": 41.3,
         "topic_count": 18
       },
       "streak": {
-        "current": 41,
-        "longest": 41,
-        "last_active": "2026-11-07",
-        "days_since_last": 1,
+        "current": 42,
+        "longest": 42,
+        "last_active": "2026-11-08",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 14,
-          "subs": 19
+          "ac": 16,
+          "subs": 26
         },
         "last_week": {
           "ac": 15,
           "subs": 29
         },
-        "ac_delta": -7,
-        "subs_delta": -34
+        "ac_delta": 7,
+        "subs_delta": -10
       },
       "achievements": {
         "achievements": [
-          {
-            "id": "ac_1000",
-            "name": "千题大师",
-            "icon": "🏆",
-            "type": "total_ac",
-            "target": 1000,
-            "color": "orange",
-            "earned": false,
-            "progress": 100,
-            "current": 999,
-            "earned_date": null,
-            "unlock_hint": "累计 AC 1000 题"
-          },
           {
             "id": "r_2000",
             "name": "两千大关",
@@ -125,8 +112,8 @@
             "target": 50,
             "color": "orange",
             "earned": false,
-            "progress": 82,
-            "current": 41,
+            "progress": 84,
+            "current": 42,
             "earned_date": null,
             "unlock_hint": "连续 50 天打卡"
           },
@@ -230,7 +217,7 @@
             "color": "orange",
             "earned": false,
             "progress": 67,
-            "current": 999,
+            "current": 1001,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -269,7 +256,7 @@
             "color": "red",
             "earned": false,
             "progress": 55,
-            "current": 2733,
+            "current": 2740,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -282,7 +269,7 @@
             "color": "red",
             "earned": false,
             "progress": 50,
-            "current": 999,
+            "current": 1001,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -307,8 +294,8 @@
             "target": 100,
             "color": "red",
             "earned": false,
-            "progress": 41,
-            "current": 41,
+            "progress": 42,
+            "current": 42,
             "earned_date": null,
             "unlock_hint": "连续 100 天打卡"
           },
@@ -321,7 +308,7 @@
             "color": "red",
             "earned": false,
             "progress": 33,
-            "current": 999,
+            "current": 1001,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -360,7 +347,7 @@
             "color": "red",
             "earned": false,
             "progress": 20,
-            "current": 999,
+            "current": 1001,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -597,6 +584,19 @@
             "current": 750,
             "earned_date": "2026-08-10",
             "unlock_hint": "累计 AC 750 题"
+          },
+          {
+            "id": "ac_1000",
+            "name": "千题大师",
+            "icon": "🏆",
+            "type": "total_ac",
+            "target": 1000,
+            "color": "orange",
+            "earned": true,
+            "progress": 100,
+            "current": 1000,
+            "earned_date": "2026-11-08",
+            "unlock_hint": "累计 AC 1000 题"
           },
           {
             "id": "st_1",
@@ -1834,20 +1834,20 @@
             "unlock_hint": "四个难度段覆盖 4 段"
           }
         ],
-        "earned_count": 113,
+        "earned_count": 114,
         "total_count": 138,
         "next_milestone": {
-          "id": "ac_1000",
-          "name": "千题大师",
-          "icon": "🏆",
-          "type": "total_ac",
-          "target": 1000,
-          "color": "orange",
+          "id": "r_2000",
+          "name": "两千大关",
+          "icon": "🏰",
+          "type": "rating",
+          "target": 2000,
+          "color": "purple",
           "earned": false,
-          "progress": 100,
-          "current": 999,
+          "progress": 97,
+          "current": 1941,
           "earned_date": null,
-          "unlock_hint": "累计 AC 1000 题"
+          "unlock_hint": "CF Rating 达到 2000"
         }
       },
       "coachTips": {
@@ -1855,7 +1855,7 @@
           {
             "icon": "🚀",
             "accent": "green",
-            "text": "距「千题大师」只差 0% 进度——集中火力冲一下"
+            "text": "距「两千大关」只差 3% 进度——集中火力冲一下"
           }
         ],
         "sections": [
@@ -1909,7 +1909,7 @@
               {
                 "icon": "📉",
                 "accent": "amber",
-                "text": "「交互」只 AC 过 2 题，是当前最弱专题——从 easy 档补 5 道"
+                "text": "「交互」只 AC 过 3 题，是当前最弱专题——从 easy 档补 5 道"
               },
               {
                 "icon": "📉",
@@ -1926,17 +1926,17 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「千题大师」还有 1（进度 100%）"
-              },
-              {
-                "icon": "🎯",
-                "accent": "green",
                 "text": "距「两千大关」还有 59（进度 97%）"
               },
               {
                 "icon": "🎯",
                 "accent": "green",
                 "text": "距「Master 橙名」还有 159（进度 92%）"
+              },
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「传说级」还有 200（进度 92%）"
               }
             ]
           },
@@ -1954,8 +1954,57 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-11-07",
+      "lastSubmitDate": "2026-11-08",
       "recentSubmissions": [
+        {
+          "time": "20:51",
+          "date": "2026-11-08",
+          "platform": "codeforces",
+          "problem": "2280B",
+          "verdict": "AC"
+        },
+        {
+          "time": "20:48",
+          "date": "2026-11-08",
+          "platform": "codeforces",
+          "problem": "2280B",
+          "verdict": "WA"
+        },
+        {
+          "time": "20:45",
+          "date": "2026-11-08",
+          "platform": "codeforces",
+          "problem": "2280B",
+          "verdict": "WA"
+        },
+        {
+          "time": "20:42",
+          "date": "2026-11-08",
+          "platform": "codeforces",
+          "problem": "2280B",
+          "verdict": "WA"
+        },
+        {
+          "time": "20:41",
+          "date": "2026-11-08",
+          "platform": "codeforces",
+          "problem": "2280B",
+          "verdict": "WA"
+        },
+        {
+          "time": "20:36",
+          "date": "2026-11-08",
+          "platform": "codeforces",
+          "problem": "2280B",
+          "verdict": "WA"
+        },
+        {
+          "time": "20:30",
+          "date": "2026-11-08",
+          "platform": "codeforces",
+          "problem": "2280A",
+          "verdict": "AC"
+        },
         {
           "time": "00:27",
           "date": "2026-11-07",
@@ -2115,55 +2164,6 @@
           "date": "2026-10-30",
           "platform": "codeforces",
           "problem": "984A",
-          "verdict": "AC"
-        },
-        {
-          "time": "23:24",
-          "date": "2026-10-30",
-          "platform": "codeforces",
-          "problem": "984A",
-          "verdict": "WA"
-        },
-        {
-          "time": "23:19",
-          "date": "2026-10-30",
-          "platform": "codeforces",
-          "problem": "984A",
-          "verdict": "WA"
-        },
-        {
-          "time": "19:20",
-          "date": "2026-10-30",
-          "platform": "codeforces",
-          "problem": "2153A",
-          "verdict": "AC"
-        },
-        {
-          "time": "19:19",
-          "date": "2026-10-30",
-          "platform": "codeforces",
-          "problem": "2153A",
-          "verdict": "AC"
-        },
-        {
-          "time": "19:55",
-          "date": "2026-10-29",
-          "platform": "codeforces",
-          "problem": "163A",
-          "verdict": "AC"
-        },
-        {
-          "time": "19:53",
-          "date": "2026-10-29",
-          "platform": "codeforces",
-          "problem": "163A",
-          "verdict": "WA"
-        },
-        {
-          "time": "16:42",
-          "date": "2026-10-29",
-          "platform": "codeforces",
-          "problem": "1446B",
           "verdict": "AC"
         }
       ],
@@ -2428,6 +2428,10 @@
                 [
                   "2026-11-07",
                   1
+                ],
+                [
+                  "2026-11-08",
+                  2
                 ]
               ]
             }
@@ -2509,7 +2513,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1130,
+                  "value": 1132,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -2521,7 +2525,7 @@
                   }
                 },
                 {
-                  "value": 952,
+                  "value": 957,
                   "itemStyle": {
                     "color": "#D16262",
                     "borderRadius": [
@@ -7210,6 +7214,14 @@
                 ],
                 [
                   "2026-11-07",
+                  800
+                ],
+                [
+                  "2026-11-08",
+                  800
+                ],
+                [
+                  "2026-11-08",
                   800
                 ]
               ],
@@ -13634,6 +13646,26 @@
                 [
                   "2026-11-06",
                   800
+                ],
+                [
+                  "2026-11-08",
+                  800
+                ],
+                [
+                  "2026-11-08",
+                  800
+                ],
+                [
+                  "2026-11-08",
+                  800
+                ],
+                [
+                  "2026-11-08",
+                  800
+                ],
+                [
+                  "2026-11-08",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -13684,14 +13716,14 @@
               "fontSize": 11
             },
             "data": [
-              "10/16",
               "10/17",
               "10/24",
               "10/25",
               "10/27",
               "10/31",
               "11/01",
-              "11/02"
+              "11/02",
+              "11/08"
             ]
           },
           "yAxis": {
@@ -13723,14 +13755,14 @@
             {
               "type": "bar",
               "data": [
+                2,
+                2,
+                1,
+                2,
+                1,
+                2,
                 3,
-                2,
-                2,
-                1,
-                2,
-                1,
-                2,
-                3
+                2
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -13891,12 +13923,12 @@
                 21,
                 69,
                 66,
-                157,
+                158,
                 87,
                 19,
                 15,
                 9,
-                1
+                2
               ],
               "itemStyle": {
                 "color": "#2E9B77",
@@ -34262,7 +34294,7 @@
         "label": "Mianiii",
         "rating": 1941,
         "rank": "103",
-        "last_submit_days": 1,
+        "last_submit_days": 0,
         "nc_rating": 1229
       },
       {
@@ -35394,5 +35426,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-11-08 18:07"
+  "exportedAt": "2026-11-08 21:07"
 }

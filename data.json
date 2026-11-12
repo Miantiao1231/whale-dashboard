@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 23,
-        "total_ac": 1019,
-        "total_subs": 2777,
+        "week_ac": 24,
+        "total_ac": 1020,
+        "total_subs": 2778,
         "ac_rate": 41.6,
         "topic_count": 18
       },
       "streak": {
-        "current": 45,
-        "longest": 45,
-        "last_active": "2026-11-11",
-        "days_since_last": 1,
+        "current": 46,
+        "longest": 46,
+        "last_active": "2026-11-12",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 11,
-          "subs": 13
+          "ac": 12,
+          "subs": 14
         },
         "last_week": {
           "ac": 17,
           "subs": 30
         },
-        "ac_delta": -35,
-        "subs_delta": -57
+        "ac_delta": -29,
+        "subs_delta": -53
       },
       "achievements": {
         "achievements": [
@@ -66,6 +66,19 @@
             "unlock_hint": "CF Rating 达到 2100"
           },
           {
+            "id": "st_50",
+            "name": "五十连击",
+            "icon": "💪",
+            "type": "streak",
+            "target": 50,
+            "color": "orange",
+            "earned": false,
+            "progress": 92,
+            "current": 46,
+            "earned_date": null,
+            "unlock_hint": "连续 50 天打卡"
+          },
+          {
             "id": "df_2600",
             "name": "传说级",
             "icon": "🐲",
@@ -77,19 +90,6 @@
             "current": 2400,
             "earned_date": null,
             "unlock_hint": "解决难度 >= 2600 的题目"
-          },
-          {
-            "id": "st_50",
-            "name": "五十连击",
-            "icon": "💪",
-            "type": "streak",
-            "target": 50,
-            "color": "orange",
-            "earned": false,
-            "progress": 90,
-            "current": 45,
-            "earned_date": null,
-            "unlock_hint": "连续 50 天打卡"
           },
           {
             "id": "dw_50",
@@ -151,8 +151,8 @@
             "target": 2,
             "color": "purple",
             "earned": false,
-            "progress": 79,
-            "current": 2.52,
+            "progress": 80,
+            "current": 2.51,
             "earned_date": null,
             "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
@@ -204,7 +204,7 @@
             "color": "orange",
             "earned": false,
             "progress": 68,
-            "current": 1019,
+            "current": 1020,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -256,7 +256,7 @@
             "color": "red",
             "earned": false,
             "progress": 56,
-            "current": 2777,
+            "current": 2778,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -269,7 +269,7 @@
             "color": "red",
             "earned": false,
             "progress": 51,
-            "current": 1019,
+            "current": 1020,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -294,8 +294,8 @@
             "target": 100,
             "color": "red",
             "earned": false,
-            "progress": 45,
-            "current": 45,
+            "progress": 46,
+            "current": 46,
             "earned_date": null,
             "unlock_hint": "连续 100 天打卡"
           },
@@ -308,7 +308,7 @@
             "color": "red",
             "earned": false,
             "progress": 34,
-            "current": 1019,
+            "current": 1020,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -347,7 +347,7 @@
             "color": "red",
             "earned": false,
             "progress": 20,
-            "current": 1019,
+            "current": 1020,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1582,7 +1582,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.52,
+            "current": 2.51,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -1595,7 +1595,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.52,
+            "current": 2.51,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -1936,7 +1936,7 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「传说级」还有 200（进度 92%）"
+                "text": "距「五十连击」还有 4（进度 92%）"
               }
             ]
           },
@@ -1954,8 +1954,15 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-11-11",
+      "lastSubmitDate": "2026-11-12",
       "recentSubmissions": [
+        {
+          "time": "12:58",
+          "date": "2026-11-12",
+          "platform": "codeforces",
+          "problem": "2259A",
+          "verdict": "AC"
+        },
         {
           "time": "22:46",
           "date": "2026-11-11",
@@ -2158,13 +2165,6 @@
           "platform": "codeforces",
           "problem": "2284A2",
           "verdict": "AC"
-        },
-        {
-          "time": "22:42",
-          "date": "2026-11-06",
-          "platform": "codeforces",
-          "problem": "2284A2",
-          "verdict": "WA"
         }
       ],
       "charts": {
@@ -2436,6 +2436,10 @@
                 [
                   "2026-11-11",
                   4
+                ],
+                [
+                  "2026-11-12",
+                  1
                 ]
               ]
             }
@@ -2517,7 +2521,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1155,
+                  "value": 1156,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -7318,6 +7322,10 @@
                 ],
                 [
                   "2026-11-11",
+                  800.0
+                ],
+                [
+                  "2026-11-12",
                   800.0
                 ]
               ],
@@ -14067,7 +14075,7 @@
               "stack": "total",
               "data": [
                 31,
-                182,
+                183,
                 152,
                 53,
                 64,
@@ -14076,7 +14084,7 @@
                 69,
                 66,
                 160,
-                88,
+                89,
                 19,
                 15,
                 9,
@@ -14788,8 +14796,8 @@
                     "solved": 4
                   },
                   {
-                    "value": 1542.9,
-                    "solved": 7
+                    "value": 1450.0,
+                    "solved": 8
                   }
                 ],
                 "lineStyle": {
@@ -35637,5 +35645,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-11-12 12:07"
+  "exportedAt": "2026-11-12 15:07"
 }

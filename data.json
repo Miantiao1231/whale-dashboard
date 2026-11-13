@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 19,
-        "total_ac": 1023,
-        "total_subs": 2781,
+        "week_ac": 20,
+        "total_ac": 1024,
+        "total_subs": 2783,
         "ac_rate": 41.7,
         "topic_count": 18
       },
       "streak": {
-        "current": 47,
-        "longest": 47,
-        "last_active": "2026-11-13",
-        "days_since_last": 1,
+        "current": 48,
+        "longest": 48,
+        "last_active": "2026-11-14",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 15,
-          "subs": 17
+          "ac": 16,
+          "subs": 19
         },
         "last_week": {
           "ac": 17,
           "subs": 30
         },
-        "ac_delta": -12,
-        "subs_delta": -43
+        "ac_delta": -6,
+        "subs_delta": -37
       },
       "achievements": {
         "achievements": [
@@ -60,8 +60,8 @@
             "target": 50,
             "color": "orange",
             "earned": false,
-            "progress": 94,
-            "current": 47,
+            "progress": 96,
+            "current": 48,
             "earned_date": null,
             "unlock_hint": "连续 50 天打卡"
           },
@@ -77,19 +77,6 @@
             "current": 1941,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2100"
-          },
-          {
-            "id": "df_2600",
-            "name": "传说级",
-            "icon": "🐲",
-            "type": "max_diff",
-            "target": 2600,
-            "color": "red",
-            "earned": false,
-            "progress": 92,
-            "current": 2400,
-            "earned_date": null,
-            "unlock_hint": "解决难度 >= 2600 的题目"
           },
           {
             "id": "dw_50",
@@ -204,7 +191,7 @@
             "color": "orange",
             "earned": false,
             "progress": 68,
-            "current": 1023,
+            "current": 1024,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -256,7 +243,7 @@
             "color": "red",
             "earned": false,
             "progress": 56,
-            "current": 2781,
+            "current": 2783,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -269,7 +256,7 @@
             "color": "red",
             "earned": false,
             "progress": 51,
-            "current": 1023,
+            "current": 1024,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -294,8 +281,8 @@
             "target": 100,
             "color": "red",
             "earned": false,
-            "progress": 47,
-            "current": 47,
+            "progress": 48,
+            "current": 48,
             "earned_date": null,
             "unlock_hint": "连续 100 天打卡"
           },
@@ -308,7 +295,7 @@
             "color": "red",
             "earned": false,
             "progress": 34,
-            "current": 1023,
+            "current": 1024,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -347,7 +334,7 @@
             "color": "red",
             "earned": false,
             "progress": 20,
-            "current": 1023,
+            "current": 1024,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1132,6 +1119,19 @@
             "unlock_hint": "解决难度 >= 2400 的题目"
           },
           {
+            "id": "df_2600",
+            "name": "传说级",
+            "icon": "🐲",
+            "type": "max_diff",
+            "target": 2600,
+            "color": "red",
+            "earned": true,
+            "progress": 100,
+            "current": 2600,
+            "earned_date": "2026-11-14",
+            "unlock_hint": "解决难度 >= 2600 的题目"
+          },
+          {
             "id": "dd_3",
             "name": "日刷三题",
             "icon": "📚",
@@ -1834,7 +1834,7 @@
             "unlock_hint": "四个难度段覆盖 4 段"
           }
         ],
-        "earned_count": 114,
+        "earned_count": 115,
         "total_count": 138,
         "next_milestone": {
           "id": "r_2000",
@@ -1931,7 +1931,7 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「五十连击」还有 3（进度 94%）"
+                "text": "距「五十连击」还有 2（进度 96%）"
               },
               {
                 "icon": "🎯",
@@ -1954,8 +1954,22 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-11-13",
+      "lastSubmitDate": "2026-11-14",
       "recentSubmissions": [
+        {
+          "time": "01:48",
+          "date": "2026-11-14",
+          "platform": "codeforces",
+          "problem": "1375G",
+          "verdict": "AC"
+        },
+        {
+          "time": "01:28",
+          "date": "2026-11-14",
+          "platform": "codeforces",
+          "problem": "1375G",
+          "verdict": "WA"
+        },
         {
           "time": "21:13",
           "date": "2026-11-13",
@@ -2150,20 +2164,6 @@
           "date": "2026-11-08",
           "platform": "codeforces",
           "problem": "2280A",
-          "verdict": "AC"
-        },
-        {
-          "time": "00:27",
-          "date": "2026-11-07",
-          "platform": "codeforces",
-          "problem": "2284D",
-          "verdict": "AC"
-        },
-        {
-          "time": "23:26",
-          "date": "2026-11-06",
-          "platform": "codeforces",
-          "problem": "2284C2",
           "verdict": "AC"
         }
       ],
@@ -2444,6 +2444,10 @@
                 [
                   "2026-11-13",
                   3
+                ],
+                [
+                  "2026-11-14",
+                  1
                 ]
               ]
             }
@@ -2525,7 +2529,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1159,
+                  "value": 1160,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -2537,7 +2541,7 @@
                   }
                 },
                 {
-                  "value": 961,
+                  "value": 962,
                   "itemStyle": {
                     "color": "#D16262",
                     "borderRadius": [
@@ -7343,6 +7347,10 @@
                 [
                   "2026-11-13",
                   800
+                ],
+                [
+                  "2026-11-14",
+                  2800.0
                 ]
               ],
               "symbolSize": 7,
@@ -13842,6 +13850,10 @@
                 [
                   "2026-11-10",
                   1800.0
+                ],
+                [
+                  "2026-11-14",
+                  2800.0
                 ]
               ],
               "symbolSize": 5,
@@ -14149,14 +14161,14 @@
                 24,
                 15,
                 15,
-                11,
+                12,
                 20,
                 10,
                 0,
                 2,
-                6,
+                7,
                 4,
-                4,
+                5,
                 1,
                 0,
                 0,
@@ -14812,8 +14824,8 @@
                     "solved": 4
                   },
                   {
-                    "value": 1450.0,
-                    "solved": 8
+                    "value": 1600.0,
+                    "solved": 9
                   }
                 ],
                 "lineStyle": {
@@ -35732,5 +35744,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-11-14 02:39"
+  "exportedAt": "2026-11-14 03:07"
 }

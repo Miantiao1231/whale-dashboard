@@ -34632,7 +34632,7 @@
         "label": "小任",
         "rating": 1398,
         "rank": "2628",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1297
       }
     ],
@@ -35748,5 +35748,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-11-15 15:07"
+  "exportedAt": "2026-11-15 18:07"
 }

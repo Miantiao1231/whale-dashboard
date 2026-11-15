@@ -12,33 +12,46 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 19,
-        "total_ac": 1024,
-        "total_subs": 2783,
+        "week_ac": 20,
+        "total_ac": 1025,
+        "total_subs": 2784,
         "ac_rate": 41.7,
         "topic_count": 18
       },
       "streak": {
-        "current": 48,
-        "longest": 48,
-        "last_active": "2026-11-14",
-        "days_since_last": 1,
+        "current": 49,
+        "longest": 49,
+        "last_active": "2026-11-15",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 16,
-          "subs": 19
+          "ac": 17,
+          "subs": 20
         },
         "last_week": {
           "ac": 17,
           "subs": 30
         },
-        "ac_delta": -6,
-        "subs_delta": -37
+        "ac_delta": 0,
+        "subs_delta": -33
       },
       "achievements": {
         "achievements": [
+          {
+            "id": "st_50",
+            "name": "五十连击",
+            "icon": "💪",
+            "type": "streak",
+            "target": 50,
+            "color": "orange",
+            "earned": false,
+            "progress": 98,
+            "current": 49,
+            "earned_date": null,
+            "unlock_hint": "连续 50 天打卡"
+          },
           {
             "id": "r_2000",
             "name": "两千大关",
@@ -51,19 +64,6 @@
             "current": 1941,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2000"
-          },
-          {
-            "id": "st_50",
-            "name": "五十连击",
-            "icon": "💪",
-            "type": "streak",
-            "target": 50,
-            "color": "orange",
-            "earned": false,
-            "progress": 96,
-            "current": 48,
-            "earned_date": null,
-            "unlock_hint": "连续 50 天打卡"
           },
           {
             "id": "r_2100",
@@ -191,7 +191,7 @@
             "color": "orange",
             "earned": false,
             "progress": 68,
-            "current": 1024,
+            "current": 1025,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -243,7 +243,7 @@
             "color": "red",
             "earned": false,
             "progress": 56,
-            "current": 2783,
+            "current": 2784,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -256,7 +256,7 @@
             "color": "red",
             "earned": false,
             "progress": 51,
-            "current": 1024,
+            "current": 1025,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -281,8 +281,8 @@
             "target": 100,
             "color": "red",
             "earned": false,
-            "progress": 48,
-            "current": 48,
+            "progress": 49,
+            "current": 49,
             "earned_date": null,
             "unlock_hint": "连续 100 天打卡"
           },
@@ -295,7 +295,7 @@
             "color": "red",
             "earned": false,
             "progress": 34,
-            "current": 1024,
+            "current": 1025,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -334,7 +334,7 @@
             "color": "red",
             "earned": false,
             "progress": 20,
-            "current": 1024,
+            "current": 1025,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1837,17 +1837,17 @@
         "earned_count": 115,
         "total_count": 138,
         "next_milestone": {
-          "id": "r_2000",
-          "name": "两千大关",
-          "icon": "🏰",
-          "type": "rating",
-          "target": 2000,
-          "color": "purple",
+          "id": "st_50",
+          "name": "五十连击",
+          "icon": "💪",
+          "type": "streak",
+          "target": 50,
+          "color": "orange",
           "earned": false,
-          "progress": 97,
-          "current": 1941,
+          "progress": 98,
+          "current": 49,
           "earned_date": null,
-          "unlock_hint": "CF Rating 达到 2000"
+          "unlock_hint": "连续 50 天打卡"
         }
       },
       "coachTips": {
@@ -1855,7 +1855,7 @@
           {
             "icon": "🚀",
             "accent": "green",
-            "text": "距「两千大关」只差 3% 进度——集中火力冲一下"
+            "text": "距「五十连击」只差 2% 进度——集中火力冲一下"
           }
         ],
         "sections": [
@@ -1926,12 +1926,12 @@
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「两千大关」还有 59（进度 97%）"
+                "text": "距「五十连击」还有 1（进度 98%）"
               },
               {
                 "icon": "🎯",
                 "accent": "green",
-                "text": "距「五十连击」还有 2（进度 96%）"
+                "text": "距「两千大关」还有 59（进度 97%）"
               },
               {
                 "icon": "🎯",
@@ -1954,8 +1954,15 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-11-14",
+      "lastSubmitDate": "2026-11-15",
       "recentSubmissions": [
+        {
+          "time": "20:38",
+          "date": "2026-11-15",
+          "platform": "codeforces",
+          "problem": "306A",
+          "verdict": "AC"
+        },
         {
           "time": "01:48",
           "date": "2026-11-14",
@@ -2158,13 +2165,6 @@
           "platform": "codeforces",
           "problem": "2280B",
           "verdict": "WA"
-        },
-        {
-          "time": "20:30",
-          "date": "2026-11-08",
-          "platform": "codeforces",
-          "problem": "2280A",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -2444,6 +2444,10 @@
                 [
                   "2026-11-14",
                   1
+                ],
+                [
+                  "2026-11-15",
+                  1
                 ]
               ]
             }
@@ -2525,7 +2529,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1160,
+                  "value": 1161,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -7347,6 +7351,10 @@
                 [
                   "2026-11-14",
                   2800.0
+                ],
+                [
+                  "2026-11-15",
+                  800.0
                 ]
               ],
               "symbolSize": 7,
@@ -14107,7 +14115,7 @@
                 21,
                 70,
                 67,
-                162,
+                163,
                 89,
                 19,
                 15,
@@ -14820,8 +14828,8 @@
                     "solved": 4
                   },
                   {
-                    "value": 1600.0,
-                    "solved": 9
+                    "value": 1520.0,
+                    "solved": 10
                   }
                 ],
                 "lineStyle": {
@@ -34616,7 +34624,7 @@
         "label": "Mianiii",
         "rating": 1941,
         "rank": "103",
-        "last_submit_days": 1,
+        "last_submit_days": 0,
         "nc_rating": 1229
       },
       {
@@ -35748,5 +35756,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-11-15 18:07"
+  "exportedAt": "2026-11-15 21:07"
 }

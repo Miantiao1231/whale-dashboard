@@ -12,9 +12,9 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 18,
-        "total_ac": 1026,
-        "total_subs": 2786,
+        "week_ac": 16,
+        "total_ac": 1028,
+        "total_subs": 2789,
         "ac_rate": 41.7,
         "topic_count": 18
       },
@@ -22,20 +22,20 @@
         "current": 50,
         "longest": 50,
         "last_active": "2026-11-16",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 1,
-          "subs": 2
+          "ac": 3,
+          "subs": 5
         },
         "last_week": {
           "ac": 17,
           "subs": 20
         },
-        "ac_delta": -94,
-        "subs_delta": -90
+        "ac_delta": -82,
+        "subs_delta": -75
       },
       "achievements": {
         "achievements": [
@@ -177,8 +177,8 @@
             "target": 1500,
             "color": "orange",
             "earned": false,
-            "progress": 68,
-            "current": 1026,
+            "progress": 69,
+            "current": 1028,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -230,7 +230,7 @@
             "color": "red",
             "earned": false,
             "progress": 56,
-            "current": 2786,
+            "current": 2789,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -243,7 +243,7 @@
             "color": "red",
             "earned": false,
             "progress": 51,
-            "current": 1026,
+            "current": 1028,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -282,7 +282,7 @@
             "color": "red",
             "earned": false,
             "progress": 34,
-            "current": 1026,
+            "current": 1028,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -321,7 +321,7 @@
             "color": "red",
             "earned": false,
             "progress": 21,
-            "current": 1026,
+            "current": 1028,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1855,7 +1855,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 1.0 题，上周日均 2.4 题——先把热度捡回来"
+            "text": "本周日均 1.5 题，上周日均 2.4 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -1872,35 +1872,35 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1900 1092F Tree with Maximum Cost · 第3轮 · 超期 56 天 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· dfs and similar,dp,trees",
+                "text": "1900 1092F Tree with Maximum Cost · 第3轮 · 超期 57 天 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· dfs and similar,dp,trees",
                 "problem_id": "1092F",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1900 547B Mike and Feet · 第3轮 · 超期 56 天 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· binary search,data structures,dp,dsu",
+                "text": "1900 547B Mike and Feet · 第3轮 · 超期 57 天 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· binary search,data structures,dp,dsu",
                 "problem_id": "547B",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1900 1313C2 Skyscrapers (hard version) · 第3轮 · 超期 56 天 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· data structures,dp,greedy",
+                "text": "1900 1313C2 Skyscrapers (hard version) · 第3轮 · 超期 57 天 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· data structures,dp,greedy",
                 "problem_id": "1313C2",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "2000 1132F Clear the String · 第3轮 · 超期 56 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1765 的 +235）· dp",
+                "text": "2000 1132F Clear the String · 第3轮 · 超期 57 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1765 的 +235）· dp",
                 "problem_id": "1132F",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "2000 2257E Busy Beaver · 第3轮 · 超期 54 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1765 的 +235）· brute force,data structures,divide and conquer,dp,greedy,implementation,sortings",
+                "text": "2000 2257E Busy Beaver · 第3轮 · 超期 55 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1765 的 +235）· brute force,data structures,divide and conquer,dp,greedy,implementation,sortings",
                 "problem_id": "2257E",
                 "platform": "codeforces"
               }
@@ -1961,6 +1961,27 @@
       },
       "lastSubmitDate": "2026-11-16",
       "recentSubmissions": [
+        {
+          "time": "22:53",
+          "date": "2026-11-16",
+          "platform": "codeforces",
+          "problem": "2285C",
+          "verdict": "AC"
+        },
+        {
+          "time": "22:52",
+          "date": "2026-11-16",
+          "platform": "codeforces",
+          "problem": "2285C",
+          "verdict": "WA"
+        },
+        {
+          "time": "22:37",
+          "date": "2026-11-16",
+          "platform": "codeforces",
+          "problem": "2285B",
+          "verdict": "AC"
+        },
         {
           "time": "19:43",
           "date": "2026-11-16",
@@ -2149,27 +2170,6 @@
           "platform": "codeforces",
           "problem": "2280B",
           "verdict": "AC"
-        },
-        {
-          "time": "20:48",
-          "date": "2026-11-08",
-          "platform": "codeforces",
-          "problem": "2280B",
-          "verdict": "WA"
-        },
-        {
-          "time": "20:45",
-          "date": "2026-11-08",
-          "platform": "codeforces",
-          "problem": "2280B",
-          "verdict": "WA"
-        },
-        {
-          "time": "20:42",
-          "date": "2026-11-08",
-          "platform": "codeforces",
-          "problem": "2280B",
-          "verdict": "WA"
         }
       ],
       "charts": {
@@ -2188,8 +2188,8 @@
           },
           "calendar": {
             "range": [
-              "2026-09-22",
-              "2026-11-16"
+              "2026-09-23",
+              "2026-11-17"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -2452,7 +2452,7 @@
                 ],
                 [
                   "2026-11-16",
-                  1
+                  3
                 ]
               ]
             }
@@ -2534,7 +2534,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1162,
+                  "value": 1164,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -2546,7 +2546,7 @@
                   }
                 },
                 {
-                  "value": 963,
+                  "value": 964,
                   "itemStyle": {
                     "color": "#D16262",
                     "borderRadius": [
@@ -7360,6 +7360,14 @@
                 [
                   "2026-11-15",
                   800.0
+                ],
+                [
+                  "2026-11-16",
+                  800
+                ],
+                [
+                  "2026-11-16",
+                  800
                 ],
                 [
                   "2026-11-16",
@@ -13871,6 +13879,10 @@
                 [
                   "2026-11-16",
                   800
+                ],
+                [
+                  "2026-11-16",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -14121,12 +14133,12 @@
               "data": [
                 31,
                 184,
-                154,
+                156,
                 53,
-                64,
+                65,
                 41,
                 21,
-                70,
+                71,
                 68,
                 163,
                 89,
@@ -15644,7 +15656,7 @@
         "current": 2,
         "longest": 14,
         "last_active": "2026-10-22",
-        "days_since_last": 25,
+        "days_since_last": 26,
         "is_broken": true
       },
       "weekly": {
@@ -17489,28 +17501,28 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2259E Treasure Map Destruction (Constructive Version) · 第1轮 · 超期 66 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1259 的 +241）· 2-sat,constructive algorithms,greedy",
+                "text": "1500 2259E Treasure Map Destruction (Constructive Version) · 第1轮 · 超期 67 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1259 的 +241）· 2-sat,constructive algorithms,greedy",
                 "problem_id": "2259E",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第3轮 · 超期 61 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第3轮 · 超期 62 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 1791F Range Update Point Query · 第1轮 · 超期 43 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1200 的 +300）· binary search,brute force,data structures",
+                "text": "1500 1791F Range Update Point Query · 第1轮 · 超期 44 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1200 的 +300）· binary search,brute force,data structures",
                 "problem_id": "1791F",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2271C XOR Problem · 第1轮 · 超期 24 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1148 的 +252）· bitmasks,constructive algorithms,graphs,greedy,math",
+                "text": "1400 2271C XOR Problem · 第1轮 · 超期 25 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1148 的 +252）· bitmasks,constructive algorithms,graphs,greedy,math",
                 "problem_id": "2271C",
                 "platform": "codeforces"
               }
@@ -17798,8 +17810,8 @@
           },
           "calendar": {
             "range": [
-              "2026-09-22",
-              "2026-11-16"
+              "2026-09-23",
+              "2026-11-17"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -24997,29 +25009,29 @@
     "lywyb": {
       "stats": {
         "week_ac": 22,
-        "total_ac": 502,
-        "total_subs": 1329,
-        "ac_rate": 42.3,
+        "total_ac": 504,
+        "total_subs": 1331,
+        "ac_rate": 42.4,
         "topic_count": 17
       },
       "streak": {
         "current": 6,
         "longest": 14,
         "last_active": "2026-11-16",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 1,
-          "subs": 1
+          "ac": 3,
+          "subs": 3
         },
         "last_week": {
           "ac": 21,
           "subs": 31
         },
-        "ac_delta": -95,
-        "subs_delta": -97
+        "ac_delta": -86,
+        "subs_delta": -90
       },
       "achievements": {
         "achievements": [
@@ -25292,7 +25304,7 @@
             "color": "purple",
             "earned": false,
             "progress": 67,
-            "current": 502,
+            "current": 504,
             "earned_date": null,
             "unlock_hint": "累计 AC 750 题"
           },
@@ -25323,6 +25335,19 @@
             "unlock_hint": "牛客 AC 200 题"
           },
           {
+            "id": "fn_sub_2000",
+            "name": "提交两千",
+            "icon": "📦",
+            "type": "total_subs",
+            "target": 2000,
+            "color": "orange",
+            "earned": false,
+            "progress": 67,
+            "current": 1331,
+            "earned_date": null,
+            "unlock_hint": "累计提交 2000 次"
+          },
+          {
             "id": "dw_50",
             "name": "周刷五十",
             "icon": "💪",
@@ -25334,19 +25359,6 @@
             "current": 33,
             "earned_date": null,
             "unlock_hint": "单周 AC 50 题"
-          },
-          {
-            "id": "fn_sub_2000",
-            "name": "提交两千",
-            "icon": "📦",
-            "type": "total_subs",
-            "target": 2000,
-            "color": "orange",
-            "earned": false,
-            "progress": 66,
-            "current": 1329,
-            "earned_date": null,
-            "unlock_hint": "累计提交 2000 次"
           },
           {
             "id": "r_2300",
@@ -25409,7 +25421,7 @@
             "color": "orange",
             "earned": false,
             "progress": 50,
-            "current": 502,
+            "current": 504,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -25461,9 +25473,22 @@
             "color": "red",
             "earned": false,
             "progress": 40,
-            "current": 200,
+            "current": 202,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
+          },
+          {
+            "id": "ac_1500",
+            "name": "千五战神",
+            "icon": "🗡️",
+            "type": "total_ac",
+            "target": 1500,
+            "color": "orange",
+            "earned": false,
+            "progress": 34,
+            "current": 504,
+            "earned_date": null,
+            "unlock_hint": "累计 AC 1500 题"
           },
           {
             "id": "lg_500",
@@ -25477,19 +25502,6 @@
             "current": 168,
             "earned_date": null,
             "unlock_hint": "洛谷 AC 500 题"
-          },
-          {
-            "id": "ac_1500",
-            "name": "千五战神",
-            "icon": "🗡️",
-            "type": "total_ac",
-            "target": 1500,
-            "color": "orange",
-            "earned": false,
-            "progress": 33,
-            "current": 502,
-            "earned_date": null,
-            "unlock_hint": "累计 AC 1500 题"
           },
           {
             "id": "fw_3",
@@ -25526,7 +25538,7 @@
             "color": "red",
             "earned": false,
             "progress": 27,
-            "current": 1329,
+            "current": 1331,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -25539,7 +25551,7 @@
             "color": "red",
             "earned": false,
             "progress": 25,
-            "current": 502,
+            "current": 504,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -25552,7 +25564,7 @@
             "color": "red",
             "earned": false,
             "progress": 17,
-            "current": 502,
+            "current": 504,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -25578,7 +25590,7 @@
             "color": "red",
             "earned": false,
             "progress": 10,
-            "current": 502,
+            "current": 504,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -26839,7 +26851,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 1.0 题，上周日均 3.0 题——先把热度捡回来"
+            "text": "本周日均 1.5 题，上周日均 3.0 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -26856,35 +26868,35 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2254E Chronostasis · 第1轮 · 超期 89 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "text": "1500 2254E Chronostasis · 第1轮 · 超期 90 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1300 2248C Maximize the Score · 第1轮 · 超期 79 天 · ⚡自动 · ⚡自动入队：难度 1300（超当前 rating 1080 的 +220）· dp,greedy",
+                "text": "1300 2248C Maximize the Score · 第1轮 · 超期 80 天 · ⚡自动 · ⚡自动入队：难度 1300（超当前 rating 1080 的 +220）· dp,greedy",
                 "problem_id": "2248C",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 超期 79 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1132 的 +268）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 80 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1132 的 +268）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1600 1033C Permutation Game · 第1轮 · 超期 64 天 · ⚡自动 · ⚡自动入队：难度 1600（超当前 rating 1341 的 +259）· brute force,dp,games",
+                "text": "1600 1033C Permutation Game · 第1轮 · 超期 65 天 · ⚡自动 · ⚡自动入队：难度 1600（超当前 rating 1341 的 +259）· brute force,dp,games",
                 "problem_id": "1033C",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2259E Treasure Map Destruction (Constructive Version) · 第1轮 · 超期 55 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1286 的 +214）· 2-sat,constructive algorithms,greedy",
+                "text": "1500 2259E Treasure Map Destruction (Constructive Version) · 第1轮 · 超期 56 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1286 的 +214）· 2-sat,constructive algorithms,greedy",
                 "problem_id": "2259E",
                 "platform": "codeforces"
               }
@@ -26950,6 +26962,20 @@
       },
       "lastSubmitDate": "2026-11-16",
       "recentSubmissions": [
+        {
+          "time": "21:44",
+          "date": "2026-11-16",
+          "platform": "codeforces",
+          "problem": "38A",
+          "verdict": "AC"
+        },
+        {
+          "time": "21:42",
+          "date": "2026-11-16",
+          "platform": "codeforces",
+          "problem": "277A",
+          "verdict": "AC"
+        },
         {
           "time": "20:05",
           "date": "2026-11-16",
@@ -27145,20 +27171,6 @@
           "platform": "codeforces",
           "problem": "474B",
           "verdict": "AC"
-        },
-        {
-          "time": "19:50",
-          "date": "2026-11-11",
-          "platform": "codeforces",
-          "problem": "706B",
-          "verdict": "WA"
-        },
-        {
-          "time": "19:49",
-          "date": "2026-11-11",
-          "platform": "codeforces",
-          "problem": "706B",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -27177,8 +27189,8 @@
           },
           "calendar": {
             "range": [
-              "2026-09-22",
-              "2026-11-16"
+              "2026-09-23",
+              "2026-11-17"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -27405,7 +27417,7 @@
                 ],
                 [
                   "2026-11-16",
-                  1
+                  3
                 ]
               ]
             }
@@ -27487,7 +27499,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 562,
+                  "value": 564,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -29917,6 +29929,14 @@
                 [
                   "2026-11-16",
                   800
+                ],
+                [
+                  "2026-11-16",
+                  1400.0
+                ],
+                [
+                  "2026-11-16",
+                  800.0
                 ]
               ],
               "symbolSize": 7,
@@ -33092,7 +33112,7 @@
                 5,
                 1,
                 3,
-                1
+                3
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -33252,7 +33272,7 @@
                 16,
                 36,
                 33,
-                105,
+                106,
                 59,
                 9,
                 17,
@@ -33276,8 +33296,8 @@
                 10,
                 13,
                 15,
-                10,
-                7,
+                11,
+                8,
                 9,
                 2,
                 1,
@@ -33862,7 +33882,10 @@
                     "value": 1182.4,
                     "solved": 17
                   },
-                  null
+                  {
+                    "value": 1100.0,
+                    "solved": 2
+                  }
                 ],
                 "lineStyle": {
                   "color": "#5C8AD5",
@@ -35798,5 +35821,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-11-16 21:07"
+  "exportedAt": "2026-11-17 00:07"
 }

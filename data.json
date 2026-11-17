@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 16,
-        "total_ac": 1028,
-        "total_subs": 2789,
-        "ac_rate": 41.7,
+        "week_ac": 20,
+        "total_ac": 1032,
+        "total_subs": 2793,
+        "ac_rate": 41.8,
         "topic_count": 18
       },
       "streak": {
-        "current": 50,
-        "longest": 50,
-        "last_active": "2026-11-16",
-        "days_since_last": 1,
+        "current": 51,
+        "longest": 51,
+        "last_active": "2026-11-17",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 3,
-          "subs": 5
+          "ac": 7,
+          "subs": 9
         },
         "last_week": {
           "ac": 17,
           "subs": 20
         },
-        "ac_delta": -82,
-        "subs_delta": -75
+        "ac_delta": -59,
+        "subs_delta": -55
       },
       "achievements": {
         "achievements": [
@@ -126,7 +126,7 @@
             "color": "purple",
             "earned": false,
             "progress": 80,
-            "current": 2.51,
+            "current": 2.5,
             "earned_date": null,
             "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
@@ -178,7 +178,7 @@
             "color": "orange",
             "earned": false,
             "progress": 69,
-            "current": 1028,
+            "current": 1032,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -230,7 +230,7 @@
             "color": "red",
             "earned": false,
             "progress": 56,
-            "current": 2789,
+            "current": 2793,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -242,8 +242,8 @@
             "target": 2000,
             "color": "red",
             "earned": false,
-            "progress": 51,
-            "current": 1028,
+            "progress": 52,
+            "current": 1032,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -255,8 +255,8 @@
             "target": 100,
             "color": "red",
             "earned": false,
-            "progress": 50,
-            "current": 50,
+            "progress": 51,
+            "current": 51,
             "earned_date": null,
             "unlock_hint": "连续 100 天打卡"
           },
@@ -282,7 +282,7 @@
             "color": "red",
             "earned": false,
             "progress": 34,
-            "current": 1028,
+            "current": 1032,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -321,7 +321,7 @@
             "color": "red",
             "earned": false,
             "progress": 21,
-            "current": 1028,
+            "current": 1032,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1582,7 +1582,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.51,
+            "current": 2.5,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -1595,7 +1595,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.51,
+            "current": 2.5,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -1853,11 +1853,6 @@
       "coachTips": {
         "collapsed": [
           {
-            "icon": "⚠️",
-            "accent": "amber",
-            "text": "本周日均 1.5 题，上周日均 2.4 题——先把热度捡回来"
-          },
-          {
             "icon": "🚀",
             "accent": "green",
             "text": "距「两千大关」只差 3% 进度——集中火力冲一下"
@@ -1959,8 +1954,36 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-11-16",
+      "lastSubmitDate": "2026-11-17",
       "recentSubmissions": [
+        {
+          "time": "20:51",
+          "date": "2026-11-17",
+          "platform": "codeforces",
+          "problem": "104787G",
+          "verdict": "AC"
+        },
+        {
+          "time": "20:50",
+          "date": "2026-11-17",
+          "platform": "codeforces",
+          "problem": "104787F",
+          "verdict": "AC"
+        },
+        {
+          "time": "20:50",
+          "date": "2026-11-17",
+          "platform": "codeforces",
+          "problem": "104787D",
+          "verdict": "AC"
+        },
+        {
+          "time": "20:49",
+          "date": "2026-11-17",
+          "platform": "codeforces",
+          "problem": "104787J",
+          "verdict": "AC"
+        },
         {
           "time": "22:53",
           "date": "2026-11-16",
@@ -2141,34 +2164,6 @@
           "date": "2026-11-08",
           "platform": "codeforces",
           "problem": "2280C",
-          "verdict": "AC"
-        },
-        {
-          "time": "21:25",
-          "date": "2026-11-08",
-          "platform": "codeforces",
-          "problem": "2280C",
-          "verdict": "RE"
-        },
-        {
-          "time": "21:24",
-          "date": "2026-11-08",
-          "platform": "codeforces",
-          "problem": "2280C",
-          "verdict": "WA"
-        },
-        {
-          "time": "21:19",
-          "date": "2026-11-08",
-          "platform": "codeforces",
-          "problem": "2280C",
-          "verdict": "WA"
-        },
-        {
-          "time": "20:51",
-          "date": "2026-11-08",
-          "platform": "codeforces",
-          "problem": "2280B",
           "verdict": "AC"
         }
       ],
@@ -2453,6 +2448,10 @@
                 [
                   "2026-11-16",
                   3
+                ],
+                [
+                  "2026-11-17",
+                  4
                 ]
               ]
             }
@@ -2534,7 +2533,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1164,
+                  "value": 1168,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -7371,6 +7370,22 @@
                 ],
                 [
                   "2026-11-16",
+                  800
+                ],
+                [
+                  "2026-11-17",
+                  800
+                ],
+                [
+                  "2026-11-17",
+                  800
+                ],
+                [
+                  "2026-11-17",
+                  800
+                ],
+                [
+                  "2026-11-17",
                   800
                 ]
               ],
@@ -35821,5 +35836,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-11-17 18:07"
+  "exportedAt": "2026-11-17 21:07"
 }

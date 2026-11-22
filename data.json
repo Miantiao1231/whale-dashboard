@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 20,
-        "total_ac": 1045,
-        "total_subs": 2821,
+        "week_ac": 21,
+        "total_ac": 1046,
+        "total_subs": 2822,
         "ac_rate": 41.9,
         "topic_count": 18
       },
       "streak": {
-        "current": 2,
+        "current": 3,
         "longest": 53,
-        "last_active": "2026-11-22",
-        "days_since_last": 1,
+        "last_active": "2026-11-23",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 0,
-          "subs": 0
+          "ac": 1,
+          "subs": 1
         },
         "last_week": {
           "ac": 20,
           "subs": 37
         },
-        "ac_delta": -100,
-        "subs_delta": -100
+        "ac_delta": -95,
+        "subs_delta": -97
       },
       "achievements": {
         "achievements": [
@@ -125,8 +125,8 @@
             "target": 2,
             "color": "purple",
             "earned": false,
-            "progress": 80,
-            "current": 2.49,
+            "progress": 81,
+            "current": 2.48,
             "earned_date": null,
             "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
@@ -191,7 +191,7 @@
             "color": "orange",
             "earned": false,
             "progress": 70,
-            "current": 1045,
+            "current": 1046,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -243,7 +243,7 @@
             "color": "red",
             "earned": false,
             "progress": 56,
-            "current": 2821,
+            "current": 2822,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -269,7 +269,7 @@
             "color": "red",
             "earned": false,
             "progress": 52,
-            "current": 1045,
+            "current": 1046,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -295,7 +295,7 @@
             "color": "red",
             "earned": false,
             "progress": 35,
-            "current": 1045,
+            "current": 1046,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -334,7 +334,7 @@
             "color": "red",
             "earned": false,
             "progress": 21,
-            "current": 1045,
+            "current": 1046,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1582,7 +1582,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.49,
+            "current": 2.48,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -1595,7 +1595,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.49,
+            "current": 2.48,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -1855,7 +1855,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 0.0 题，上周日均 2.9 题——先把热度捡回来"
+            "text": "本周日均 1.0 题，上周日均 2.9 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -1959,8 +1959,15 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-11-22",
+      "lastSubmitDate": "2026-11-23",
       "recentSubmissions": [
+        {
+          "time": "00:33",
+          "date": "2026-11-23",
+          "platform": "codeforces",
+          "problem": "2240A",
+          "verdict": "AC"
+        },
         {
           "time": "22:38",
           "date": "2026-11-22",
@@ -2162,13 +2169,6 @@
           "date": "2026-11-17",
           "platform": "codeforces",
           "problem": "104787G",
-          "verdict": "AC"
-        },
-        {
-          "time": "20:50",
-          "date": "2026-11-17",
-          "platform": "codeforces",
-          "problem": "104787F",
           "verdict": "AC"
         }
       ],
@@ -2461,6 +2461,10 @@
                 [
                   "2026-11-22",
                   7
+                ],
+                [
+                  "2026-11-23",
+                  1
                 ]
               ]
             }
@@ -2542,7 +2546,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 1181,
+                  "value": 1182,
                   "itemStyle": {
                     "color": "#2E9B77",
                     "borderRadius": [
@@ -7448,6 +7452,10 @@
                 [
                   "2026-11-22",
                   800
+                ],
+                [
+                  "2026-11-23",
+                  800.0
                 ]
               ],
               "symbolSize": 7,
@@ -14069,14 +14077,14 @@
               "fontSize": 11
             },
             "data": [
-              "10/25",
               "10/27",
               "10/31",
               "11/01",
               "11/02",
               "11/08",
               "11/18",
-              "11/22"
+              "11/22",
+              "11/23"
             ]
           },
           "yAxis": {
@@ -14109,13 +14117,13 @@
               "type": "bar",
               "data": [
                 2,
-                2,
                 1,
                 2,
                 3,
                 3,
                 1,
-                7
+                7,
+                1
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -14268,7 +14276,7 @@
               "stack": "total",
               "data": [
                 32,
-                190,
+                191,
                 158,
                 53,
                 70,
@@ -15002,7 +15010,10 @@
                     "value": 1040.0,
                     "solved": 5
                   },
-                  null
+                  {
+                    "value": 800.0,
+                    "solved": 1
+                  }
                 ],
                 "lineStyle": {
                   "color": "#5C8AD5",
@@ -36122,5 +36133,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-11-23 00:07"
+  "exportedAt": "2026-11-23 03:07"
 }
